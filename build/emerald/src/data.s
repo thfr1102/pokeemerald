@@ -33310,95 +33310,104 @@ sParty_Walter5:
 	.type	 sParty_Sidney,object
 sParty_Sidney:
 	.short	0xfa
-	.byte	0x2e
+	.byte	0x30
 	.space	1
 	.short	0x11f
-	.short	0x0
-	.short	0x2e
+	.short	0x8d
+	.short	0xcf
 	.short	0x26
-	.short	0x1c
+	.short	0x247
 	.short	0xf2
 	.short	0xfa
 	.byte	0x30
 	.space	1
 	.short	0x12c
-	.short	0x0
-	.short	0x103
-	.short	0x68
+	.short	0x8d
+	.short	0x15c
+	.short	0x21e
 	.short	0xcf
 	.short	0x146
 	.short	0xfa
-	.byte	0x2e
+	.byte	0x30
 	.space	1
 	.short	0x159
-	.short	0x0
-	.short	0x49
-	.short	0xb9
+	.short	0x8d
+	.short	0x254
+	.short	0x18f
 	.short	0x12e
 	.short	0xb2
 	.short	0xfa
 	.byte	0x30
 	.space	1
 	.short	0x147
-	.short	0x0
-	.short	0x39
+	.short	0x8d
+	.short	0x11a
 	.short	0xe
-	.short	0x46
-	.short	0x107
+	.short	0x98
+	.short	0xf2
+	.short	0xfa
+	.byte	0x30
+	.space	1
+	.short	0xe5
+	.short	0x8d
+	.short	0x101
+	.short	0xf2
+	.short	0xe4
+	.short	0x1a1
 	.short	0xff
 	.byte	0x31
 	.space	1
 	.short	0x178
-	.short	0x8e
-	.short	0x14c
-	.short	0x9d
+	.short	0x8d
+	.short	0xe0
+	.short	0x190
 	.short	0xe
-	.short	0xa3
-	.size	 sParty_Sidney,80
+	.short	0x1ab
+	.size	 sParty_Sidney,96
 	.align	2, 0
 	.type	 sParty_Phoebe,object
 sParty_Phoebe:
 	.short	0xfa
-	.byte	0x30
+	.byte	0x32
 	.space	1
 	.short	0x16a
-	.short	0x0
+	.short	0xc8
 	.short	0x145
 	.short	0x6d
-	.short	0xae
+	.short	0x105
 	.short	0xb6
 	.short	0xfa
-	.byte	0x31
+	.byte	0x32
 	.space	1
-	.short	0x17a
-	.short	0x0
+	.short	0x5e
+	.short	0x8d
 	.short	0xf7
-	.short	0x120
+	.short	0xbc
 	.short	0x105
-	.short	0xb9
+	.short	0x19c
 	.short	0xfa
 	.byte	0x32
 	.space	1
 	.short	0x142
-	.short	0x0
-	.short	0xf7
+	.short	0x8d
+	.short	0x1a5
 	.short	0x68
-	.short	0x65
-	.short	0xb9
+	.short	0x69
+	.short	0x118
 	.short	0xfa
-	.byte	0x31
+	.byte	0x32
 	.space	1
 	.short	0x17a
-	.short	0x0
-	.short	0xf7
-	.short	0x5e
+	.short	0x8d
+	.short	0x1a5
+	.short	0x105
 	.short	0x55
-	.short	0x107
+	.short	0x1a9
 	.short	0xff
 	.byte	0x33
 	.space	1
 	.short	0x16a
-	.short	0x8e
+	.short	0x8d
 	.short	0xf7
 	.short	0x3a
 	.short	0x9d
@@ -33408,331 +33417,457 @@ sParty_Phoebe:
 	.type	 sParty_Glacia,object
 sParty_Glacia:
 	.short	0xfa
-	.byte	0x32
-	.space	1
-	.short	0x156
-	.short	0x0
-	.short	0xe3
-	.short	0x22
-	.short	0x102
-	.short	0x12d
-	.short	0xfa
-	.byte	0x32
+	.byte	0x34
 	.space	1
 	.short	0x15b
-	.short	0x0
-	.short	0x71
-	.short	0xf2
-	.short	0xc4
-	.short	0x3a
+	.short	0x8d
+	.short	0x137
+	.short	0x3b
+	.short	0xbf
+	.short	0x99
 	.short	0xfa
 	.byte	0x34
 	.space	1
-	.short	0x156
-	.short	0x0
-	.short	0xd5
-	.short	0x26
-	.short	0x102
+	.short	0x57
+	.short	0x8d
+	.short	0x3b
+	.short	0x211
+	.short	0x39
+	.short	0x144
+	.short	0xfa
+	.byte	0x34
+	.space	1
+	.short	0x83
+	.short	0x8d
+	.short	0x38
+	.short	0x1a4
+	.short	0x55
 	.short	0x3b
 	.short	0xfa
 	.byte	0x34
 	.space	1
-	.short	0x15b
-	.short	0x0
-	.short	0xf7
+	.short	0x192
+	.short	0x8d
+	.short	0x3b
 	.short	0x99
-	.short	0x102
-	.short	0x3a
+	.short	0x55
+	.short	0x44
 	.short	0xff
 	.byte	0x35
 	.space	1
 	.short	0x157
-	.short	0x8e
+	.short	0xc8
 	.short	0x39
-	.short	0x22
-	.short	0x3a
+	.short	0x3b
+	.short	0x59
 	.short	0x149
 	.size	 sParty_Glacia,80
 	.align	2, 0
 	.type	 sParty_Drake,object
 sParty_Drake:
 	.short	0xfa
-	.byte	0x34
+	.byte	0x36
 	.space	1
-	.short	0x18c
-	.short	0x0
-	.short	0x13d
-	.short	0x151
-	.short	0xb6
-	.short	0x26
+	.short	0xf8
+	.short	0x8d
+	.short	0x15d
+	.short	0xf6
+	.short	0x59
+	.short	0xf2
 	.short	0xfa
 	.byte	0x36
 	.space	1
 	.short	0x167
-	.short	0x0
-	.short	0x26
-	.short	0xe1
-	.short	0x15d
-	.short	0x14c
+	.short	0xc8
+	.short	0x163
+	.short	0x196
+	.short	0x8f
+	.short	0x21a
 	.short	0xfa
-	.byte	0x35
+	.byte	0x36
+	.space	1
+	.short	0x95
+	.short	0x8d
+	.short	0x15d
+	.short	0x59
+	.short	0xf5
+	.short	0x9d
+	.short	0xfa
+	.byte	0x36
 	.space	1
 	.short	0xe6
-	.short	0x0
-	.short	0x6c
-	.short	0x15d
-	.short	0x39
-	.short	0x22
+	.short	0x8d
+	.short	0x38
+	.short	0x1b2
+	.short	0x3a
+	.short	0xbe
 	.short	0xfa
-	.byte	0x35
+	.byte	0x36
 	.space	1
 	.short	0x14e
-	.short	0x0
+	.short	0x8d
 	.short	0x35
 	.short	0xf2
-	.short	0xe1
+	.short	0x151
 	.short	0x59
 	.short	0xff
 	.byte	0x37
 	.space	1
 	.short	0x18d
-	.short	0x8e
+	.short	0x8d
 	.short	0x35
-	.short	0x151
-	.short	0x9d
-	.short	0xf2
-	.size	 sParty_Drake,80
+	.short	0x1b2
+	.short	0x13a
+	.short	0x59
+	.size	 sParty_Drake,96
 	.align	2, 0
 	.type	 sParty_Roxanne1,object
 sParty_Roxanne1:
 	.short	0x64
-	.byte	0xc
-	.space	1
-	.short	0x4a
-	.short	0x0
-	.short	0x21
-	.short	0x6f
-	.short	0x58
-	.short	0x13d
-	.short	0x64
-	.byte	0xc
-	.space	1
-	.short	0x4a
-	.short	0x0
-	.short	0x21
-	.short	0x6f
-	.short	0x58
-	.short	0x13d
-	.short	0xc8
-	.byte	0xf
+	.byte	0xe
 	.space	1
 	.short	0x140
 	.short	0x8b
-	.short	0x14f
-	.short	0x6a
-	.short	0x21
-	.short	0x13d
-	.size	 sParty_Roxanne1,48
+	.short	0x78
+	.short	0xd5
+	.short	0x45
+	.short	0x56
+	.short	0x64
+	.byte	0xe
+	.space	1
+	.short	0x184
+	.short	0x8b
+	.short	0xbc
+	.short	0xca
+	.short	0x69
+	.short	0xf6
+	.short	0x64
+	.byte	0xe
+	.space	1
+	.short	0x186
+	.short	0x8d
+	.short	0x14c
+	.short	0x118
+	.short	0x194
+	.short	0x9d
+	.short	0x64
+	.byte	0xe
+	.space	1
+	.short	0x17d
+	.short	0x8b
+	.short	0x58
+	.short	0x122
+	.short	0x119
+	.short	0x160
+	.short	0x64
+	.byte	0xe
+	.space	1
+	.short	0xd5
+	.short	0x8b
+	.short	0x5c
+	.short	0xae
+	.short	0xcd
+	.short	0x9d
+	.short	0x64
+	.byte	0xf
+	.space	1
+	.short	0x15c
+	.short	0x8d
+	.short	0x5f
+	.short	0xec
+	.short	0x5d
+	.short	0x9d
+	.size	 sParty_Roxanne1,96
 	.align	2, 0
 	.type	 sParty_Brawly1,object
 sParty_Brawly1:
 	.short	0x64
 	.byte	0x10
 	.space	1
-	.short	0x42
-	.short	0x0
-	.short	0x2
-	.short	0x43
-	.short	0x45
-	.short	0x153
+	.short	0xed
+	.short	0x8d
+	.short	0xfc
+	.short	0xb7
+	.short	0x9d
+	.short	0x122
+	.short	0x64
+	.byte	0x10
+	.space	1
+	.short	0x6a
+	.short	0x8b
+	.short	0xd6
+	.short	0x1b
+	.short	0x9d
+	.short	0x122
+	.short	0x64
+	.byte	0x10
+	.space	1
+	.short	0x6b
+	.short	0x86
+	.short	0x145
+	.short	0xb7
+	.short	0x9d
+	.short	0x107
 	.short	0x64
 	.byte	0x10
 	.space	1
 	.short	0x164
-	.short	0x0
-	.short	0x108
-	.short	0x71
-	.short	0x73
-	.short	0x153
-	.short	0xc8
-	.byte	0x13
+	.short	0x8d
+	.short	0x118
+	.short	0xf7
+	.short	0x9d
+	.short	0xfc
+	.short	0x64
+	.byte	0x10
 	.space	1
-	.short	0x14f
-	.short	0x8e
-	.short	0x124
-	.short	0xe9
-	.short	0xb3
-	.short	0x153
-	.size	 sParty_Brawly1,48
+	.short	0x3e
+	.short	0x8d
+	.short	0x5f
+	.short	0x39
+	.short	0x8
+	.short	0x118
+	.short	0x64
+	.byte	0x11
+	.space	1
+	.short	0x150
+	.short	0x8d
+	.short	0x18b
+	.short	0x145
+	.short	0x9d
+	.short	0xfc
+	.size	 sParty_Brawly1,96
 	.align	2, 0
 	.type	 sParty_Wattson1,object
 sParty_Wattson1:
 	.short	0xc8
-	.byte	0x14
+	.byte	0x17
 	.space	1
-	.short	0x64
-	.short	0x0
-	.short	0xcd
-	.short	0xd1
-	.short	0x78
-	.short	0x15f
+	.short	0x87
+	.short	0x8d
+	.short	0x56
+	.short	0x19c
+	.short	0x55
+	.short	0x2c
 	.short	0xc8
-	.byte	0x14
+	.byte	0x17
 	.space	1
-	.short	0x151
-	.short	0x0
-	.short	0x15f
-	.short	0x2b
-	.short	0x62
-	.short	0x150
-	.short	0xdc
-	.byte	0x16
+	.short	0xab
+	.short	0xc8
+	.short	0x56
+	.short	0x3a
+	.short	0x39
+	.short	0x55
+	.short	0xc8
+	.byte	0x17
+	.space	1
+	.short	0xb5
+	.short	0xc8
+	.short	0x56
+	.short	0x7
+	.short	0x55
+	.short	0x19c
+	.short	0xc8
+	.byte	0x17
+	.space	1
+	.short	0x7d
+	.short	0x8d
+	.short	0x5e
+	.short	0x55
+	.short	0x7
+	.short	0x8
+	.short	0xc8
+	.byte	0x17
 	.space	1
 	.short	0x52
-	.short	0x0
-	.short	0x30
-	.short	0x15f
+	.short	0x8d
 	.short	0x56
+	.short	0x55
+	.short	0x1ae
 	.short	0x31
-	.short	0xfa
+	.short	0xc8
 	.byte	0x18
 	.space	1
 	.short	0x152
-	.short	0x8e
-	.short	0x62
+	.short	0x8d
+	.short	0x55
+	.short	0x35
+	.short	0xf2
 	.short	0x56
-	.short	0x15f
-	.short	0x150
-	.size	 sParty_Wattson1,64
+	.size	 sParty_Wattson1,96
 	.align	2, 0
 	.type	 sParty_Flannery1,object
 sParty_Flannery1:
 	.short	0xc8
-	.byte	0x18
+	.byte	0x1c
 	.space	1
-	.short	0x153
-	.short	0x0
+	.short	0x26
+	.short	0x8d
+	.short	0x210
 	.short	0x13b
-	.short	0x24
-	.short	0xde
-	.short	0xf1
+	.short	0x4c
+	.short	0x5f
 	.short	0xc8
-	.byte	0x18
+	.byte	0x1c
 	.space	1
-	.short	0xda
-	.short	0x0
-	.short	0x13b
-	.short	0x7b
-	.short	0x71
-	.short	0xf1
-	.short	0xfa
-	.byte	0x1a
+	.short	0x6
+	.short	0x8d
+	.short	0x101
+	.short	0x59
+	.short	0x4c
+	.short	0x151
+	.short	0xc8
+	.byte	0x1c
+	.space	1
+	.short	0x11a
+	.short	0x8d
+	.short	0x12b
+	.short	0x147
+	.short	0x9
+	.short	0x4c
+	.short	0xc8
+	.byte	0x1c
+	.space	1
+	.short	0x3b
+	.short	0xc8
+	.short	0x210
+	.short	0x101
+	.short	0x4c
+	.short	0xf5
+	.short	0xc8
+	.byte	0x1c
 	.space	1
 	.short	0x154
-	.short	0x0
-	.short	0x13b
-	.short	0x21
-	.short	0xf1
+	.short	0x8d
+	.short	0x11c
+	.short	0x59
+	.short	0x4c
 	.short	0xd5
-	.short	0xfa
+	.short	0xc8
 	.byte	0x1d
 	.space	1
 	.short	0x141
 	.short	0xb4
-	.short	0x13b
-	.short	0xf1
+	.short	0x11c
 	.short	0x22
-	.short	0xd5
-	.size	 sParty_Flannery1,64
+	.short	0x4c
+	.short	0x13b
+	.size	 sParty_Flannery1,96
 	.align	2, 0
 	.type	 sParty_Norman1,object
 sParty_Norman1:
 	.short	0xc8
-	.byte	0x1b
+	.byte	0x1e
 	.space	1
 	.short	0x134
-	.short	0x0
+	.short	0x8d
 	.short	0x12a
 	.short	0x3c
 	.short	0x107
 	.short	0xe3
 	.short	0xc8
-	.byte	0x1b
-	.space	1
-	.short	0x16d
-	.short	0x0
-	.short	0xa3
-	.short	0x107
-	.short	0xe3
-	.short	0xb9
-	.short	0xc8
-	.byte	0x1d
+	.byte	0x1e
 	.space	1
 	.short	0x121
-	.short	0x0
-	.short	0xa3
+	.short	0x8d
 	.short	0xbb
+	.short	0xf5
+	.short	0x1a5
+	.short	0x247
+	.short	0xc8
+	.byte	0x1e
+	.space	1
+	.short	0x131
+	.short	0x8d
+	.short	0x19d
+	.short	0xd3
 	.short	0x107
-	.short	0x1d
+	.short	0x163
+	.short	0xc8
+	.byte	0x1e
+	.space	1
+	.short	0x80
+	.short	0x8d
+	.short	0x22
+	.short	0x1ac
+	.short	0xe7
+	.short	0x59
+	.short	0xc8
+	.byte	0x1e
+	.space	1
+	.short	0x8f
+	.short	0xc8
+	.short	0xbb
+	.short	0x22
+	.short	0xf2
+	.short	0x276
 	.short	0xfa
 	.byte	0x1f
 	.space	1
 	.short	0x16e
-	.short	0x8e
-	.short	0x44
-	.short	0x119
+	.short	0x8d
+	.short	0x3f
+	.short	0x1a5
 	.short	0x107
-	.short	0xb9
-	.size	 sParty_Norman1,64
+	.short	0x114
+	.size	 sParty_Norman1,96
 	.align	2, 0
 	.type	 sParty_Winona1,object
 sParty_Winona1:
-	.short	0xd2
-	.byte	0x1d
-	.space	1
-	.short	0x166
-	.short	0x0
-	.short	0xc3
-	.short	0x77
-	.short	0xdb
-	.short	0x14c
-	.short	0xd2
-	.byte	0x1d
-	.space	1
-	.short	0x171
-	.short	0x0
-	.short	0xf1
-	.short	0x14c
-	.short	0x4c
-	.short	0xeb
-	.short	0xd2
-	.byte	0x1e
-	.space	1
-	.short	0x136
-	.short	0x0
-	.short	0x37
-	.short	0x30
-	.short	0xb6
-	.short	0x14c
-	.short	0xdc
-	.byte	0x1f
+	.short	0xc8
+	.byte	0x20
 	.space	1
 	.short	0xe3
-	.short	0x0
-	.short	0x1c
-	.short	0x1f
+	.short	0x8d
+	.short	0xbf
 	.short	0xd3
-	.short	0x14c
-	.short	0xff
+	.short	0x8f
+	.short	0x12
+	.short	0xc8
+	.byte	0x20
+	.space	1
+	.short	0xa9
+	.short	0x8d
+	.short	0x8f
+	.short	0x131
+	.short	0x6d
+	.short	0xca
+	.short	0xc8
+	.byte	0x20
+	.space	1
+	.short	0x136
+	.short	0x8d
+	.short	0x39
+	.short	0x21e
+	.short	0x163
+	.short	0x3a
+	.short	0xc8
+	.byte	0x20
+	.space	1
+	.short	0x171
+	.short	0xc8
+	.short	0x15d
+	.short	0x15c
+	.short	0x49
+	.short	0x13
+	.short	0xc8
+	.byte	0x20
+	.space	1
+	.short	0x14e
+	.short	0x8d
+	.short	0x59
+	.short	0x151
+	.short	0x35
+	.short	0xca
+	.short	0xc8
 	.byte	0x21
 	.space	1
 	.short	0x167
-	.short	0x8b
+	.short	0x8d
 	.short	0x59
-	.short	0xe1
+	.short	0x151
 	.short	0x15d
-	.short	0x14c
-	.size	 sParty_Winona1,80
+	.short	0x8f
+	.size	 sParty_Winona1,96
 	.align	2, 0
 	.type	 sParty_TateAndLiza1,object
 sParty_TateAndLiza1:
@@ -33740,7 +33875,7 @@ sParty_TateAndLiza1:
 	.byte	0x29
 	.space	1
 	.short	0x13f
-	.short	0x0
+	.short	0x8d
 	.short	0x59
 	.short	0xf6
 	.short	0x5e
@@ -33749,17 +33884,35 @@ sParty_TateAndLiza1:
 	.byte	0x29
 	.space	1
 	.short	0xb2
-	.short	0x0
+	.short	0x8d
 	.short	0x5e
-	.short	0xf1
+	.short	0x193
 	.short	0x6d
 	.short	0x15b
+	.short	0xfa
+	.byte	0x29
+	.space	1
+	.short	0x18a
+	.short	0x8d
+	.short	0x15b
+	.short	0x25d
+	.short	0x5e
+	.short	0xf7
+	.short	0xfa
+	.byte	0x29
+	.space	1
+	.short	0x165
+	.short	0x8d
+	.short	0xfc
+	.short	0x88
+	.short	0x1ac
+	.short	0x9
 	.short	0xfa
 	.byte	0x2a
 	.space	1
 	.short	0x15c
 	.short	0x8e
-	.short	0x71
+	.short	0x9d
 	.short	0x5e
 	.short	0x5f
 	.short	0x15b
@@ -33772,56 +33925,65 @@ sParty_TateAndLiza1:
 	.short	0x4c
 	.short	0x5e
 	.short	0x35
-	.size	 sParty_TateAndLiza1,64
+	.size	 sParty_TateAndLiza1,96
 	.align	2, 0
 	.type	 sParty_Juan1,object
 sParty_Juan1:
-	.short	0xc8
-	.byte	0x29
+	.short	0xfa
+	.byte	0x2d
 	.space	1
-	.short	0x145
-	.short	0x0
-	.short	0x160
-	.short	0xd5
-	.short	0xba
-	.short	0xaf
-	.short	0xc8
-	.byte	0x29
+	.short	0xab
+	.short	0x8d
+	.short	0x38
+	.short	0x57
+	.short	0x3a
+	.short	0x19c
+	.short	0xfa
+	.byte	0x2d
+	.space	1
+	.short	0x83
+	.short	0x8d
+	.short	0x38
+	.short	0x57
+	.short	0x3a
+	.short	0xf6
+	.short	0xfa
+	.byte	0x2d
 	.space	1
 	.short	0x144
-	.short	0x0
-	.short	0xf0
-	.short	0x160
-	.short	0x85
+	.short	0x8d
+	.short	0x15d
 	.short	0x59
-	.short	0xc8
-	.byte	0x2b
+	.short	0x191
+	.short	0x232
+	.short	0xfa
+	.byte	0x2d
 	.space	1
-	.short	0x156
-	.short	0x0
-	.short	0xe3
-	.short	0x22
-	.short	0x3e
-	.short	0x160
+	.short	0x86
 	.short	0xc8
-	.byte	0x2b
+	.short	0x2f
+	.short	0x3a
+	.short	0x38
+	.short	0x19c
+	.short	0xfa
+	.byte	0x2d
 	.space	1
-	.short	0x147
-	.short	0x0
-	.short	0x160
-	.short	0x98
-	.short	0x10d
-	.short	0x2b
+	.short	0x129
+	.short	0xc8
+	.short	0x38
+	.short	0x49
+	.short	0x3a
+	.short	0x19c
 	.short	0xfa
 	.byte	0x2e
 	.space	1
 	.short	0xe6
-	.short	0x86
-	.short	0x160
-	.short	0x68
+	.short	0x8d
+	.short	0x38
 	.short	0x3a
-	.short	0x9c
-	.size	 sParty_Juan1,80
+	.short	0x1b2
+	.short	0x144
+	.size	 sParty_Juan1,96
 	.align	2, 0
 	.type	 sParty_Jerry1,object
 sParty_Jerry1:
@@ -34752,54 +34914,54 @@ sParty_Wallace:
 	.byte	0x39
 	.space	1
 	.short	0x13a
-	.short	0x0
-	.short	0xf0
+	.short	0xc8
+	.short	0x130
 	.short	0x143
-	.short	0x26
-	.short	0x3b
+	.short	0x78
+	.short	0x3a
 	.short	0xff
-	.byte	0x37
+	.byte	0x39
 	.space	1
 	.short	0x49
-	.short	0x0
+	.short	0xc8
 	.short	0x5c
 	.short	0x38
 	.short	0xbc
 	.short	0x3a
 	.short	0xff
-	.byte	0x38
+	.byte	0x39
 	.space	1
 	.short	0x129
-	.short	0x0
-	.short	0xca
-	.short	0x39
+	.short	0xc8
+	.short	0x19c
+	.short	0x38
 	.short	0x49
-	.short	0x68
+	.short	0x3a
 	.short	0xff
-	.byte	0x38
+	.byte	0x39
 	.space	1
-	.short	0x144
-	.short	0x0
+	.short	0x190
+	.short	0x8d
+	.short	0x135
 	.short	0x59
-	.short	0x39
-	.short	0x85
-	.short	0x3f
+	.short	0x1ac
+	.short	0x99
 	.short	0xff
-	.byte	0x38
+	.byte	0x39
 	.space	1
 	.short	0x82
-	.short	0x0
+	.short	0x8d
 	.short	0x15d
 	.short	0x59
-	.short	0x3f
-	.short	0x39
+	.short	0x7f
+	.short	0x154
 	.short	0xff
 	.byte	0x3a
 	.space	1
 	.short	0x149
-	.short	0x8e
+	.short	0xc8
 	.short	0x69
-	.short	0x39
+	.short	0x1f7
 	.short	0x3a
 	.short	0x5c
 	.size	 sParty_Wallace,96
@@ -49731,7 +49893,7 @@ gTrainers:
 	.byte	0x0
 	.space	3
 	.word	0xf
-	.byte	0x5
+	.byte	0x6
 	.space	3
 	.word	sParty_Sidney
 	.byte	0x3
@@ -49796,7 +49958,7 @@ gTrainers:
 	.byte	0x0
 	.space	3
 	.word	0x7
-	.byte	0x5
+	.byte	0x6
 	.space	3
 	.word	sParty_Drake
 	.byte	0x3
@@ -49819,7 +49981,7 @@ gTrainers:
 	.byte	0x0
 	.space	3
 	.word	0x7
-	.byte	0x3
+	.byte	0x6
 	.space	3
 	.word	sParty_Roxanne1
 	.byte	0x3
@@ -49841,7 +50003,7 @@ gTrainers:
 	.byte	0x0
 	.space	3
 	.word	0x7
-	.byte	0x3
+	.byte	0x6
 	.space	3
 	.word	sParty_Brawly1
 	.byte	0x3
@@ -49864,7 +50026,7 @@ gTrainers:
 	.byte	0x0
 	.space	3
 	.word	0x7
-	.byte	0x4
+	.byte	0x6
 	.space	3
 	.word	sParty_Wattson1
 	.byte	0x3
@@ -49888,7 +50050,7 @@ gTrainers:
 	.byte	0x0
 	.space	3
 	.word	0x7
-	.byte	0x4
+	.byte	0x6
 	.space	3
 	.word	sParty_Flannery1
 	.byte	0x3
@@ -49910,7 +50072,7 @@ gTrainers:
 	.byte	0x0
 	.space	3
 	.word	0x7
-	.byte	0x4
+	.byte	0x6
 	.space	3
 	.word	sParty_Norman1
 	.byte	0x3
@@ -49932,7 +50094,7 @@ gTrainers:
 	.byte	0x0
 	.space	3
 	.word	0x17
-	.byte	0x5
+	.byte	0x6
 	.space	3
 	.word	sParty_Winona1
 	.byte	0x3
@@ -49957,7 +50119,7 @@ gTrainers:
 	.byte	0x1
 	.space	3
 	.word	0x7
-	.byte	0x4
+	.byte	0x6
 	.space	3
 	.word	sParty_TateAndLiza1
 	.byte	0x3
@@ -49977,7 +50139,7 @@ gTrainers:
 	.byte	0x0
 	.space	3
 	.word	0x7
-	.byte	0x5
+	.byte	0x6
 	.space	3
 	.word	sParty_Juan1
 	.byte	0x0
@@ -164469,7 +164631,7 @@ gMoveNames:
 	.4byte	0x3f239
 	.4byte	0xd90e
 	.byte	0x9
-	.byte	0x4
+	.byte	0x5
 	.byte	0x0
 	.byte	0x28
 	.ascii	"sParty_Sidney\000"
@@ -164492,7 +164654,7 @@ gMoveNames:
 	.ascii	"sParty_Phoebe\000"
 
 	.byte	0x28
-	.2byte	0xcb5
+	.2byte	0xcbc
 	.4byte	0x3f282
 	.byte	0x5
 	.byte	0x3
@@ -164509,7 +164671,7 @@ gMoveNames:
 	.ascii	"sParty_Glacia\000"
 
 	.byte	0x28
-	.2byte	0xcdb
+	.2byte	0xce2
 	.4byte	0x3f2af
 	.byte	0x5
 	.byte	0x3
@@ -164520,13 +164682,13 @@ gMoveNames:
 	.4byte	0x3f2c0
 	.4byte	0xd90e
 	.byte	0x9
-	.byte	0x4
+	.byte	0x5
 	.byte	0x0
 	.byte	0x28
 	.ascii	"sParty_Drake\000"
 
 	.byte	0x28
-	.2byte	0xd01
+	.2byte	0xd08
 	.4byte	0x3f2db
 	.byte	0x5
 	.byte	0x3
@@ -164537,13 +164699,13 @@ gMoveNames:
 	.4byte	0x3f2ec
 	.4byte	0xd90e
 	.byte	0x9
-	.byte	0x2
+	.byte	0x5
 	.byte	0x0
 	.byte	0x28
 	.ascii	"sParty_Roxanne1\000"
 
 	.byte	0x28
-	.2byte	0xd27
+	.2byte	0xd35
 	.4byte	0x3f30a
 	.byte	0x5
 	.byte	0x3
@@ -164554,13 +164716,13 @@ gMoveNames:
 	.4byte	0x3f31b
 	.4byte	0xd90e
 	.byte	0x9
-	.byte	0x2
+	.byte	0x5
 	.byte	0x0
 	.byte	0x28
 	.ascii	"sParty_Brawly1\000"
 
 	.byte	0x28
-	.2byte	0xd3f
+	.2byte	0xd62
 	.4byte	0x3f338
 	.byte	0x5
 	.byte	0x3
@@ -164571,13 +164733,13 @@ gMoveNames:
 	.4byte	0x3f349
 	.4byte	0xd90e
 	.byte	0x9
-	.byte	0x3
+	.byte	0x5
 	.byte	0x0
 	.byte	0x28
 	.ascii	"sParty_Wattson1\000"
 
 	.byte	0x28
-	.2byte	0xd57
+	.2byte	0xd8f
 	.4byte	0x3f367
 	.byte	0x5
 	.byte	0x3
@@ -164588,13 +164750,13 @@ gMoveNames:
 	.4byte	0x3f378
 	.4byte	0xd90e
 	.byte	0x9
-	.byte	0x3
+	.byte	0x5
 	.byte	0x0
 	.byte	0x28
 	.ascii	"sParty_Flannery1\000"
 
 	.byte	0x28
-	.2byte	0xd76
+	.2byte	0xdbc
 	.4byte	0x3f397
 	.byte	0x5
 	.byte	0x3
@@ -164605,13 +164767,13 @@ gMoveNames:
 	.4byte	0x3f3a8
 	.4byte	0xd90e
 	.byte	0x9
-	.byte	0x3
+	.byte	0x5
 	.byte	0x0
 	.byte	0x28
 	.ascii	"sParty_Norman1\000"
 
 	.byte	0x28
-	.2byte	0xd95
+	.2byte	0xde9
 	.4byte	0x3f3c5
 	.byte	0x5
 	.byte	0x3
@@ -164622,13 +164784,13 @@ gMoveNames:
 	.4byte	0x3f3d6
 	.4byte	0xd90e
 	.byte	0x9
-	.byte	0x4
+	.byte	0x5
 	.byte	0x0
 	.byte	0x28
 	.ascii	"sParty_Winona1\000"
 
 	.byte	0x28
-	.2byte	0xdb4
+	.2byte	0xe16
 	.4byte	0x3f3f3
 	.byte	0x5
 	.byte	0x3
@@ -164639,13 +164801,13 @@ gMoveNames:
 	.4byte	0x3f404
 	.4byte	0xd90e
 	.byte	0x9
-	.byte	0x3
+	.byte	0x5
 	.byte	0x0
 	.byte	0x28
 	.ascii	"sParty_TateAndLiza1\000"
 
 	.byte	0x28
-	.2byte	0xdda
+	.2byte	0xe43
 	.4byte	0x3f426
 	.byte	0x5
 	.byte	0x3
@@ -164656,13 +164818,13 @@ gMoveNames:
 	.4byte	0x3f437
 	.4byte	0xd90e
 	.byte	0x9
-	.byte	0x4
+	.byte	0x5
 	.byte	0x0
 	.byte	0x28
 	.ascii	"sParty_Juan1\000"
 
 	.byte	0x28
-	.2byte	0xdf9
+	.2byte	0xe70
 	.4byte	0x3f452
 	.byte	0x5
 	.byte	0x3
@@ -164679,7 +164841,7 @@ gMoveNames:
 	.ascii	"sParty_Jerry1\000"
 
 	.byte	0x28
-	.2byte	0xe1f
+	.2byte	0xe9d
 	.4byte	0x3f47f
 	.byte	0x5
 	.byte	0x3
@@ -164696,7 +164858,7 @@ gMoveNames:
 	.ascii	"sParty_Ted\000"
 
 	.byte	0x28
-	.2byte	0xe27
+	.2byte	0xea5
 	.4byte	0x3f4a9
 	.byte	0x5
 	.byte	0x3
@@ -164713,7 +164875,7 @@ gMoveNames:
 	.ascii	"sParty_Paul\000"
 
 	.byte	0x28
-	.2byte	0xe2f
+	.2byte	0xead
 	.4byte	0x3f4d4
 	.byte	0x5
 	.byte	0x3
@@ -164730,7 +164892,7 @@ gMoveNames:
 	.ascii	"sParty_Jerry2\000"
 
 	.byte	0x28
-	.2byte	0xe41
+	.2byte	0xebf
 	.4byte	0x3f501
 	.byte	0x5
 	.byte	0x3
@@ -164747,7 +164909,7 @@ gMoveNames:
 	.ascii	"sParty_Jerry3\000"
 
 	.byte	0x28
-	.2byte	0xe4e
+	.2byte	0xecc
 	.4byte	0x3f52e
 	.byte	0x5
 	.byte	0x3
@@ -164764,7 +164926,7 @@ gMoveNames:
 	.ascii	"sParty_Jerry4\000"
 
 	.byte	0x28
-	.2byte	0xe5b
+	.2byte	0xed9
 	.4byte	0x3f55b
 	.byte	0x5
 	.byte	0x3
@@ -164781,7 +164943,7 @@ gMoveNames:
 	.ascii	"sParty_Jerry5\000"
 
 	.byte	0x28
-	.2byte	0xe68
+	.2byte	0xee6
 	.4byte	0x3f588
 	.byte	0x5
 	.byte	0x3
@@ -164798,7 +164960,7 @@ gMoveNames:
 	.ascii	"sParty_Karen1\000"
 
 	.byte	0x28
-	.2byte	0xe7a
+	.2byte	0xef8
 	.4byte	0x3f5b5
 	.byte	0x5
 	.byte	0x3
@@ -164815,7 +164977,7 @@ gMoveNames:
 	.ascii	"sParty_Georgia\000"
 
 	.byte	0x28
-	.2byte	0xe82
+	.2byte	0xf00
 	.4byte	0x3f5e3
 	.byte	0x5
 	.byte	0x3
@@ -164832,7 +164994,7 @@ gMoveNames:
 	.ascii	"sParty_Karen2\000"
 
 	.byte	0x28
-	.2byte	0xe8f
+	.2byte	0xf0d
 	.4byte	0x3f610
 	.byte	0x5
 	.byte	0x3
@@ -164849,7 +165011,7 @@ gMoveNames:
 	.ascii	"sParty_Karen3\000"
 
 	.byte	0x28
-	.2byte	0xe9c
+	.2byte	0xf1a
 	.4byte	0x3f63d
 	.byte	0x5
 	.byte	0x3
@@ -164866,7 +165028,7 @@ gMoveNames:
 	.ascii	"sParty_Karen4\000"
 
 	.byte	0x28
-	.2byte	0xea9
+	.2byte	0xf27
 	.4byte	0x3f66a
 	.byte	0x5
 	.byte	0x3
@@ -164883,7 +165045,7 @@ gMoveNames:
 	.ascii	"sParty_Karen5\000"
 
 	.byte	0x28
-	.2byte	0xeb6
+	.2byte	0xf34
 	.4byte	0x3f697
 	.byte	0x5
 	.byte	0x3
@@ -164900,7 +165062,7 @@ gMoveNames:
 	.ascii	"sParty_KateAndJoy\000"
 
 	.byte	0x28
-	.2byte	0xec3
+	.2byte	0xf41
 	.4byte	0x3f6c8
 	.byte	0x5
 	.byte	0x3
@@ -164917,7 +165079,7 @@ gMoveNames:
 	.ascii	"sParty_AnnaAndMeg1\000"
 
 	.byte	0x28
-	.2byte	0xed2
+	.2byte	0xf50
 	.4byte	0x3f6fa
 	.byte	0x5
 	.byte	0x3
@@ -164934,7 +165096,7 @@ gMoveNames:
 	.ascii	"sParty_AnnaAndMeg2\000"
 
 	.byte	0x28
-	.2byte	0xee1
+	.2byte	0xf5f
 	.4byte	0x3f72c
 	.byte	0x5
 	.byte	0x3
@@ -164951,7 +165113,7 @@ gMoveNames:
 	.ascii	"sParty_AnnaAndMeg3\000"
 
 	.byte	0x28
-	.2byte	0xef0
+	.2byte	0xf6e
 	.4byte	0x3f75e
 	.byte	0x5
 	.byte	0x3
@@ -164968,7 +165130,7 @@ gMoveNames:
 	.ascii	"sParty_AnnaAndMeg4\000"
 
 	.byte	0x28
-	.2byte	0xeff
+	.2byte	0xf7d
 	.4byte	0x3f790
 	.byte	0x5
 	.byte	0x3
@@ -164985,7 +165147,7 @@ gMoveNames:
 	.ascii	"sParty_AnnaAndMeg5\000"
 
 	.byte	0x28
-	.2byte	0xf0e
+	.2byte	0xf8c
 	.4byte	0x3f7c2
 	.byte	0x5
 	.byte	0x3
@@ -165002,7 +165164,7 @@ gMoveNames:
 	.ascii	"sParty_Victor\000"
 
 	.byte	0x28
-	.2byte	0xf1d
+	.2byte	0xf9b
 	.4byte	0x3f7ef
 	.byte	0x5
 	.byte	0x3
@@ -165019,7 +165181,7 @@ gMoveNames:
 	.ascii	"sParty_Miguel1\000"
 
 	.byte	0x28
-	.2byte	0xf2c
+	.2byte	0xfaa
 	.4byte	0x3f81d
 	.byte	0x5
 	.byte	0x3
@@ -165036,7 +165198,7 @@ gMoveNames:
 	.ascii	"sParty_Colton\000"
 
 	.byte	0x28
-	.2byte	0xf35
+	.2byte	0xfb3
 	.4byte	0x3f84a
 	.byte	0x5
 	.byte	0x3
@@ -165053,7 +165215,7 @@ gMoveNames:
 	.ascii	"sParty_Miguel2\000"
 
 	.byte	0x28
-	.2byte	0xf62
+	.2byte	0xfe0
 	.4byte	0x3f878
 	.byte	0x5
 	.byte	0x3
@@ -165070,7 +165232,7 @@ gMoveNames:
 	.ascii	"sParty_Miguel3\000"
 
 	.byte	0x28
-	.2byte	0xf6b
+	.2byte	0xfe9
 	.4byte	0x3f8a6
 	.byte	0x5
 	.byte	0x3
@@ -165087,7 +165249,7 @@ gMoveNames:
 	.ascii	"sParty_Miguel4\000"
 
 	.byte	0x28
-	.2byte	0xf74
+	.2byte	0xff2
 	.4byte	0x3f8d4
 	.byte	0x5
 	.byte	0x3
@@ -165104,7 +165266,7 @@ gMoveNames:
 	.ascii	"sParty_Miguel5\000"
 
 	.byte	0x28
-	.2byte	0xf7d
+	.2byte	0xffb
 	.4byte	0x3f902
 	.byte	0x5
 	.byte	0x3
@@ -165121,7 +165283,7 @@ gMoveNames:
 	.ascii	"sParty_Victoria\000"
 
 	.byte	0x28
-	.2byte	0xf86
+	.2byte	0x1004
 	.4byte	0x3f931
 	.byte	0x5
 	.byte	0x3
@@ -165138,7 +165300,7 @@ gMoveNames:
 	.ascii	"sParty_Vanessa\000"
 
 	.byte	0x28
-	.2byte	0xf8f
+	.2byte	0x100d
 	.4byte	0x3f95f
 	.byte	0x5
 	.byte	0x3
@@ -165155,7 +165317,7 @@ gMoveNames:
 	.ascii	"sParty_Bethany\000"
 
 	.byte	0x28
-	.2byte	0xf98
+	.2byte	0x1016
 	.4byte	0x3f98d
 	.byte	0x5
 	.byte	0x3
@@ -165172,7 +165334,7 @@ gMoveNames:
 	.ascii	"sParty_Isabel1\000"
 
 	.byte	0x28
-	.2byte	0xfad
+	.2byte	0x102b
 	.4byte	0x3f9bb
 	.byte	0x5
 	.byte	0x3
@@ -165189,7 +165351,7 @@ gMoveNames:
 	.ascii	"sParty_Isabel2\000"
 
 	.byte	0x28
-	.2byte	0xfbc
+	.2byte	0x103a
 	.4byte	0x3f9e9
 	.byte	0x5
 	.byte	0x3
@@ -165206,7 +165368,7 @@ gMoveNames:
 	.ascii	"sParty_Isabel3\000"
 
 	.byte	0x28
-	.2byte	0xfcb
+	.2byte	0x1049
 	.4byte	0x3fa17
 	.byte	0x5
 	.byte	0x3
@@ -165223,7 +165385,7 @@ gMoveNames:
 	.ascii	"sParty_Isabel4\000"
 
 	.byte	0x28
-	.2byte	0xfda
+	.2byte	0x1058
 	.4byte	0x3fa45
 	.byte	0x5
 	.byte	0x3
@@ -165240,7 +165402,7 @@ gMoveNames:
 	.ascii	"sParty_Isabel5\000"
 
 	.byte	0x28
-	.2byte	0xfe9
+	.2byte	0x1067
 	.4byte	0x3fa73
 	.byte	0x5
 	.byte	0x3
@@ -165257,7 +165419,7 @@ gMoveNames:
 	.ascii	"sParty_Timothy1\000"
 
 	.byte	0x28
-	.2byte	0xff8
+	.2byte	0x1076
 	.4byte	0x3faa2
 	.byte	0x5
 	.byte	0x3
@@ -165274,7 +165436,7 @@ gMoveNames:
 	.ascii	"sParty_Timothy2\000"
 
 	.byte	0x28
-	.2byte	0x1000
+	.2byte	0x107e
 	.4byte	0x3fad1
 	.byte	0x5
 	.byte	0x3
@@ -165291,7 +165453,7 @@ gMoveNames:
 	.ascii	"sParty_Timothy3\000"
 
 	.byte	0x28
-	.2byte	0x1009
+	.2byte	0x1087
 	.4byte	0x3fb00
 	.byte	0x5
 	.byte	0x3
@@ -165308,7 +165470,7 @@ gMoveNames:
 	.ascii	"sParty_Timothy4\000"
 
 	.byte	0x28
-	.2byte	0x1012
+	.2byte	0x1090
 	.4byte	0x3fb2f
 	.byte	0x5
 	.byte	0x3
@@ -165325,7 +165487,7 @@ gMoveNames:
 	.ascii	"sParty_Timothy5\000"
 
 	.byte	0x28
-	.2byte	0x101b
+	.2byte	0x1099
 	.4byte	0x3fb5e
 	.byte	0x5
 	.byte	0x3
@@ -165342,7 +165504,7 @@ gMoveNames:
 	.ascii	"sParty_Vicky\000"
 
 	.byte	0x28
-	.2byte	0x1024
+	.2byte	0x10a2
 	.4byte	0x3fb8a
 	.byte	0x5
 	.byte	0x3
@@ -165359,7 +165521,7 @@ gMoveNames:
 	.ascii	"sParty_Shelby1\000"
 
 	.byte	0x28
-	.2byte	0x102d
+	.2byte	0x10ab
 	.4byte	0x3fbb8
 	.byte	0x5
 	.byte	0x3
@@ -165376,7 +165538,7 @@ gMoveNames:
 	.ascii	"sParty_Shelby2\000"
 
 	.byte	0x28
-	.2byte	0x103a
+	.2byte	0x10b8
 	.4byte	0x3fbe6
 	.byte	0x5
 	.byte	0x3
@@ -165393,7 +165555,7 @@ gMoveNames:
 	.ascii	"sParty_Shelby3\000"
 
 	.byte	0x28
-	.2byte	0x1047
+	.2byte	0x10c5
 	.4byte	0x3fc14
 	.byte	0x5
 	.byte	0x3
@@ -165410,7 +165572,7 @@ gMoveNames:
 	.ascii	"sParty_Shelby4\000"
 
 	.byte	0x28
-	.2byte	0x1054
+	.2byte	0x10d2
 	.4byte	0x3fc42
 	.byte	0x5
 	.byte	0x3
@@ -165427,7 +165589,7 @@ gMoveNames:
 	.ascii	"sParty_Shelby5\000"
 
 	.byte	0x28
-	.2byte	0x1061
+	.2byte	0x10df
 	.4byte	0x3fc70
 	.byte	0x5
 	.byte	0x3
@@ -165444,7 +165606,7 @@ gMoveNames:
 	.ascii	"sParty_Calvin1\000"
 
 	.byte	0x28
-	.2byte	0x106e
+	.2byte	0x10ec
 	.4byte	0x3fc9e
 	.byte	0x5
 	.byte	0x3
@@ -165461,7 +165623,7 @@ gMoveNames:
 	.ascii	"sParty_Billy\000"
 
 	.byte	0x28
-	.2byte	0x1076
+	.2byte	0x10f4
 	.4byte	0x3fcca
 	.byte	0x5
 	.byte	0x3
@@ -165478,7 +165640,7 @@ gMoveNames:
 	.ascii	"sParty_Josh\000"
 
 	.byte	0x28
-	.2byte	0x1083
+	.2byte	0x1101
 	.4byte	0x3fcf5
 	.byte	0x5
 	.byte	0x3
@@ -165495,7 +165657,7 @@ gMoveNames:
 	.ascii	"sParty_Tommy\000"
 
 	.byte	0x28
-	.2byte	0x108c
+	.2byte	0x110a
 	.4byte	0x3fd21
 	.byte	0x5
 	.byte	0x3
@@ -165512,7 +165674,7 @@ gMoveNames:
 	.ascii	"sParty_Joey\000"
 
 	.byte	0x28
-	.2byte	0x1099
+	.2byte	0x1117
 	.4byte	0x3fd4c
 	.byte	0x5
 	.byte	0x3
@@ -165529,7 +165691,7 @@ gMoveNames:
 	.ascii	"sParty_Ben\000"
 
 	.byte	0x28
-	.2byte	0x10a1
+	.2byte	0x111f
 	.4byte	0x3fd76
 	.byte	0x5
 	.byte	0x3
@@ -165546,7 +165708,7 @@ gMoveNames:
 	.ascii	"sParty_Quincy\000"
 
 	.byte	0x28
-	.2byte	0x10b0
+	.2byte	0x112e
 	.4byte	0x3fda3
 	.byte	0x5
 	.byte	0x3
@@ -165563,7 +165725,7 @@ gMoveNames:
 	.ascii	"sParty_Katelynn\000"
 
 	.byte	0x28
-	.2byte	0x10bf
+	.2byte	0x113d
 	.4byte	0x3fdd2
 	.byte	0x5
 	.byte	0x3
@@ -165580,7 +165742,7 @@ gMoveNames:
 	.ascii	"sParty_Jaylen\000"
 
 	.byte	0x28
-	.2byte	0x10ce
+	.2byte	0x114c
 	.4byte	0x3fdff
 	.byte	0x5
 	.byte	0x3
@@ -165597,7 +165759,7 @@ gMoveNames:
 	.ascii	"sParty_Dillon\000"
 
 	.byte	0x28
-	.2byte	0x10d6
+	.2byte	0x1154
 	.4byte	0x3fe2c
 	.byte	0x5
 	.byte	0x3
@@ -165614,7 +165776,7 @@ gMoveNames:
 	.ascii	"sParty_Calvin2\000"
 
 	.byte	0x28
-	.2byte	0x10de
+	.2byte	0x115c
 	.4byte	0x3fe5a
 	.byte	0x5
 	.byte	0x3
@@ -165631,7 +165793,7 @@ gMoveNames:
 	.ascii	"sParty_Calvin3\000"
 
 	.byte	0x28
-	.2byte	0x10e6
+	.2byte	0x1164
 	.4byte	0x3fe88
 	.byte	0x5
 	.byte	0x3
@@ -165648,7 +165810,7 @@ gMoveNames:
 	.ascii	"sParty_Calvin4\000"
 
 	.byte	0x28
-	.2byte	0x10f3
+	.2byte	0x1171
 	.4byte	0x3feb6
 	.byte	0x5
 	.byte	0x3
@@ -165665,7 +165827,7 @@ gMoveNames:
 	.ascii	"sParty_Calvin5\000"
 
 	.byte	0x28
-	.2byte	0x1105
+	.2byte	0x1183
 	.4byte	0x3fee4
 	.byte	0x5
 	.byte	0x3
@@ -165682,7 +165844,7 @@ gMoveNames:
 	.ascii	"sParty_Eddie\000"
 
 	.byte	0x28
-	.2byte	0x1117
+	.2byte	0x1195
 	.4byte	0x3ff10
 	.byte	0x5
 	.byte	0x3
@@ -165699,7 +165861,7 @@ gMoveNames:
 	.ascii	"sParty_Allen\000"
 
 	.byte	0x28
-	.2byte	0x1124
+	.2byte	0x11a2
 	.4byte	0x3ff3c
 	.byte	0x5
 	.byte	0x3
@@ -165716,7 +165878,7 @@ gMoveNames:
 	.ascii	"sParty_Timmy\000"
 
 	.byte	0x28
-	.2byte	0x1131
+	.2byte	0x11af
 	.4byte	0x3ff68
 	.byte	0x5
 	.byte	0x3
@@ -165733,7 +165895,7 @@ gMoveNames:
 	.ascii	"sParty_Wallace\000"
 
 	.byte	0x28
-	.2byte	0x113e
+	.2byte	0x11bc
 	.4byte	0x3ff96
 	.byte	0x5
 	.byte	0x3
@@ -165750,7 +165912,7 @@ gMoveNames:
 	.ascii	"sParty_Andrew\000"
 
 	.byte	0x28
-	.2byte	0x116b
+	.2byte	0x11e9
 	.4byte	0x3ffc3
 	.byte	0x5
 	.byte	0x3
@@ -165767,7 +165929,7 @@ gMoveNames:
 	.ascii	"sParty_Ivan\000"
 
 	.byte	0x28
-	.2byte	0x117d
+	.2byte	0x11fb
 	.4byte	0x3ffee
 	.byte	0x5
 	.byte	0x3
@@ -165784,7 +165946,7 @@ gMoveNames:
 	.ascii	"sParty_Claude\000"
 
 	.byte	0x28
-	.2byte	0x118f
+	.2byte	0x120d
 	.4byte	0x4001b
 	.byte	0x5
 	.byte	0x3
@@ -165801,7 +165963,7 @@ gMoveNames:
 	.ascii	"sParty_Elliot1\000"
 
 	.byte	0x28
-	.2byte	0x11a1
+	.2byte	0x121f
 	.4byte	0x40049
 	.byte	0x5
 	.byte	0x3
@@ -165818,7 +165980,7 @@ gMoveNames:
 	.ascii	"sParty_Ned\000"
 
 	.byte	0x28
-	.2byte	0x11b3
+	.2byte	0x1231
 	.4byte	0x40073
 	.byte	0x5
 	.byte	0x3
@@ -165835,7 +165997,7 @@ gMoveNames:
 	.ascii	"sParty_Dale\000"
 
 	.byte	0x28
-	.2byte	0x11bb
+	.2byte	0x1239
 	.4byte	0x4009e
 	.byte	0x5
 	.byte	0x3
@@ -165852,7 +166014,7 @@ gMoveNames:
 	.ascii	"sParty_Nolan\000"
 
 	.byte	0x28
-	.2byte	0x11d2
+	.2byte	0x1250
 	.4byte	0x400ca
 	.byte	0x5
 	.byte	0x3
@@ -165869,7 +166031,7 @@ gMoveNames:
 	.ascii	"sParty_Barny\000"
 
 	.byte	0x28
-	.2byte	0x11da
+	.2byte	0x1258
 	.4byte	0x400f6
 	.byte	0x5
 	.byte	0x3
@@ -165886,7 +166048,7 @@ gMoveNames:
 	.ascii	"sParty_Wade\000"
 
 	.byte	0x28
-	.2byte	0x11e7
+	.2byte	0x1265
 	.4byte	0x40121
 	.byte	0x5
 	.byte	0x3
@@ -165903,7 +166065,7 @@ gMoveNames:
 	.ascii	"sParty_Carter\000"
 
 	.byte	0x28
-	.2byte	0x11ef
+	.2byte	0x126d
 	.4byte	0x4014e
 	.byte	0x5
 	.byte	0x3
@@ -165920,7 +166082,7 @@ gMoveNames:
 	.ascii	"sParty_Elliot2\000"
 
 	.byte	0x28
-	.2byte	0x11fc
+	.2byte	0x127a
 	.4byte	0x4017c
 	.byte	0x5
 	.byte	0x3
@@ -165937,7 +166099,7 @@ gMoveNames:
 	.ascii	"sParty_Elliot3\000"
 
 	.byte	0x28
-	.2byte	0x120e
+	.2byte	0x128c
 	.4byte	0x401aa
 	.byte	0x5
 	.byte	0x3
@@ -165954,7 +166116,7 @@ gMoveNames:
 	.ascii	"sParty_Elliot4\000"
 
 	.byte	0x28
-	.2byte	0x1225
+	.2byte	0x12a3
 	.4byte	0x401d8
 	.byte	0x5
 	.byte	0x3
@@ -165971,7 +166133,7 @@ gMoveNames:
 	.ascii	"sParty_Elliot5\000"
 
 	.byte	0x28
-	.2byte	0x123c
+	.2byte	0x12ba
 	.4byte	0x40206
 	.byte	0x5
 	.byte	0x3
@@ -165988,7 +166150,7 @@ gMoveNames:
 	.ascii	"sParty_Ronald\000"
 
 	.byte	0x28
-	.2byte	0x1253
+	.2byte	0x12d1
 	.4byte	0x40233
 	.byte	0x5
 	.byte	0x3
@@ -166005,7 +166167,7 @@ gMoveNames:
 	.ascii	"sParty_Jacob\000"
 
 	.byte	0x28
-	.2byte	0x1274
+	.2byte	0x12f2
 	.4byte	0x4025f
 	.byte	0x5
 	.byte	0x3
@@ -166022,7 +166184,7 @@ gMoveNames:
 	.ascii	"sParty_Anthony\000"
 
 	.byte	0x28
-	.2byte	0x1286
+	.2byte	0x1304
 	.4byte	0x4028d
 	.byte	0x5
 	.byte	0x3
@@ -166039,7 +166201,7 @@ gMoveNames:
 	.ascii	"sParty_Benjamin1\000"
 
 	.byte	0x28
-	.2byte	0x1293
+	.2byte	0x1311
 	.4byte	0x402bd
 	.byte	0x5
 	.byte	0x3
@@ -166056,7 +166218,7 @@ gMoveNames:
 	.ascii	"sParty_Benjamin2\000"
 
 	.byte	0x28
-	.2byte	0x129b
+	.2byte	0x1319
 	.4byte	0x402ed
 	.byte	0x5
 	.byte	0x3
@@ -166073,7 +166235,7 @@ gMoveNames:
 	.ascii	"sParty_Benjamin3\000"
 
 	.byte	0x28
-	.2byte	0x12a3
+	.2byte	0x1321
 	.4byte	0x4031d
 	.byte	0x5
 	.byte	0x3
@@ -166090,7 +166252,7 @@ gMoveNames:
 	.ascii	"sParty_Benjamin4\000"
 
 	.byte	0x28
-	.2byte	0x12ab
+	.2byte	0x1329
 	.4byte	0x4034d
 	.byte	0x5
 	.byte	0x3
@@ -166107,7 +166269,7 @@ gMoveNames:
 	.ascii	"sParty_Benjamin5\000"
 
 	.byte	0x28
-	.2byte	0x12b3
+	.2byte	0x1331
 	.4byte	0x4037d
 	.byte	0x5
 	.byte	0x3
@@ -166124,7 +166286,7 @@ gMoveNames:
 	.ascii	"sParty_Abigail1\000"
 
 	.byte	0x28
-	.2byte	0x12bb
+	.2byte	0x1339
 	.4byte	0x403ac
 	.byte	0x5
 	.byte	0x3
@@ -166141,7 +166303,7 @@ gMoveNames:
 	.ascii	"sParty_Jasmine\000"
 
 	.byte	0x28
-	.2byte	0x12c3
+	.2byte	0x1341
 	.4byte	0x403da
 	.byte	0x5
 	.byte	0x3
@@ -166158,7 +166320,7 @@ gMoveNames:
 	.ascii	"sParty_Abigail2\000"
 
 	.byte	0x28
-	.2byte	0x12d5
+	.2byte	0x1353
 	.4byte	0x40409
 	.byte	0x5
 	.byte	0x3
@@ -166175,7 +166337,7 @@ gMoveNames:
 	.ascii	"sParty_Abigail3\000"
 
 	.byte	0x28
-	.2byte	0x12dd
+	.2byte	0x135b
 	.4byte	0x40438
 	.byte	0x5
 	.byte	0x3
@@ -166192,7 +166354,7 @@ gMoveNames:
 	.ascii	"sParty_Abigail4\000"
 
 	.byte	0x28
-	.2byte	0x12e5
+	.2byte	0x1363
 	.4byte	0x40467
 	.byte	0x5
 	.byte	0x3
@@ -166209,7 +166371,7 @@ gMoveNames:
 	.ascii	"sParty_Abigail5\000"
 
 	.byte	0x28
-	.2byte	0x12ed
+	.2byte	0x136b
 	.4byte	0x40496
 	.byte	0x5
 	.byte	0x3
@@ -166226,7 +166388,7 @@ gMoveNames:
 	.ascii	"sParty_Dylan1\000"
 
 	.byte	0x28
-	.2byte	0x12f5
+	.2byte	0x1373
 	.4byte	0x404c3
 	.byte	0x5
 	.byte	0x3
@@ -166243,7 +166405,7 @@ gMoveNames:
 	.ascii	"sParty_Dylan2\000"
 
 	.byte	0x28
-	.2byte	0x12fd
+	.2byte	0x137b
 	.4byte	0x404f0
 	.byte	0x5
 	.byte	0x3
@@ -166260,7 +166422,7 @@ gMoveNames:
 	.ascii	"sParty_Dylan3\000"
 
 	.byte	0x28
-	.2byte	0x1305
+	.2byte	0x1383
 	.4byte	0x4051d
 	.byte	0x5
 	.byte	0x3
@@ -166277,7 +166439,7 @@ gMoveNames:
 	.ascii	"sParty_Dylan4\000"
 
 	.byte	0x28
-	.2byte	0x130d
+	.2byte	0x138b
 	.4byte	0x4054a
 	.byte	0x5
 	.byte	0x3
@@ -166294,7 +166456,7 @@ gMoveNames:
 	.ascii	"sParty_Dylan5\000"
 
 	.byte	0x28
-	.2byte	0x1315
+	.2byte	0x1393
 	.4byte	0x40577
 	.byte	0x5
 	.byte	0x3
@@ -166311,7 +166473,7 @@ gMoveNames:
 	.ascii	"sParty_Maria1\000"
 
 	.byte	0x28
-	.2byte	0x131d
+	.2byte	0x139b
 	.4byte	0x405a4
 	.byte	0x5
 	.byte	0x3
@@ -166328,7 +166490,7 @@ gMoveNames:
 	.ascii	"sParty_Maria2\000"
 
 	.byte	0x28
-	.2byte	0x1325
+	.2byte	0x13a3
 	.4byte	0x405d1
 	.byte	0x5
 	.byte	0x3
@@ -166345,7 +166507,7 @@ gMoveNames:
 	.ascii	"sParty_Maria3\000"
 
 	.byte	0x28
-	.2byte	0x132d
+	.2byte	0x13ab
 	.4byte	0x405fe
 	.byte	0x5
 	.byte	0x3
@@ -166362,7 +166524,7 @@ gMoveNames:
 	.ascii	"sParty_Maria4\000"
 
 	.byte	0x28
-	.2byte	0x1335
+	.2byte	0x13b3
 	.4byte	0x4062b
 	.byte	0x5
 	.byte	0x3
@@ -166379,7 +166541,7 @@ gMoveNames:
 	.ascii	"sParty_Maria5\000"
 
 	.byte	0x28
-	.2byte	0x133d
+	.2byte	0x13bb
 	.4byte	0x40658
 	.byte	0x5
 	.byte	0x3
@@ -166396,7 +166558,7 @@ gMoveNames:
 	.ascii	"sParty_Camden\000"
 
 	.byte	0x28
-	.2byte	0x1345
+	.2byte	0x13c3
 	.4byte	0x40685
 	.byte	0x5
 	.byte	0x3
@@ -166413,7 +166575,7 @@ gMoveNames:
 	.ascii	"sParty_Demetrius\000"
 
 	.byte	0x28
-	.2byte	0x1352
+	.2byte	0x13d0
 	.4byte	0x406b5
 	.byte	0x5
 	.byte	0x3
@@ -166430,7 +166592,7 @@ gMoveNames:
 	.ascii	"sParty_Isaiah1\000"
 
 	.byte	0x28
-	.2byte	0x135f
+	.2byte	0x13dd
 	.4byte	0x406e3
 	.byte	0x5
 	.byte	0x3
@@ -166447,7 +166609,7 @@ gMoveNames:
 	.ascii	"sParty_Pablo1\000"
 
 	.byte	0x28
-	.2byte	0x1367
+	.2byte	0x13e5
 	.4byte	0x40710
 	.byte	0x5
 	.byte	0x3
@@ -166464,7 +166626,7 @@ gMoveNames:
 	.ascii	"sParty_Chase\000"
 
 	.byte	0x28
-	.2byte	0x1374
+	.2byte	0x13f2
 	.4byte	0x4073c
 	.byte	0x5
 	.byte	0x3
@@ -166481,7 +166643,7 @@ gMoveNames:
 	.ascii	"sParty_Isaiah2\000"
 
 	.byte	0x28
-	.2byte	0x1381
+	.2byte	0x13ff
 	.4byte	0x4076a
 	.byte	0x5
 	.byte	0x3
@@ -166498,7 +166660,7 @@ gMoveNames:
 	.ascii	"sParty_Isaiah3\000"
 
 	.byte	0x28
-	.2byte	0x1389
+	.2byte	0x1407
 	.4byte	0x40798
 	.byte	0x5
 	.byte	0x3
@@ -166515,7 +166677,7 @@ gMoveNames:
 	.ascii	"sParty_Isaiah4\000"
 
 	.byte	0x28
-	.2byte	0x1391
+	.2byte	0x140f
 	.4byte	0x407c6
 	.byte	0x5
 	.byte	0x3
@@ -166532,7 +166694,7 @@ gMoveNames:
 	.ascii	"sParty_Isaiah5\000"
 
 	.byte	0x28
-	.2byte	0x1399
+	.2byte	0x1417
 	.4byte	0x407f4
 	.byte	0x5
 	.byte	0x3
@@ -166549,7 +166711,7 @@ gMoveNames:
 	.ascii	"sParty_Isobel\000"
 
 	.byte	0x28
-	.2byte	0x13a1
+	.2byte	0x141f
 	.4byte	0x40821
 	.byte	0x5
 	.byte	0x3
@@ -166566,7 +166728,7 @@ gMoveNames:
 	.ascii	"sParty_Donny\000"
 
 	.byte	0x28
-	.2byte	0x13a9
+	.2byte	0x1427
 	.4byte	0x4084d
 	.byte	0x5
 	.byte	0x3
@@ -166583,7 +166745,7 @@ gMoveNames:
 	.ascii	"sParty_Talia\000"
 
 	.byte	0x28
-	.2byte	0x13b6
+	.2byte	0x1434
 	.4byte	0x40879
 	.byte	0x5
 	.byte	0x3
@@ -166600,7 +166762,7 @@ gMoveNames:
 	.ascii	"sParty_Katelyn1\000"
 
 	.byte	0x28
-	.2byte	0x13be
+	.2byte	0x143c
 	.4byte	0x408a8
 	.byte	0x5
 	.byte	0x3
@@ -166617,7 +166779,7 @@ gMoveNames:
 	.ascii	"sParty_Allison\000"
 
 	.byte	0x28
-	.2byte	0x13c6
+	.2byte	0x1444
 	.4byte	0x408d6
 	.byte	0x5
 	.byte	0x3
@@ -166634,7 +166796,7 @@ gMoveNames:
 	.ascii	"sParty_Katelyn2\000"
 
 	.byte	0x28
-	.2byte	0x13d3
+	.2byte	0x1451
 	.4byte	0x40905
 	.byte	0x5
 	.byte	0x3
@@ -166651,7 +166813,7 @@ gMoveNames:
 	.ascii	"sParty_Katelyn3\000"
 
 	.byte	0x28
-	.2byte	0x13db
+	.2byte	0x1459
 	.4byte	0x40934
 	.byte	0x5
 	.byte	0x3
@@ -166668,7 +166830,7 @@ gMoveNames:
 	.ascii	"sParty_Katelyn4\000"
 
 	.byte	0x28
-	.2byte	0x13e3
+	.2byte	0x1461
 	.4byte	0x40963
 	.byte	0x5
 	.byte	0x3
@@ -166685,7 +166847,7 @@ gMoveNames:
 	.ascii	"sParty_Katelyn5\000"
 
 	.byte	0x28
-	.2byte	0x13eb
+	.2byte	0x1469
 	.4byte	0x40992
 	.byte	0x5
 	.byte	0x3
@@ -166702,7 +166864,7 @@ gMoveNames:
 	.ascii	"sParty_Nicolas1\000"
 
 	.byte	0x28
-	.2byte	0x13f3
+	.2byte	0x1471
 	.4byte	0x409c1
 	.byte	0x5
 	.byte	0x3
@@ -166719,7 +166881,7 @@ gMoveNames:
 	.ascii	"sParty_Nicolas2\000"
 
 	.byte	0x28
-	.2byte	0x1400
+	.2byte	0x147e
 	.4byte	0x409f0
 	.byte	0x5
 	.byte	0x3
@@ -166736,7 +166898,7 @@ gMoveNames:
 	.ascii	"sParty_Nicolas3\000"
 
 	.byte	0x28
-	.2byte	0x140d
+	.2byte	0x148b
 	.4byte	0x40a1f
 	.byte	0x5
 	.byte	0x3
@@ -166753,7 +166915,7 @@ gMoveNames:
 	.ascii	"sParty_Nicolas4\000"
 
 	.byte	0x28
-	.2byte	0x141a
+	.2byte	0x1498
 	.4byte	0x40a4e
 	.byte	0x5
 	.byte	0x3
@@ -166770,7 +166932,7 @@ gMoveNames:
 	.ascii	"sParty_Nicolas5\000"
 
 	.byte	0x28
-	.2byte	0x142c
+	.2byte	0x14aa
 	.4byte	0x40a7d
 	.byte	0x5
 	.byte	0x3
@@ -166787,7 +166949,7 @@ gMoveNames:
 	.ascii	"sParty_Aaron\000"
 
 	.byte	0x28
-	.2byte	0x1441
+	.2byte	0x14bf
 	.4byte	0x40aa9
 	.byte	0x5
 	.byte	0x3
@@ -166804,7 +166966,7 @@ gMoveNames:
 	.ascii	"sParty_Perry\000"
 
 	.byte	0x28
-	.2byte	0x144a
+	.2byte	0x14c8
 	.4byte	0x40ad5
 	.byte	0x5
 	.byte	0x3
@@ -166821,7 +166983,7 @@ gMoveNames:
 	.ascii	"sParty_Hugh\000"
 
 	.byte	0x28
-	.2byte	0x1452
+	.2byte	0x14d0
 	.4byte	0x40b00
 	.byte	0x5
 	.byte	0x3
@@ -166838,7 +167000,7 @@ gMoveNames:
 	.ascii	"sParty_Phil\000"
 
 	.byte	0x28
-	.2byte	0x145f
+	.2byte	0x14dd
 	.4byte	0x40b2b
 	.byte	0x5
 	.byte	0x3
@@ -166855,7 +167017,7 @@ gMoveNames:
 	.ascii	"sParty_Jared\000"
 
 	.byte	0x28
-	.2byte	0x1467
+	.2byte	0x14e5
 	.4byte	0x40b57
 	.byte	0x5
 	.byte	0x3
@@ -166872,7 +167034,7 @@ gMoveNames:
 	.ascii	"sParty_Humberto\000"
 
 	.byte	0x28
-	.2byte	0x1479
+	.2byte	0x14f7
 	.4byte	0x40b86
 	.byte	0x5
 	.byte	0x3
@@ -166889,7 +167051,7 @@ gMoveNames:
 	.ascii	"sParty_Presley\000"
 
 	.byte	0x28
-	.2byte	0x1481
+	.2byte	0x14ff
 	.4byte	0x40bb4
 	.byte	0x5
 	.byte	0x3
@@ -166906,7 +167068,7 @@ gMoveNames:
 	.ascii	"sParty_Edwardo\000"
 
 	.byte	0x28
-	.2byte	0x148e
+	.2byte	0x150c
 	.4byte	0x40be2
 	.byte	0x5
 	.byte	0x3
@@ -166923,7 +167085,7 @@ gMoveNames:
 	.ascii	"sParty_Colin\000"
 
 	.byte	0x28
-	.2byte	0x149b
+	.2byte	0x1519
 	.4byte	0x40c0e
 	.byte	0x5
 	.byte	0x3
@@ -166940,7 +167102,7 @@ gMoveNames:
 	.ascii	"sParty_Robert1\000"
 
 	.byte	0x28
-	.2byte	0x14a8
+	.2byte	0x1526
 	.4byte	0x40c3c
 	.byte	0x5
 	.byte	0x3
@@ -166957,7 +167119,7 @@ gMoveNames:
 	.ascii	"sParty_Benny\000"
 
 	.byte	0x28
-	.2byte	0x14b0
+	.2byte	0x152e
 	.4byte	0x40c68
 	.byte	0x5
 	.byte	0x3
@@ -166974,7 +167136,7 @@ gMoveNames:
 	.ascii	"sParty_Chester\000"
 
 	.byte	0x28
-	.2byte	0x14c2
+	.2byte	0x1540
 	.4byte	0x40c96
 	.byte	0x5
 	.byte	0x3
@@ -166991,7 +167153,7 @@ gMoveNames:
 	.ascii	"sParty_Robert2\000"
 
 	.byte	0x28
-	.2byte	0x14cf
+	.2byte	0x154d
 	.4byte	0x40cc4
 	.byte	0x5
 	.byte	0x3
@@ -167008,7 +167170,7 @@ gMoveNames:
 	.ascii	"sParty_Robert3\000"
 
 	.byte	0x28
-	.2byte	0x14dc
+	.2byte	0x155a
 	.4byte	0x40cf2
 	.byte	0x5
 	.byte	0x3
@@ -167025,7 +167187,7 @@ gMoveNames:
 	.ascii	"sParty_Robert4\000"
 
 	.byte	0x28
-	.2byte	0x14e9
+	.2byte	0x1567
 	.4byte	0x40d20
 	.byte	0x5
 	.byte	0x3
@@ -167042,7 +167204,7 @@ gMoveNames:
 	.ascii	"sParty_Robert5\000"
 
 	.byte	0x28
-	.2byte	0x14f6
+	.2byte	0x1574
 	.4byte	0x40d4e
 	.byte	0x5
 	.byte	0x3
@@ -167059,7 +167221,7 @@ gMoveNames:
 	.ascii	"sParty_Alex\000"
 
 	.byte	0x28
-	.2byte	0x1503
+	.2byte	0x1581
 	.4byte	0x40d79
 	.byte	0x5
 	.byte	0x3
@@ -167076,7 +167238,7 @@ gMoveNames:
 	.ascii	"sParty_Beck\000"
 
 	.byte	0x28
-	.2byte	0x1510
+	.2byte	0x158e
 	.4byte	0x40da4
 	.byte	0x5
 	.byte	0x3
@@ -167093,7 +167255,7 @@ gMoveNames:
 	.ascii	"sParty_Yasu\000"
 
 	.byte	0x28
-	.2byte	0x1518
+	.2byte	0x1596
 	.4byte	0x40dcf
 	.byte	0x5
 	.byte	0x3
@@ -167110,7 +167272,7 @@ gMoveNames:
 	.ascii	"sParty_Takashi\000"
 
 	.byte	0x28
-	.2byte	0x1520
+	.2byte	0x159e
 	.4byte	0x40dfd
 	.byte	0x5
 	.byte	0x3
@@ -167127,7 +167289,7 @@ gMoveNames:
 	.ascii	"sParty_Dianne\000"
 
 	.byte	0x28
-	.2byte	0x152d
+	.2byte	0x15ab
 	.4byte	0x40e2a
 	.byte	0x5
 	.byte	0x3
@@ -167144,7 +167306,7 @@ gMoveNames:
 	.ascii	"sParty_Jani\000"
 
 	.byte	0x28
-	.2byte	0x153e
+	.2byte	0x15bc
 	.4byte	0x40e55
 	.byte	0x5
 	.byte	0x3
@@ -167161,7 +167323,7 @@ gMoveNames:
 	.ascii	"sParty_Lao1\000"
 
 	.byte	0x28
-	.2byte	0x1546
+	.2byte	0x15c4
 	.4byte	0x40e80
 	.byte	0x5
 	.byte	0x3
@@ -167178,7 +167340,7 @@ gMoveNames:
 	.ascii	"sParty_Lung\000"
 
 	.byte	0x28
-	.2byte	0x155b
+	.2byte	0x15d9
 	.4byte	0x40eab
 	.byte	0x5
 	.byte	0x3
@@ -167195,7 +167357,7 @@ gMoveNames:
 	.ascii	"sParty_Lao2\000"
 
 	.byte	0x28
-	.2byte	0x1568
+	.2byte	0x15e6
 	.4byte	0x40ed6
 	.byte	0x5
 	.byte	0x3
@@ -167212,7 +167374,7 @@ gMoveNames:
 	.ascii	"sParty_Lao3\000"
 
 	.byte	0x28
-	.2byte	0x1583
+	.2byte	0x1601
 	.4byte	0x40f01
 	.byte	0x5
 	.byte	0x3
@@ -167229,7 +167391,7 @@ gMoveNames:
 	.ascii	"sParty_Lao4\000"
 
 	.byte	0x28
-	.2byte	0x159e
+	.2byte	0x161c
 	.4byte	0x40f2c
 	.byte	0x5
 	.byte	0x3
@@ -167246,7 +167408,7 @@ gMoveNames:
 	.ascii	"sParty_Lao5\000"
 
 	.byte	0x28
-	.2byte	0x15b9
+	.2byte	0x1637
 	.4byte	0x40f57
 	.byte	0x5
 	.byte	0x3
@@ -167263,7 +167425,7 @@ gMoveNames:
 	.ascii	"sParty_Jocelyn\000"
 
 	.byte	0x28
-	.2byte	0x15d8
+	.2byte	0x1656
 	.4byte	0x40f85
 	.byte	0x5
 	.byte	0x3
@@ -167280,7 +167442,7 @@ gMoveNames:
 	.ascii	"sParty_Laura\000"
 
 	.byte	0x28
-	.2byte	0x15e0
+	.2byte	0x165e
 	.4byte	0x40fb1
 	.byte	0x5
 	.byte	0x3
@@ -167297,7 +167459,7 @@ gMoveNames:
 	.ascii	"sParty_Cyndy1\000"
 
 	.byte	0x28
-	.2byte	0x15e8
+	.2byte	0x1666
 	.4byte	0x40fde
 	.byte	0x5
 	.byte	0x3
@@ -167314,7 +167476,7 @@ gMoveNames:
 	.ascii	"sParty_Cora\000"
 
 	.byte	0x28
-	.2byte	0x15f5
+	.2byte	0x1673
 	.4byte	0x41009
 	.byte	0x5
 	.byte	0x3
@@ -167331,7 +167493,7 @@ gMoveNames:
 	.ascii	"sParty_Paula\000"
 
 	.byte	0x28
-	.2byte	0x15fd
+	.2byte	0x167b
 	.4byte	0x41035
 	.byte	0x5
 	.byte	0x3
@@ -167348,7 +167510,7 @@ gMoveNames:
 	.ascii	"sParty_Cyndy2\000"
 
 	.byte	0x28
-	.2byte	0x1605
+	.2byte	0x1683
 	.4byte	0x41062
 	.byte	0x5
 	.byte	0x3
@@ -167365,7 +167527,7 @@ gMoveNames:
 	.ascii	"sParty_Cyndy3\000"
 
 	.byte	0x28
-	.2byte	0x1612
+	.2byte	0x1690
 	.4byte	0x4108f
 	.byte	0x5
 	.byte	0x3
@@ -167382,7 +167544,7 @@ gMoveNames:
 	.ascii	"sParty_Cyndy4\000"
 
 	.byte	0x28
-	.2byte	0x161f
+	.2byte	0x169d
 	.4byte	0x410bc
 	.byte	0x5
 	.byte	0x3
@@ -167399,7 +167561,7 @@ gMoveNames:
 	.ascii	"sParty_Cyndy5\000"
 
 	.byte	0x28
-	.2byte	0x162c
+	.2byte	0x16aa
 	.4byte	0x410e9
 	.byte	0x5
 	.byte	0x3
@@ -167416,7 +167578,7 @@ gMoveNames:
 	.ascii	"sParty_Madeline1\000"
 
 	.byte	0x28
-	.2byte	0x1639
+	.2byte	0x16b7
 	.4byte	0x41119
 	.byte	0x5
 	.byte	0x3
@@ -167433,7 +167595,7 @@ gMoveNames:
 	.ascii	"sParty_Clarissa\000"
 
 	.byte	0x28
-	.2byte	0x1642
+	.2byte	0x16c0
 	.4byte	0x41148
 	.byte	0x5
 	.byte	0x3
@@ -167450,7 +167612,7 @@ gMoveNames:
 	.ascii	"sParty_Angelica\000"
 
 	.byte	0x28
-	.2byte	0x164f
+	.2byte	0x16cd
 	.4byte	0x41177
 	.byte	0x5
 	.byte	0x3
@@ -167467,7 +167629,7 @@ gMoveNames:
 	.ascii	"sParty_Madeline2\000"
 
 	.byte	0x28
-	.2byte	0x1658
+	.2byte	0x16d6
 	.4byte	0x411a7
 	.byte	0x5
 	.byte	0x3
@@ -167484,7 +167646,7 @@ gMoveNames:
 	.ascii	"sParty_Madeline3\000"
 
 	.byte	0x28
-	.2byte	0x1661
+	.2byte	0x16df
 	.4byte	0x411d7
 	.byte	0x5
 	.byte	0x3
@@ -167501,7 +167663,7 @@ gMoveNames:
 	.ascii	"sParty_Madeline4\000"
 
 	.byte	0x28
-	.2byte	0x166a
+	.2byte	0x16e8
 	.4byte	0x41207
 	.byte	0x5
 	.byte	0x3
@@ -167518,7 +167680,7 @@ gMoveNames:
 	.ascii	"sParty_Madeline5\000"
 
 	.byte	0x28
-	.2byte	0x1679
+	.2byte	0x16f7
 	.4byte	0x41237
 	.byte	0x5
 	.byte	0x3
@@ -167535,7 +167697,7 @@ gMoveNames:
 	.ascii	"sParty_Beverly\000"
 
 	.byte	0x28
-	.2byte	0x1688
+	.2byte	0x1706
 	.4byte	0x41265
 	.byte	0x5
 	.byte	0x3
@@ -167552,7 +167714,7 @@ gMoveNames:
 	.ascii	"sParty_Imani\000"
 
 	.byte	0x28
-	.2byte	0x1695
+	.2byte	0x1713
 	.4byte	0x41291
 	.byte	0x5
 	.byte	0x3
@@ -167569,7 +167731,7 @@ gMoveNames:
 	.ascii	"sParty_Kyla\000"
 
 	.byte	0x28
-	.2byte	0x169d
+	.2byte	0x171b
 	.4byte	0x412bc
 	.byte	0x5
 	.byte	0x3
@@ -167586,7 +167748,7 @@ gMoveNames:
 	.ascii	"sParty_Denise\000"
 
 	.byte	0x28
-	.2byte	0x16a5
+	.2byte	0x1723
 	.4byte	0x412e9
 	.byte	0x5
 	.byte	0x3
@@ -167603,7 +167765,7 @@ gMoveNames:
 	.ascii	"sParty_Beth\000"
 
 	.byte	0x28
-	.2byte	0x16b2
+	.2byte	0x1730
 	.4byte	0x41314
 	.byte	0x5
 	.byte	0x3
@@ -167620,7 +167782,7 @@ gMoveNames:
 	.ascii	"sParty_Tara\000"
 
 	.byte	0x28
-	.2byte	0x16ba
+	.2byte	0x1738
 	.4byte	0x4133f
 	.byte	0x5
 	.byte	0x3
@@ -167637,7 +167799,7 @@ gMoveNames:
 	.ascii	"sParty_Missy\000"
 
 	.byte	0x28
-	.2byte	0x16c7
+	.2byte	0x1745
 	.4byte	0x4136b
 	.byte	0x5
 	.byte	0x3
@@ -167654,7 +167816,7 @@ gMoveNames:
 	.ascii	"sParty_Alice\000"
 
 	.byte	0x28
-	.2byte	0x16cf
+	.2byte	0x174d
 	.4byte	0x41397
 	.byte	0x5
 	.byte	0x3
@@ -167671,7 +167833,7 @@ gMoveNames:
 	.ascii	"sParty_Jenny1\000"
 
 	.byte	0x28
-	.2byte	0x16e1
+	.2byte	0x175f
 	.4byte	0x413c4
 	.byte	0x5
 	.byte	0x3
@@ -167688,7 +167850,7 @@ gMoveNames:
 	.ascii	"sParty_Grace\000"
 
 	.byte	0x28
-	.2byte	0x16e9
+	.2byte	0x1767
 	.4byte	0x413f0
 	.byte	0x5
 	.byte	0x3
@@ -167705,7 +167867,7 @@ gMoveNames:
 	.ascii	"sParty_Tanya\000"
 
 	.byte	0x28
-	.2byte	0x16f1
+	.2byte	0x176f
 	.4byte	0x4141c
 	.byte	0x5
 	.byte	0x3
@@ -167722,7 +167884,7 @@ gMoveNames:
 	.ascii	"sParty_Sharon\000"
 
 	.byte	0x28
-	.2byte	0x16f9
+	.2byte	0x1777
 	.4byte	0x41449
 	.byte	0x5
 	.byte	0x3
@@ -167739,7 +167901,7 @@ gMoveNames:
 	.ascii	"sParty_Nikki\000"
 
 	.byte	0x28
-	.2byte	0x1701
+	.2byte	0x177f
 	.4byte	0x41475
 	.byte	0x5
 	.byte	0x3
@@ -167756,7 +167918,7 @@ gMoveNames:
 	.ascii	"sParty_Brenda\000"
 
 	.byte	0x28
-	.2byte	0x170e
+	.2byte	0x178c
 	.4byte	0x414a2
 	.byte	0x5
 	.byte	0x3
@@ -167773,7 +167935,7 @@ gMoveNames:
 	.ascii	"sParty_Katie\000"
 
 	.byte	0x28
-	.2byte	0x1716
+	.2byte	0x1794
 	.4byte	0x414ce
 	.byte	0x5
 	.byte	0x3
@@ -167790,7 +167952,7 @@ gMoveNames:
 	.ascii	"sParty_Susie\000"
 
 	.byte	0x28
-	.2byte	0x1723
+	.2byte	0x17a1
 	.4byte	0x414fa
 	.byte	0x5
 	.byte	0x3
@@ -167807,7 +167969,7 @@ gMoveNames:
 	.ascii	"sParty_Kara\000"
 
 	.byte	0x28
-	.2byte	0x172b
+	.2byte	0x17a9
 	.4byte	0x41525
 	.byte	0x5
 	.byte	0x3
@@ -167824,7 +167986,7 @@ gMoveNames:
 	.ascii	"sParty_Dana\000"
 
 	.byte	0x28
-	.2byte	0x1733
+	.2byte	0x17b1
 	.4byte	0x41550
 	.byte	0x5
 	.byte	0x3
@@ -167841,7 +168003,7 @@ gMoveNames:
 	.ascii	"sParty_Sienna\000"
 
 	.byte	0x28
-	.2byte	0x173b
+	.2byte	0x17b9
 	.4byte	0x4157d
 	.byte	0x5
 	.byte	0x3
@@ -167858,7 +168020,7 @@ gMoveNames:
 	.ascii	"sParty_Debra\000"
 
 	.byte	0x28
-	.2byte	0x1748
+	.2byte	0x17c6
 	.4byte	0x415a9
 	.byte	0x5
 	.byte	0x3
@@ -167875,7 +168037,7 @@ gMoveNames:
 	.ascii	"sParty_Linda\000"
 
 	.byte	0x28
-	.2byte	0x1750
+	.2byte	0x17ce
 	.4byte	0x415d5
 	.byte	0x5
 	.byte	0x3
@@ -167892,7 +168054,7 @@ gMoveNames:
 	.ascii	"sParty_Kaylee\000"
 
 	.byte	0x28
-	.2byte	0x175d
+	.2byte	0x17db
 	.4byte	0x41602
 	.byte	0x5
 	.byte	0x3
@@ -167909,7 +168071,7 @@ gMoveNames:
 	.ascii	"sParty_Laurel\000"
 
 	.byte	0x28
-	.2byte	0x176a
+	.2byte	0x17e8
 	.4byte	0x4162f
 	.byte	0x5
 	.byte	0x3
@@ -167926,7 +168088,7 @@ gMoveNames:
 	.ascii	"sParty_Carlee\000"
 
 	.byte	0x28
-	.2byte	0x1777
+	.2byte	0x17f5
 	.4byte	0x4165c
 	.byte	0x5
 	.byte	0x3
@@ -167943,7 +168105,7 @@ gMoveNames:
 	.ascii	"sParty_Jenny2\000"
 
 	.byte	0x28
-	.2byte	0x177f
+	.2byte	0x17fd
 	.4byte	0x41689
 	.byte	0x5
 	.byte	0x3
@@ -167960,7 +168122,7 @@ gMoveNames:
 	.ascii	"sParty_Jenny3\000"
 
 	.byte	0x28
-	.2byte	0x1787
+	.2byte	0x1805
 	.4byte	0x416b6
 	.byte	0x5
 	.byte	0x3
@@ -167977,7 +168139,7 @@ gMoveNames:
 	.ascii	"sParty_Jenny4\000"
 
 	.byte	0x28
-	.2byte	0x178f
+	.2byte	0x180d
 	.4byte	0x416e3
 	.byte	0x5
 	.byte	0x3
@@ -167994,7 +168156,7 @@ gMoveNames:
 	.ascii	"sParty_Jenny5\000"
 
 	.byte	0x28
-	.2byte	0x179c
+	.2byte	0x181a
 	.4byte	0x41710
 	.byte	0x5
 	.byte	0x3
@@ -168011,7 +168173,7 @@ gMoveNames:
 	.ascii	"sParty_Heidi\000"
 
 	.byte	0x28
-	.2byte	0x17ae
+	.2byte	0x182c
 	.4byte	0x4173c
 	.byte	0x5
 	.byte	0x3
@@ -168028,7 +168190,7 @@ gMoveNames:
 	.ascii	"sParty_Becky\000"
 
 	.byte	0x28
-	.2byte	0x17bd
+	.2byte	0x183b
 	.4byte	0x41768
 	.byte	0x5
 	.byte	0x3
@@ -168045,7 +168207,7 @@ gMoveNames:
 	.ascii	"sParty_Carol\000"
 
 	.byte	0x28
-	.2byte	0x17cc
+	.2byte	0x184a
 	.4byte	0x41794
 	.byte	0x5
 	.byte	0x3
@@ -168062,7 +168224,7 @@ gMoveNames:
 	.ascii	"sParty_Nancy\000"
 
 	.byte	0x28
-	.2byte	0x17d9
+	.2byte	0x1857
 	.4byte	0x417c0
 	.byte	0x5
 	.byte	0x3
@@ -168079,7 +168241,7 @@ gMoveNames:
 	.ascii	"sParty_Martha\000"
 
 	.byte	0x28
-	.2byte	0x17e6
+	.2byte	0x1864
 	.4byte	0x417ed
 	.byte	0x5
 	.byte	0x3
@@ -168096,7 +168258,7 @@ gMoveNames:
 	.ascii	"sParty_Diana1\000"
 
 	.byte	0x28
-	.2byte	0x17f3
+	.2byte	0x1871
 	.4byte	0x4181a
 	.byte	0x5
 	.byte	0x3
@@ -168113,7 +168275,7 @@ gMoveNames:
 	.ascii	"sParty_Cedric\000"
 
 	.byte	0x28
-	.2byte	0x1805
+	.2byte	0x1883
 	.4byte	0x41847
 	.byte	0x5
 	.byte	0x3
@@ -168130,7 +168292,7 @@ gMoveNames:
 	.ascii	"sParty_Irene\000"
 
 	.byte	0x28
-	.2byte	0x180e
+	.2byte	0x188c
 	.4byte	0x41873
 	.byte	0x5
 	.byte	0x3
@@ -168147,7 +168309,7 @@ gMoveNames:
 	.ascii	"sParty_Diana2\000"
 
 	.byte	0x28
-	.2byte	0x181b
+	.2byte	0x1899
 	.4byte	0x418a0
 	.byte	0x5
 	.byte	0x3
@@ -168164,7 +168326,7 @@ gMoveNames:
 	.ascii	"sParty_Diana3\000"
 
 	.byte	0x28
-	.2byte	0x182d
+	.2byte	0x18ab
 	.4byte	0x418cd
 	.byte	0x5
 	.byte	0x3
@@ -168181,7 +168343,7 @@ gMoveNames:
 	.ascii	"sParty_Diana4\000"
 
 	.byte	0x28
-	.2byte	0x183f
+	.2byte	0x18bd
 	.4byte	0x418fa
 	.byte	0x5
 	.byte	0x3
@@ -168198,7 +168360,7 @@ gMoveNames:
 	.ascii	"sParty_Diana5\000"
 
 	.byte	0x28
-	.2byte	0x1851
+	.2byte	0x18cf
 	.4byte	0x41927
 	.byte	0x5
 	.byte	0x3
@@ -168215,7 +168377,7 @@ gMoveNames:
 	.ascii	"sParty_AmyAndLiv1\000"
 
 	.byte	0x28
-	.2byte	0x1863
+	.2byte	0x18e1
 	.4byte	0x41958
 	.byte	0x5
 	.byte	0x3
@@ -168232,7 +168394,7 @@ gMoveNames:
 	.ascii	"sParty_AmyAndLiv2\000"
 
 	.byte	0x28
-	.2byte	0x1870
+	.2byte	0x18ee
 	.4byte	0x41989
 	.byte	0x5
 	.byte	0x3
@@ -168249,7 +168411,7 @@ gMoveNames:
 	.ascii	"sParty_GinaAndMia1\000"
 
 	.byte	0x28
-	.2byte	0x187d
+	.2byte	0x18fb
 	.4byte	0x419bb
 	.byte	0x5
 	.byte	0x3
@@ -168266,7 +168428,7 @@ gMoveNames:
 	.ascii	"sParty_MiuAndYuki\000"
 
 	.byte	0x28
-	.2byte	0x188a
+	.2byte	0x1908
 	.4byte	0x419ec
 	.byte	0x5
 	.byte	0x3
@@ -168283,7 +168445,7 @@ gMoveNames:
 	.ascii	"sParty_AmyAndLiv3\000"
 
 	.byte	0x28
-	.2byte	0x1897
+	.2byte	0x1915
 	.4byte	0x41a1d
 	.byte	0x5
 	.byte	0x3
@@ -168300,7 +168462,7 @@ gMoveNames:
 	.ascii	"sParty_GinaAndMia2\000"
 
 	.byte	0x28
-	.2byte	0x18a4
+	.2byte	0x1922
 	.4byte	0x41a4f
 	.byte	0x5
 	.byte	0x3
@@ -168317,7 +168479,7 @@ gMoveNames:
 	.ascii	"sParty_AmyAndLiv4\000"
 
 	.byte	0x28
-	.2byte	0x18b3
+	.2byte	0x1931
 	.4byte	0x41a80
 	.byte	0x5
 	.byte	0x3
@@ -168334,7 +168496,7 @@ gMoveNames:
 	.ascii	"sParty_AmyAndLiv5\000"
 
 	.byte	0x28
-	.2byte	0x18c0
+	.2byte	0x193e
 	.4byte	0x41ab1
 	.byte	0x5
 	.byte	0x3
@@ -168351,7 +168513,7 @@ gMoveNames:
 	.ascii	"sParty_AmyAndLiv6\000"
 
 	.byte	0x28
-	.2byte	0x18cf
+	.2byte	0x194d
 	.4byte	0x41ae2
 	.byte	0x5
 	.byte	0x3
@@ -168368,7 +168530,7 @@ gMoveNames:
 	.ascii	"sParty_Huey\000"
 
 	.byte	0x28
-	.2byte	0x18de
+	.2byte	0x195c
 	.4byte	0x41b0d
 	.byte	0x5
 	.byte	0x3
@@ -168385,7 +168547,7 @@ gMoveNames:
 	.ascii	"sParty_Edmond\000"
 
 	.byte	0x28
-	.2byte	0x18eb
+	.2byte	0x1969
 	.4byte	0x41b3a
 	.byte	0x5
 	.byte	0x3
@@ -168402,7 +168564,7 @@ gMoveNames:
 	.ascii	"sParty_Ernest1\000"
 
 	.byte	0x28
-	.2byte	0x18f3
+	.2byte	0x1971
 	.4byte	0x41b68
 	.byte	0x5
 	.byte	0x3
@@ -168419,7 +168581,7 @@ gMoveNames:
 	.ascii	"sParty_Dwayne\000"
 
 	.byte	0x28
-	.2byte	0x1900
+	.2byte	0x197e
 	.4byte	0x41b95
 	.byte	0x5
 	.byte	0x3
@@ -168436,7 +168598,7 @@ gMoveNames:
 	.ascii	"sParty_Phillip\000"
 
 	.byte	0x28
-	.2byte	0x1912
+	.2byte	0x1990
 	.4byte	0x41bc3
 	.byte	0x5
 	.byte	0x3
@@ -168453,7 +168615,7 @@ gMoveNames:
 	.ascii	"sParty_Leonard\000"
 
 	.byte	0x28
-	.2byte	0x191f
+	.2byte	0x199d
 	.4byte	0x41bf1
 	.byte	0x5
 	.byte	0x3
@@ -168470,7 +168632,7 @@ gMoveNames:
 	.ascii	"sParty_Duncan\000"
 
 	.byte	0x28
-	.2byte	0x1931
+	.2byte	0x19af
 	.4byte	0x41c1e
 	.byte	0x5
 	.byte	0x3
@@ -168487,7 +168649,7 @@ gMoveNames:
 	.ascii	"sParty_Ernest2\000"
 
 	.byte	0x28
-	.2byte	0x193e
+	.2byte	0x19bc
 	.4byte	0x41c4c
 	.byte	0x5
 	.byte	0x3
@@ -168504,7 +168666,7 @@ gMoveNames:
 	.ascii	"sParty_Ernest3\000"
 
 	.byte	0x28
-	.2byte	0x1950
+	.2byte	0x19ce
 	.4byte	0x41c7a
 	.byte	0x5
 	.byte	0x3
@@ -168521,7 +168683,7 @@ gMoveNames:
 	.ascii	"sParty_Ernest4\000"
 
 	.byte	0x28
-	.2byte	0x1962
+	.2byte	0x19e0
 	.4byte	0x41ca8
 	.byte	0x5
 	.byte	0x3
@@ -168538,7 +168700,7 @@ gMoveNames:
 	.ascii	"sParty_Ernest5\000"
 
 	.byte	0x28
-	.2byte	0x1974
+	.2byte	0x19f2
 	.4byte	0x41cd6
 	.byte	0x5
 	.byte	0x3
@@ -168555,7 +168717,7 @@ gMoveNames:
 	.ascii	"sParty_Eli\000"
 
 	.byte	0x28
-	.2byte	0x1986
+	.2byte	0x1a04
 	.4byte	0x41d00
 	.byte	0x5
 	.byte	0x3
@@ -168572,7 +168734,7 @@ gMoveNames:
 	.ascii	"sParty_Annika\000"
 
 	.byte	0x28
-	.2byte	0x198e
+	.2byte	0x1a0c
 	.4byte	0x41d2d
 	.byte	0x5
 	.byte	0x3
@@ -168589,7 +168751,7 @@ gMoveNames:
 	.ascii	"sParty_Jazmyn\000"
 
 	.byte	0x28
-	.2byte	0x199f
+	.2byte	0x1a1d
 	.4byte	0x41d5a
 	.byte	0x5
 	.byte	0x3
@@ -168606,7 +168768,7 @@ gMoveNames:
 	.ascii	"sParty_Jonas\000"
 
 	.byte	0x28
-	.2byte	0x19a7
+	.2byte	0x1a25
 	.4byte	0x41d86
 	.byte	0x5
 	.byte	0x3
@@ -168623,7 +168785,7 @@ gMoveNames:
 	.ascii	"sParty_Kayley\000"
 
 	.byte	0x28
-	.2byte	0x19b0
+	.2byte	0x1a2e
 	.4byte	0x41db3
 	.byte	0x5
 	.byte	0x3
@@ -168640,7 +168802,7 @@ gMoveNames:
 	.ascii	"sParty_Auron\000"
 
 	.byte	0x28
-	.2byte	0x19b9
+	.2byte	0x1a37
 	.4byte	0x41ddf
 	.byte	0x5
 	.byte	0x3
@@ -168657,7 +168819,7 @@ gMoveNames:
 	.ascii	"sParty_Kelvin\000"
 
 	.byte	0x28
-	.2byte	0x19c6
+	.2byte	0x1a44
 	.4byte	0x41e0c
 	.byte	0x5
 	.byte	0x3
@@ -168674,7 +168836,7 @@ gMoveNames:
 	.ascii	"sParty_Marley\000"
 
 	.byte	0x28
-	.2byte	0x19d3
+	.2byte	0x1a51
 	.4byte	0x41e39
 	.byte	0x5
 	.byte	0x3
@@ -168691,7 +168853,7 @@ gMoveNames:
 	.ascii	"sParty_Reyna\000"
 
 	.byte	0x28
-	.2byte	0x19dd
+	.2byte	0x1a5b
 	.4byte	0x41e65
 	.byte	0x5
 	.byte	0x3
@@ -168708,7 +168870,7 @@ gMoveNames:
 	.ascii	"sParty_Hudson\000"
 
 	.byte	0x28
-	.2byte	0x19ea
+	.2byte	0x1a68
 	.4byte	0x41e92
 	.byte	0x5
 	.byte	0x3
@@ -168725,7 +168887,7 @@ gMoveNames:
 	.ascii	"sParty_Conor\000"
 
 	.byte	0x28
-	.2byte	0x19f2
+	.2byte	0x1a70
 	.4byte	0x41ebe
 	.byte	0x5
 	.byte	0x3
@@ -168742,7 +168904,7 @@ gMoveNames:
 	.ascii	"sParty_Edwin1\000"
 
 	.byte	0x28
-	.2byte	0x19ff
+	.2byte	0x1a7d
 	.4byte	0x41eeb
 	.byte	0x5
 	.byte	0x3
@@ -168759,7 +168921,7 @@ gMoveNames:
 	.ascii	"sParty_Hector\000"
 
 	.byte	0x28
-	.2byte	0x1a0c
+	.2byte	0x1a8a
 	.4byte	0x41f18
 	.byte	0x5
 	.byte	0x3
@@ -168776,7 +168938,7 @@ gMoveNames:
 	.ascii	"sParty_TabithaMossdeep\000"
 
 	.byte	0x28
-	.2byte	0x1a19
+	.2byte	0x1a97
 	.4byte	0x41f4e
 	.byte	0x5
 	.byte	0x3
@@ -168793,7 +168955,7 @@ gMoveNames:
 	.ascii	"sParty_Edwin2\000"
 
 	.byte	0x28
-	.2byte	0x1a2b
+	.2byte	0x1aa9
 	.4byte	0x41f7b
 	.byte	0x5
 	.byte	0x3
@@ -168810,7 +168972,7 @@ gMoveNames:
 	.ascii	"sParty_Edwin3\000"
 
 	.byte	0x28
-	.2byte	0x1a38
+	.2byte	0x1ab6
 	.4byte	0x41fa8
 	.byte	0x5
 	.byte	0x3
@@ -168827,7 +168989,7 @@ gMoveNames:
 	.ascii	"sParty_Edwin4\000"
 
 	.byte	0x28
-	.2byte	0x1a45
+	.2byte	0x1ac3
 	.4byte	0x41fd5
 	.byte	0x5
 	.byte	0x3
@@ -168844,7 +169006,7 @@ gMoveNames:
 	.ascii	"sParty_Edwin5\000"
 
 	.byte	0x28
-	.2byte	0x1a52
+	.2byte	0x1ad0
 	.4byte	0x42002
 	.byte	0x5
 	.byte	0x3
@@ -168861,7 +169023,7 @@ gMoveNames:
 	.ascii	"sParty_WallyVR1\000"
 
 	.byte	0x28
-	.2byte	0x1a5f
+	.2byte	0x1add
 	.4byte	0x42031
 	.byte	0x5
 	.byte	0x3
@@ -168878,7 +169040,7 @@ gMoveNames:
 	.ascii	"sParty_BrendanRoute103Mudkip\000"
 
 	.byte	0x28
-	.2byte	0x1a80
+	.2byte	0x1afe
 	.4byte	0x4206d
 	.byte	0x5
 	.byte	0x3
@@ -168895,7 +169057,7 @@ gMoveNames:
 	.ascii	"sParty_BrendanRoute110Mudkip\000"
 
 	.byte	0x28
-	.2byte	0x1a88
+	.2byte	0x1b06
 	.4byte	0x420a9
 	.byte	0x5
 	.byte	0x3
@@ -168912,7 +169074,7 @@ gMoveNames:
 	.ascii	"sParty_BrendanRoute119Mudkip\000"
 
 	.byte	0x28
-	.2byte	0x1a9a
+	.2byte	0x1b18
 	.4byte	0x420e5
 	.byte	0x5
 	.byte	0x3
@@ -168929,7 +169091,7 @@ gMoveNames:
 	.ascii	"sParty_BrendanRoute103Treecko\000"
 
 	.byte	0x28
-	.2byte	0x1aac
+	.2byte	0x1b2a
 	.4byte	0x42122
 	.byte	0x5
 	.byte	0x3
@@ -168946,7 +169108,7 @@ gMoveNames:
 	.ascii	"sParty_BrendanRoute110Treecko\000"
 
 	.byte	0x28
-	.2byte	0x1ab4
+	.2byte	0x1b32
 	.4byte	0x4215f
 	.byte	0x5
 	.byte	0x3
@@ -168963,7 +169125,7 @@ gMoveNames:
 	.ascii	"sParty_BrendanRoute119Treecko\000"
 
 	.byte	0x28
-	.2byte	0x1ac6
+	.2byte	0x1b44
 	.4byte	0x4219c
 	.byte	0x5
 	.byte	0x3
@@ -168980,7 +169142,7 @@ gMoveNames:
 	.ascii	"sParty_BrendanRoute103Torchic\000"
 
 	.byte	0x28
-	.2byte	0x1ad8
+	.2byte	0x1b56
 	.4byte	0x421d9
 	.byte	0x5
 	.byte	0x3
@@ -168997,7 +169159,7 @@ gMoveNames:
 	.ascii	"sParty_BrendanRoute110Torchic\000"
 
 	.byte	0x28
-	.2byte	0x1ae0
+	.2byte	0x1b5e
 	.4byte	0x42216
 	.byte	0x5
 	.byte	0x3
@@ -169014,7 +169176,7 @@ gMoveNames:
 	.ascii	"sParty_BrendanRoute119Torchic\000"
 
 	.byte	0x28
-	.2byte	0x1af2
+	.2byte	0x1b70
 	.4byte	0x42253
 	.byte	0x5
 	.byte	0x3
@@ -169031,7 +169193,7 @@ gMoveNames:
 	.ascii	"sParty_MayRoute103Mudkip\000"
 
 	.byte	0x28
-	.2byte	0x1b04
+	.2byte	0x1b82
 	.4byte	0x4228b
 	.byte	0x5
 	.byte	0x3
@@ -169048,7 +169210,7 @@ gMoveNames:
 	.ascii	"sParty_MayRoute110Mudkip\000"
 
 	.byte	0x28
-	.2byte	0x1b0c
+	.2byte	0x1b8a
 	.4byte	0x422c3
 	.byte	0x5
 	.byte	0x3
@@ -169065,7 +169227,7 @@ gMoveNames:
 	.ascii	"sParty_MayRoute119Mudkip\000"
 
 	.byte	0x28
-	.2byte	0x1b1e
+	.2byte	0x1b9c
 	.4byte	0x422fb
 	.byte	0x5
 	.byte	0x3
@@ -169082,7 +169244,7 @@ gMoveNames:
 	.ascii	"sParty_MayRoute103Treecko\000"
 
 	.byte	0x28
-	.2byte	0x1b30
+	.2byte	0x1bae
 	.4byte	0x42334
 	.byte	0x5
 	.byte	0x3
@@ -169099,7 +169261,7 @@ gMoveNames:
 	.ascii	"sParty_MayRoute110Treecko\000"
 
 	.byte	0x28
-	.2byte	0x1b38
+	.2byte	0x1bb6
 	.4byte	0x4236d
 	.byte	0x5
 	.byte	0x3
@@ -169116,7 +169278,7 @@ gMoveNames:
 	.ascii	"sParty_MayRoute119Treecko\000"
 
 	.byte	0x28
-	.2byte	0x1b4a
+	.2byte	0x1bc8
 	.4byte	0x423a6
 	.byte	0x5
 	.byte	0x3
@@ -169133,7 +169295,7 @@ gMoveNames:
 	.ascii	"sParty_MayRoute103Torchic\000"
 
 	.byte	0x28
-	.2byte	0x1b5c
+	.2byte	0x1bda
 	.4byte	0x423df
 	.byte	0x5
 	.byte	0x3
@@ -169150,7 +169312,7 @@ gMoveNames:
 	.ascii	"sParty_MayRoute110Torchic\000"
 
 	.byte	0x28
-	.2byte	0x1b64
+	.2byte	0x1be2
 	.4byte	0x42418
 	.byte	0x5
 	.byte	0x3
@@ -169167,7 +169329,7 @@ gMoveNames:
 	.ascii	"sParty_MayRoute119Torchic\000"
 
 	.byte	0x28
-	.2byte	0x1b76
+	.2byte	0x1bf4
 	.4byte	0x42451
 	.byte	0x5
 	.byte	0x3
@@ -169184,7 +169346,7 @@ gMoveNames:
 	.ascii	"sParty_Isaac1\000"
 
 	.byte	0x28
-	.2byte	0x1b88
+	.2byte	0x1c06
 	.4byte	0x4247e
 	.byte	0x5
 	.byte	0x3
@@ -169201,7 +169363,7 @@ gMoveNames:
 	.ascii	"sParty_Davis\000"
 
 	.byte	0x28
-	.2byte	0x1ba9
+	.2byte	0x1c27
 	.4byte	0x424aa
 	.byte	0x5
 	.byte	0x3
@@ -169218,7 +169380,7 @@ gMoveNames:
 	.ascii	"sParty_Mitchell\000"
 
 	.byte	0x28
-	.2byte	0x1bb1
+	.2byte	0x1c2f
 	.4byte	0x424d9
 	.byte	0x5
 	.byte	0x3
@@ -169235,7 +169397,7 @@ gMoveNames:
 	.ascii	"sParty_Isaac2\000"
 
 	.byte	0x28
-	.2byte	0x1bc0
+	.2byte	0x1c3e
 	.4byte	0x42506
 	.byte	0x5
 	.byte	0x3
@@ -169252,7 +169414,7 @@ gMoveNames:
 	.ascii	"sParty_Isaac3\000"
 
 	.byte	0x28
-	.2byte	0x1be1
+	.2byte	0x1c5f
 	.4byte	0x42533
 	.byte	0x5
 	.byte	0x3
@@ -169269,7 +169431,7 @@ gMoveNames:
 	.ascii	"sParty_Isaac4\000"
 
 	.byte	0x28
-	.2byte	0x1c02
+	.2byte	0x1c80
 	.4byte	0x42560
 	.byte	0x5
 	.byte	0x3
@@ -169286,7 +169448,7 @@ gMoveNames:
 	.ascii	"sParty_Isaac5\000"
 
 	.byte	0x28
-	.2byte	0x1c23
+	.2byte	0x1ca1
 	.4byte	0x4258d
 	.byte	0x5
 	.byte	0x3
@@ -169303,7 +169465,7 @@ gMoveNames:
 	.ascii	"sParty_Lydia1\000"
 
 	.byte	0x28
-	.2byte	0x1c44
+	.2byte	0x1cc2
 	.4byte	0x425ba
 	.byte	0x5
 	.byte	0x3
@@ -169320,7 +169482,7 @@ gMoveNames:
 	.ascii	"sParty_Halle\000"
 
 	.byte	0x28
-	.2byte	0x1c65
+	.2byte	0x1ce3
 	.4byte	0x425e6
 	.byte	0x5
 	.byte	0x3
@@ -169337,7 +169499,7 @@ gMoveNames:
 	.ascii	"sParty_Garrison\000"
 
 	.byte	0x28
-	.2byte	0x1c72
+	.2byte	0x1cf0
 	.4byte	0x42615
 	.byte	0x5
 	.byte	0x3
@@ -169354,7 +169516,7 @@ gMoveNames:
 	.ascii	"sParty_Lydia2\000"
 
 	.byte	0x28
-	.2byte	0x1c7a
+	.2byte	0x1cf8
 	.4byte	0x42642
 	.byte	0x5
 	.byte	0x3
@@ -169371,7 +169533,7 @@ gMoveNames:
 	.ascii	"sParty_Lydia3\000"
 
 	.byte	0x28
-	.2byte	0x1c9b
+	.2byte	0x1d19
 	.4byte	0x4266f
 	.byte	0x5
 	.byte	0x3
@@ -169388,7 +169550,7 @@ gMoveNames:
 	.ascii	"sParty_Lydia4\000"
 
 	.byte	0x28
-	.2byte	0x1cbc
+	.2byte	0x1d3a
 	.4byte	0x4269c
 	.byte	0x5
 	.byte	0x3
@@ -169405,7 +169567,7 @@ gMoveNames:
 	.ascii	"sParty_Lydia5\000"
 
 	.byte	0x28
-	.2byte	0x1cdd
+	.2byte	0x1d5b
 	.4byte	0x426c9
 	.byte	0x5
 	.byte	0x3
@@ -169422,7 +169584,7 @@ gMoveNames:
 	.ascii	"sParty_Jackson1\000"
 
 	.byte	0x28
-	.2byte	0x1cfe
+	.2byte	0x1d7c
 	.4byte	0x426f8
 	.byte	0x5
 	.byte	0x3
@@ -169439,7 +169601,7 @@ gMoveNames:
 	.ascii	"sParty_Lorenzo\000"
 
 	.byte	0x28
-	.2byte	0x1d06
+	.2byte	0x1d84
 	.4byte	0x42726
 	.byte	0x5
 	.byte	0x3
@@ -169456,7 +169618,7 @@ gMoveNames:
 	.ascii	"sParty_Sebastian\000"
 
 	.byte	0x28
-	.2byte	0x1d18
+	.2byte	0x1d96
 	.4byte	0x42756
 	.byte	0x5
 	.byte	0x3
@@ -169473,7 +169635,7 @@ gMoveNames:
 	.ascii	"sParty_Jackson2\000"
 
 	.byte	0x28
-	.2byte	0x1d20
+	.2byte	0x1d9e
 	.4byte	0x42785
 	.byte	0x5
 	.byte	0x3
@@ -169490,7 +169652,7 @@ gMoveNames:
 	.ascii	"sParty_Jackson3\000"
 
 	.byte	0x28
-	.2byte	0x1d28
+	.2byte	0x1da6
 	.4byte	0x427b4
 	.byte	0x5
 	.byte	0x3
@@ -169507,7 +169669,7 @@ gMoveNames:
 	.ascii	"sParty_Jackson4\000"
 
 	.byte	0x28
-	.2byte	0x1d30
+	.2byte	0x1dae
 	.4byte	0x427e3
 	.byte	0x5
 	.byte	0x3
@@ -169524,7 +169686,7 @@ gMoveNames:
 	.ascii	"sParty_Jackson5\000"
 
 	.byte	0x28
-	.2byte	0x1d38
+	.2byte	0x1db6
 	.4byte	0x42812
 	.byte	0x5
 	.byte	0x3
@@ -169541,7 +169703,7 @@ gMoveNames:
 	.ascii	"sParty_Catherine1\000"
 
 	.byte	0x28
-	.2byte	0x1d45
+	.2byte	0x1dc3
 	.4byte	0x42843
 	.byte	0x5
 	.byte	0x3
@@ -169558,7 +169720,7 @@ gMoveNames:
 	.ascii	"sParty_Jenna\000"
 
 	.byte	0x28
-	.2byte	0x1d52
+	.2byte	0x1dd0
 	.4byte	0x4286f
 	.byte	0x5
 	.byte	0x3
@@ -169575,7 +169737,7 @@ gMoveNames:
 	.ascii	"sParty_Sophia\000"
 
 	.byte	0x28
-	.2byte	0x1d64
+	.2byte	0x1de2
 	.4byte	0x4289c
 	.byte	0x5
 	.byte	0x3
@@ -169592,7 +169754,7 @@ gMoveNames:
 	.ascii	"sParty_Catherine2\000"
 
 	.byte	0x28
-	.2byte	0x1d71
+	.2byte	0x1def
 	.4byte	0x428cd
 	.byte	0x5
 	.byte	0x3
@@ -169609,7 +169771,7 @@ gMoveNames:
 	.ascii	"sParty_Catherine3\000"
 
 	.byte	0x28
-	.2byte	0x1d7e
+	.2byte	0x1dfc
 	.4byte	0x428fe
 	.byte	0x5
 	.byte	0x3
@@ -169626,7 +169788,7 @@ gMoveNames:
 	.ascii	"sParty_Catherine4\000"
 
 	.byte	0x28
-	.2byte	0x1d8b
+	.2byte	0x1e09
 	.4byte	0x4292f
 	.byte	0x5
 	.byte	0x3
@@ -169643,7 +169805,7 @@ gMoveNames:
 	.ascii	"sParty_Catherine5\000"
 
 	.byte	0x28
-	.2byte	0x1d98
+	.2byte	0x1e16
 	.4byte	0x42960
 	.byte	0x5
 	.byte	0x3
@@ -169660,7 +169822,7 @@ gMoveNames:
 	.ascii	"sParty_Julio\000"
 
 	.byte	0x28
-	.2byte	0x1da5
+	.2byte	0x1e23
 	.4byte	0x4298c
 	.byte	0x5
 	.byte	0x3
@@ -169677,7 +169839,7 @@ gMoveNames:
 	.ascii	"sParty_GruntSeafloorCavern5\000"
 
 	.byte	0x28
-	.2byte	0x1dad
+	.2byte	0x1e2b
 	.4byte	0x429c7
 	.byte	0x5
 	.byte	0x3
@@ -169694,7 +169856,7 @@ gMoveNames:
 	.ascii	"sParty_GruntUnused\000"
 
 	.byte	0x28
-	.2byte	0x1dba
+	.2byte	0x1e38
 	.4byte	0x429f9
 	.byte	0x5
 	.byte	0x3
@@ -169711,7 +169873,7 @@ gMoveNames:
 	.ascii	"sParty_GruntMtPyre4\000"
 
 	.byte	0x28
-	.2byte	0x1dc7
+	.2byte	0x1e45
 	.4byte	0x42a2c
 	.byte	0x5
 	.byte	0x3
@@ -169728,7 +169890,7 @@ gMoveNames:
 	.ascii	"sParty_GruntJaggedPass\000"
 
 	.byte	0x28
-	.2byte	0x1dd4
+	.2byte	0x1e52
 	.4byte	0x42a62
 	.byte	0x5
 	.byte	0x3
@@ -169745,7 +169907,7 @@ gMoveNames:
 	.ascii	"sParty_Marc\000"
 
 	.byte	0x28
-	.2byte	0x1de1
+	.2byte	0x1e5f
 	.4byte	0x42a8d
 	.byte	0x5
 	.byte	0x3
@@ -169762,7 +169924,7 @@ gMoveNames:
 	.ascii	"sParty_Brenden\000"
 
 	.byte	0x28
-	.2byte	0x1dee
+	.2byte	0x1e6c
 	.4byte	0x42abb
 	.byte	0x5
 	.byte	0x3
@@ -169779,7 +169941,7 @@ gMoveNames:
 	.ascii	"sParty_Lilith\000"
 
 	.byte	0x28
-	.2byte	0x1df6
+	.2byte	0x1e74
 	.4byte	0x42ae8
 	.byte	0x5
 	.byte	0x3
@@ -169796,7 +169958,7 @@ gMoveNames:
 	.ascii	"sParty_Cristian\000"
 
 	.byte	0x28
-	.2byte	0x1dfe
+	.2byte	0x1e7c
 	.4byte	0x42b17
 	.byte	0x5
 	.byte	0x3
@@ -169813,7 +169975,7 @@ gMoveNames:
 	.ascii	"sParty_Sylvia\000"
 
 	.byte	0x28
-	.2byte	0x1e06
+	.2byte	0x1e84
 	.4byte	0x42b44
 	.byte	0x5
 	.byte	0x3
@@ -169830,7 +169992,7 @@ gMoveNames:
 	.ascii	"sParty_Leonardo\000"
 
 	.byte	0x28
-	.2byte	0x1e0e
+	.2byte	0x1e8c
 	.4byte	0x42b73
 	.byte	0x5
 	.byte	0x3
@@ -169847,7 +170009,7 @@ gMoveNames:
 	.ascii	"sParty_Athena\000"
 
 	.byte	0x28
-	.2byte	0x1e16
+	.2byte	0x1e94
 	.4byte	0x42ba0
 	.byte	0x5
 	.byte	0x3
@@ -169864,7 +170026,7 @@ gMoveNames:
 	.ascii	"sParty_Harrison\000"
 
 	.byte	0x28
-	.2byte	0x1e27
+	.2byte	0x1ea5
 	.4byte	0x42bcf
 	.byte	0x5
 	.byte	0x3
@@ -169881,7 +170043,7 @@ gMoveNames:
 	.ascii	"sParty_GruntMtChimney2\000"
 
 	.byte	0x28
-	.2byte	0x1e2f
+	.2byte	0x1ead
 	.4byte	0x42c05
 	.byte	0x5
 	.byte	0x3
@@ -169898,7 +170060,7 @@ gMoveNames:
 	.ascii	"sParty_Clarence\000"
 
 	.byte	0x28
-	.2byte	0x1e37
+	.2byte	0x1eb5
 	.4byte	0x42c34
 	.byte	0x5
 	.byte	0x3
@@ -169915,7 +170077,7 @@ gMoveNames:
 	.ascii	"sParty_Terry\000"
 
 	.byte	0x28
-	.2byte	0x1e3f
+	.2byte	0x1ebd
 	.4byte	0x42c60
 	.byte	0x5
 	.byte	0x3
@@ -169932,7 +170094,7 @@ gMoveNames:
 	.ascii	"sParty_Nate\000"
 
 	.byte	0x28
-	.2byte	0x1e47
+	.2byte	0x1ec5
 	.4byte	0x42c8b
 	.byte	0x5
 	.byte	0x3
@@ -169949,7 +170111,7 @@ gMoveNames:
 	.ascii	"sParty_Kathleen\000"
 
 	.byte	0x28
-	.2byte	0x1e4f
+	.2byte	0x1ecd
 	.4byte	0x42cba
 	.byte	0x5
 	.byte	0x3
@@ -169966,7 +170128,7 @@ gMoveNames:
 	.ascii	"sParty_Clifford\000"
 
 	.byte	0x28
-	.2byte	0x1e57
+	.2byte	0x1ed5
 	.4byte	0x42ce9
 	.byte	0x5
 	.byte	0x3
@@ -169983,7 +170145,7 @@ gMoveNames:
 	.ascii	"sParty_Nicholas\000"
 
 	.byte	0x28
-	.2byte	0x1e5f
+	.2byte	0x1edd
 	.4byte	0x42d18
 	.byte	0x5
 	.byte	0x3
@@ -170000,7 +170162,7 @@ gMoveNames:
 	.ascii	"sParty_GruntSpaceCenter3\000"
 
 	.byte	0x28
-	.2byte	0x1e67
+	.2byte	0x1ee5
 	.4byte	0x42d50
 	.byte	0x5
 	.byte	0x3
@@ -170017,7 +170179,7 @@ gMoveNames:
 	.ascii	"sParty_GruntSpaceCenter4\000"
 
 	.byte	0x28
-	.2byte	0x1e74
+	.2byte	0x1ef2
 	.4byte	0x42d88
 	.byte	0x5
 	.byte	0x3
@@ -170034,7 +170196,7 @@ gMoveNames:
 	.ascii	"sParty_GruntSpaceCenter5\000"
 
 	.byte	0x28
-	.2byte	0x1e7c
+	.2byte	0x1efa
 	.4byte	0x42dc0
 	.byte	0x5
 	.byte	0x3
@@ -170051,7 +170213,7 @@ gMoveNames:
 	.ascii	"sParty_GruntSpaceCenter6\000"
 
 	.byte	0x28
-	.2byte	0x1e84
+	.2byte	0x1f02
 	.4byte	0x42df8
 	.byte	0x5
 	.byte	0x3
@@ -170068,7 +170230,7 @@ gMoveNames:
 	.ascii	"sParty_GruntSpaceCenter7\000"
 
 	.byte	0x28
-	.2byte	0x1e8c
+	.2byte	0x1f0a
 	.4byte	0x42e30
 	.byte	0x5
 	.byte	0x3
@@ -170085,7 +170247,7 @@ gMoveNames:
 	.ascii	"sParty_Macey\000"
 
 	.byte	0x28
-	.2byte	0x1e94
+	.2byte	0x1f12
 	.4byte	0x42e5c
 	.byte	0x5
 	.byte	0x3
@@ -170102,7 +170264,7 @@ gMoveNames:
 	.ascii	"sParty_BrendanRustboroTreecko\000"
 
 	.byte	0x28
-	.2byte	0x1e9c
+	.2byte	0x1f1a
 	.4byte	0x42e99
 	.byte	0x5
 	.byte	0x3
@@ -170119,7 +170281,7 @@ gMoveNames:
 	.ascii	"sParty_BrendanRustboroMudkip\000"
 
 	.byte	0x28
-	.2byte	0x1ea9
+	.2byte	0x1f27
 	.4byte	0x42ed5
 	.byte	0x5
 	.byte	0x3
@@ -170136,7 +170298,7 @@ gMoveNames:
 	.ascii	"sParty_Paxton\000"
 
 	.byte	0x28
-	.2byte	0x1eb6
+	.2byte	0x1f34
 	.4byte	0x42f02
 	.byte	0x5
 	.byte	0x3
@@ -170153,7 +170315,7 @@ gMoveNames:
 	.ascii	"sParty_Isabella\000"
 
 	.byte	0x28
-	.2byte	0x1ec3
+	.2byte	0x1f41
 	.4byte	0x42f31
 	.byte	0x5
 	.byte	0x3
@@ -170170,7 +170332,7 @@ gMoveNames:
 	.ascii	"sParty_GruntWeatherInst5\000"
 
 	.byte	0x28
-	.2byte	0x1ecb
+	.2byte	0x1f49
 	.4byte	0x42f69
 	.byte	0x5
 	.byte	0x3
@@ -170187,7 +170349,7 @@ gMoveNames:
 	.ascii	"sParty_TabithaMtChimney\000"
 
 	.byte	0x28
-	.2byte	0x1ed8
+	.2byte	0x1f56
 	.4byte	0x42fa0
 	.byte	0x5
 	.byte	0x3
@@ -170204,7 +170366,7 @@ gMoveNames:
 	.ascii	"sParty_Jonathan\000"
 
 	.byte	0x28
-	.2byte	0x1eef
+	.2byte	0x1f6d
 	.4byte	0x42fcf
 	.byte	0x5
 	.byte	0x3
@@ -170221,7 +170383,7 @@ gMoveNames:
 	.ascii	"sParty_BrendanRustboroTorchic\000"
 
 	.byte	0x28
-	.2byte	0x1efc
+	.2byte	0x1f7a
 	.4byte	0x4300c
 	.byte	0x5
 	.byte	0x3
@@ -170238,7 +170400,7 @@ gMoveNames:
 	.ascii	"sParty_MayRustboroMudkip\000"
 
 	.byte	0x28
-	.2byte	0x1f09
+	.2byte	0x1f87
 	.4byte	0x43044
 	.byte	0x5
 	.byte	0x3
@@ -170255,7 +170417,7 @@ gMoveNames:
 	.ascii	"sParty_MaxieMagmaHideout\000"
 
 	.byte	0x28
-	.2byte	0x1f16
+	.2byte	0x1f94
 	.4byte	0x4307c
 	.byte	0x5
 	.byte	0x3
@@ -170272,7 +170434,7 @@ gMoveNames:
 	.ascii	"sParty_MaxieMtChimney\000"
 
 	.byte	0x28
-	.2byte	0x1f28
+	.2byte	0x1fa6
 	.4byte	0x430b1
 	.byte	0x5
 	.byte	0x3
@@ -170289,7 +170451,7 @@ gMoveNames:
 	.ascii	"sParty_Tiana\000"
 
 	.byte	0x28
-	.2byte	0x1f3a
+	.2byte	0x1fb8
 	.4byte	0x430dd
 	.byte	0x5
 	.byte	0x3
@@ -170306,7 +170468,7 @@ gMoveNames:
 	.ascii	"sParty_Haley1\000"
 
 	.byte	0x28
-	.2byte	0x1f47
+	.2byte	0x1fc5
 	.4byte	0x4310a
 	.byte	0x5
 	.byte	0x3
@@ -170323,7 +170485,7 @@ gMoveNames:
 	.ascii	"sParty_Janice\000"
 
 	.byte	0x28
-	.2byte	0x1f54
+	.2byte	0x1fd2
 	.4byte	0x43137
 	.byte	0x5
 	.byte	0x3
@@ -170340,7 +170502,7 @@ gMoveNames:
 	.ascii	"sParty_Vivi\000"
 
 	.byte	0x28
-	.2byte	0x1f5c
+	.2byte	0x1fda
 	.4byte	0x43162
 	.byte	0x5
 	.byte	0x3
@@ -170357,7 +170519,7 @@ gMoveNames:
 	.ascii	"sParty_Haley2\000"
 
 	.byte	0x28
-	.2byte	0x1f6e
+	.2byte	0x1fec
 	.4byte	0x4318f
 	.byte	0x5
 	.byte	0x3
@@ -170374,7 +170536,7 @@ gMoveNames:
 	.ascii	"sParty_Haley3\000"
 
 	.byte	0x28
-	.2byte	0x1f7b
+	.2byte	0x1ff9
 	.4byte	0x431bc
 	.byte	0x5
 	.byte	0x3
@@ -170391,7 +170553,7 @@ gMoveNames:
 	.ascii	"sParty_Haley4\000"
 
 	.byte	0x28
-	.2byte	0x1f88
+	.2byte	0x2006
 	.4byte	0x431e9
 	.byte	0x5
 	.byte	0x3
@@ -170408,7 +170570,7 @@ gMoveNames:
 	.ascii	"sParty_Haley5\000"
 
 	.byte	0x28
-	.2byte	0x1f95
+	.2byte	0x2013
 	.4byte	0x43216
 	.byte	0x5
 	.byte	0x3
@@ -170425,7 +170587,7 @@ gMoveNames:
 	.ascii	"sParty_Sally\000"
 
 	.byte	0x28
-	.2byte	0x1fa7
+	.2byte	0x2025
 	.4byte	0x43242
 	.byte	0x5
 	.byte	0x3
@@ -170442,7 +170604,7 @@ gMoveNames:
 	.ascii	"sParty_Robin\000"
 
 	.byte	0x28
-	.2byte	0x1faf
+	.2byte	0x202d
 	.4byte	0x4326e
 	.byte	0x5
 	.byte	0x3
@@ -170459,7 +170621,7 @@ gMoveNames:
 	.ascii	"sParty_Andrea\000"
 
 	.byte	0x28
-	.2byte	0x1fc1
+	.2byte	0x203f
 	.4byte	0x4329b
 	.byte	0x5
 	.byte	0x3
@@ -170476,7 +170638,7 @@ gMoveNames:
 	.ascii	"sParty_Crissy\000"
 
 	.byte	0x28
-	.2byte	0x1fc9
+	.2byte	0x2047
 	.4byte	0x432c8
 	.byte	0x5
 	.byte	0x3
@@ -170493,7 +170655,7 @@ gMoveNames:
 	.ascii	"sParty_Rick\000"
 
 	.byte	0x28
-	.2byte	0x1fd6
+	.2byte	0x2054
 	.4byte	0x432f3
 	.byte	0x5
 	.byte	0x3
@@ -170510,7 +170672,7 @@ gMoveNames:
 	.ascii	"sParty_Lyle\000"
 
 	.byte	0x28
-	.2byte	0x1fe3
+	.2byte	0x2061
 	.4byte	0x4331e
 	.byte	0x5
 	.byte	0x3
@@ -170527,7 +170689,7 @@ gMoveNames:
 	.ascii	"sParty_Jose\000"
 
 	.byte	0x28
-	.2byte	0x1ffa
+	.2byte	0x2078
 	.4byte	0x43349
 	.byte	0x5
 	.byte	0x3
@@ -170544,7 +170706,7 @@ gMoveNames:
 	.ascii	"sParty_Doug\000"
 
 	.byte	0x28
-	.2byte	0x2007
+	.2byte	0x2085
 	.4byte	0x43374
 	.byte	0x5
 	.byte	0x3
@@ -170561,7 +170723,7 @@ gMoveNames:
 	.ascii	"sParty_Greg\000"
 
 	.byte	0x28
-	.2byte	0x2014
+	.2byte	0x2092
 	.4byte	0x4339f
 	.byte	0x5
 	.byte	0x3
@@ -170578,7 +170740,7 @@ gMoveNames:
 	.ascii	"sParty_Kent\000"
 
 	.byte	0x28
-	.2byte	0x2021
+	.2byte	0x209f
 	.4byte	0x433ca
 	.byte	0x5
 	.byte	0x3
@@ -170595,7 +170757,7 @@ gMoveNames:
 	.ascii	"sParty_James1\000"
 
 	.byte	0x28
-	.2byte	0x2029
+	.2byte	0x20a7
 	.4byte	0x433f7
 	.byte	0x5
 	.byte	0x3
@@ -170612,7 +170774,7 @@ gMoveNames:
 	.ascii	"sParty_James2\000"
 
 	.byte	0x28
-	.2byte	0x2036
+	.2byte	0x20b4
 	.4byte	0x43424
 	.byte	0x5
 	.byte	0x3
@@ -170629,7 +170791,7 @@ gMoveNames:
 	.ascii	"sParty_James3\000"
 
 	.byte	0x28
-	.2byte	0x203e
+	.2byte	0x20bc
 	.4byte	0x43451
 	.byte	0x5
 	.byte	0x3
@@ -170646,7 +170808,7 @@ gMoveNames:
 	.ascii	"sParty_James4\000"
 
 	.byte	0x28
-	.2byte	0x204b
+	.2byte	0x20c9
 	.4byte	0x4347e
 	.byte	0x5
 	.byte	0x3
@@ -170663,7 +170825,7 @@ gMoveNames:
 	.ascii	"sParty_James5\000"
 
 	.byte	0x28
-	.2byte	0x205d
+	.2byte	0x20db
 	.4byte	0x434ab
 	.byte	0x5
 	.byte	0x3
@@ -170680,7 +170842,7 @@ gMoveNames:
 	.ascii	"sParty_Brice\000"
 
 	.byte	0x28
-	.2byte	0x2074
+	.2byte	0x20f2
 	.4byte	0x434d7
 	.byte	0x5
 	.byte	0x3
@@ -170697,7 +170859,7 @@ gMoveNames:
 	.ascii	"sParty_Trent1\000"
 
 	.byte	0x28
-	.2byte	0x2081
+	.2byte	0x20ff
 	.4byte	0x43504
 	.byte	0x5
 	.byte	0x3
@@ -170714,7 +170876,7 @@ gMoveNames:
 	.ascii	"sParty_Lenny\000"
 
 	.byte	0x28
-	.2byte	0x2093
+	.2byte	0x2111
 	.4byte	0x43530
 	.byte	0x5
 	.byte	0x3
@@ -170731,7 +170893,7 @@ gMoveNames:
 	.ascii	"sParty_Lucas1\000"
 
 	.byte	0x28
-	.2byte	0x20a0
+	.2byte	0x211e
 	.4byte	0x4355d
 	.byte	0x5
 	.byte	0x3
@@ -170748,7 +170910,7 @@ gMoveNames:
 	.ascii	"sParty_Alan\000"
 
 	.byte	0x28
-	.2byte	0x20ad
+	.2byte	0x212b
 	.4byte	0x43588
 	.byte	0x5
 	.byte	0x3
@@ -170765,7 +170927,7 @@ gMoveNames:
 	.ascii	"sParty_Clark\000"
 
 	.byte	0x28
-	.2byte	0x20bf
+	.2byte	0x213d
 	.4byte	0x435b4
 	.byte	0x5
 	.byte	0x3
@@ -170782,7 +170944,7 @@ gMoveNames:
 	.ascii	"sParty_Eric\000"
 
 	.byte	0x28
-	.2byte	0x20c7
+	.2byte	0x2145
 	.4byte	0x435df
 	.byte	0x5
 	.byte	0x3
@@ -170799,7 +170961,7 @@ gMoveNames:
 	.ascii	"sParty_Lucas2\000"
 
 	.byte	0x28
-	.2byte	0x20d4
+	.2byte	0x2152
 	.4byte	0x4360c
 	.byte	0x5
 	.byte	0x3
@@ -170816,7 +170978,7 @@ gMoveNames:
 	.ascii	"sParty_Mike1\000"
 
 	.byte	0x28
-	.2byte	0x20dd
+	.2byte	0x215b
 	.4byte	0x43638
 	.byte	0x5
 	.byte	0x3
@@ -170833,7 +170995,7 @@ gMoveNames:
 	.ascii	"sParty_Mike2\000"
 
 	.byte	0x28
-	.2byte	0x20ec
+	.2byte	0x216a
 	.4byte	0x43664
 	.byte	0x5
 	.byte	0x3
@@ -170850,7 +171012,7 @@ gMoveNames:
 	.ascii	"sParty_Trent2\000"
 
 	.byte	0x28
-	.2byte	0x20fe
+	.2byte	0x217c
 	.4byte	0x43691
 	.byte	0x5
 	.byte	0x3
@@ -170867,7 +171029,7 @@ gMoveNames:
 	.ascii	"sParty_Trent3\000"
 
 	.byte	0x28
-	.2byte	0x2115
+	.2byte	0x2193
 	.4byte	0x436be
 	.byte	0x5
 	.byte	0x3
@@ -170884,7 +171046,7 @@ gMoveNames:
 	.ascii	"sParty_Trent4\000"
 
 	.byte	0x28
-	.2byte	0x212c
+	.2byte	0x21aa
 	.4byte	0x436eb
 	.byte	0x5
 	.byte	0x3
@@ -170901,7 +171063,7 @@ gMoveNames:
 	.ascii	"sParty_Trent5\000"
 
 	.byte	0x28
-	.2byte	0x2143
+	.2byte	0x21c1
 	.4byte	0x43718
 	.byte	0x5
 	.byte	0x3
@@ -170918,7 +171080,7 @@ gMoveNames:
 	.ascii	"sParty_DezAndLuke\000"
 
 	.byte	0x28
-	.2byte	0x215a
+	.2byte	0x21d8
 	.4byte	0x43749
 	.byte	0x5
 	.byte	0x3
@@ -170935,7 +171097,7 @@ gMoveNames:
 	.ascii	"sParty_LeaAndJed\000"
 
 	.byte	0x28
-	.2byte	0x2167
+	.2byte	0x21e5
 	.4byte	0x43779
 	.byte	0x5
 	.byte	0x3
@@ -170952,7 +171114,7 @@ gMoveNames:
 	.ascii	"sParty_KiraAndDan1\000"
 
 	.byte	0x28
-	.2byte	0x2174
+	.2byte	0x21f2
 	.4byte	0x437ab
 	.byte	0x5
 	.byte	0x3
@@ -170969,7 +171131,7 @@ gMoveNames:
 	.ascii	"sParty_KiraAndDan2\000"
 
 	.byte	0x28
-	.2byte	0x2181
+	.2byte	0x21ff
 	.4byte	0x437dd
 	.byte	0x5
 	.byte	0x3
@@ -170986,7 +171148,7 @@ gMoveNames:
 	.ascii	"sParty_KiraAndDan3\000"
 
 	.byte	0x28
-	.2byte	0x218e
+	.2byte	0x220c
 	.4byte	0x4380f
 	.byte	0x5
 	.byte	0x3
@@ -171003,7 +171165,7 @@ gMoveNames:
 	.ascii	"sParty_KiraAndDan4\000"
 
 	.byte	0x28
-	.2byte	0x219b
+	.2byte	0x2219
 	.4byte	0x43841
 	.byte	0x5
 	.byte	0x3
@@ -171020,7 +171182,7 @@ gMoveNames:
 	.ascii	"sParty_KiraAndDan5\000"
 
 	.byte	0x28
-	.2byte	0x21a8
+	.2byte	0x2226
 	.4byte	0x43873
 	.byte	0x5
 	.byte	0x3
@@ -171037,7 +171199,7 @@ gMoveNames:
 	.ascii	"sParty_Johanna\000"
 
 	.byte	0x28
-	.2byte	0x21b5
+	.2byte	0x2233
 	.4byte	0x438a1
 	.byte	0x5
 	.byte	0x3
@@ -171054,7 +171216,7 @@ gMoveNames:
 	.ascii	"sParty_Gerald\000"
 
 	.byte	0x28
-	.2byte	0x21bd
+	.2byte	0x223b
 	.4byte	0x438ce
 	.byte	0x5
 	.byte	0x3
@@ -171071,7 +171233,7 @@ gMoveNames:
 	.ascii	"sParty_Vivian\000"
 
 	.byte	0x28
-	.2byte	0x21c6
+	.2byte	0x2244
 	.4byte	0x438fb
 	.byte	0x5
 	.byte	0x3
@@ -171088,7 +171250,7 @@ gMoveNames:
 	.ascii	"sParty_Danielle\000"
 
 	.byte	0x28
-	.2byte	0x21d5
+	.2byte	0x2253
 	.4byte	0x4392a
 	.byte	0x5
 	.byte	0x3
@@ -171105,7 +171267,7 @@ gMoveNames:
 	.ascii	"sParty_Hideo\000"
 
 	.byte	0x28
-	.2byte	0x21de
+	.2byte	0x225c
 	.4byte	0x43956
 	.byte	0x5
 	.byte	0x3
@@ -171122,7 +171284,7 @@ gMoveNames:
 	.ascii	"sParty_Keigo\000"
 
 	.byte	0x28
-	.2byte	0x21ed
+	.2byte	0x226b
 	.4byte	0x43982
 	.byte	0x5
 	.byte	0x3
@@ -171139,7 +171301,7 @@ gMoveNames:
 	.ascii	"sParty_Riley\000"
 
 	.byte	0x28
-	.2byte	0x21fc
+	.2byte	0x227a
 	.4byte	0x439ae
 	.byte	0x5
 	.byte	0x3
@@ -171156,7 +171318,7 @@ gMoveNames:
 	.ascii	"sParty_Flint\000"
 
 	.byte	0x28
-	.2byte	0x220b
+	.2byte	0x2289
 	.4byte	0x439da
 	.byte	0x5
 	.byte	0x3
@@ -171173,7 +171335,7 @@ gMoveNames:
 	.ascii	"sParty_Ashley\000"
 
 	.byte	0x28
-	.2byte	0x2218
+	.2byte	0x2296
 	.4byte	0x43a07
 	.byte	0x5
 	.byte	0x3
@@ -171190,7 +171352,7 @@ gMoveNames:
 	.ascii	"sParty_WallyMauville\000"
 
 	.byte	0x28
-	.2byte	0x222a
+	.2byte	0x22a8
 	.4byte	0x43a3b
 	.byte	0x5
 	.byte	0x3
@@ -171207,7 +171369,7 @@ gMoveNames:
 	.ascii	"sParty_WallyVR2\000"
 
 	.byte	0x28
-	.2byte	0x2232
+	.2byte	0x22b0
 	.4byte	0x43a6a
 	.byte	0x5
 	.byte	0x3
@@ -171224,7 +171386,7 @@ gMoveNames:
 	.ascii	"sParty_WallyVR3\000"
 
 	.byte	0x28
-	.2byte	0x2253
+	.2byte	0x22d1
 	.4byte	0x43a99
 	.byte	0x5
 	.byte	0x3
@@ -171241,7 +171403,7 @@ gMoveNames:
 	.ascii	"sParty_WallyVR4\000"
 
 	.byte	0x28
-	.2byte	0x2274
+	.2byte	0x22f2
 	.4byte	0x43ac8
 	.byte	0x5
 	.byte	0x3
@@ -171258,7 +171420,7 @@ gMoveNames:
 	.ascii	"sParty_WallyVR5\000"
 
 	.byte	0x28
-	.2byte	0x2295
+	.2byte	0x2313
 	.4byte	0x43af7
 	.byte	0x5
 	.byte	0x3
@@ -171275,7 +171437,7 @@ gMoveNames:
 	.ascii	"sParty_BrendanLilycoveMudkip\000"
 
 	.byte	0x28
-	.2byte	0x22b6
+	.2byte	0x2334
 	.4byte	0x43b33
 	.byte	0x5
 	.byte	0x3
@@ -171292,7 +171454,7 @@ gMoveNames:
 	.ascii	"sParty_BrendanLilycoveTreecko\000"
 
 	.byte	0x28
-	.2byte	0x22cd
+	.2byte	0x234b
 	.4byte	0x43b70
 	.byte	0x5
 	.byte	0x3
@@ -171309,7 +171471,7 @@ gMoveNames:
 	.ascii	"sParty_BrendanLilycoveTorchic\000"
 
 	.byte	0x28
-	.2byte	0x22e4
+	.2byte	0x2362
 	.4byte	0x43bad
 	.byte	0x5
 	.byte	0x3
@@ -171326,7 +171488,7 @@ gMoveNames:
 	.ascii	"sParty_MayLilycoveMudkip\000"
 
 	.byte	0x28
-	.2byte	0x22fb
+	.2byte	0x2379
 	.4byte	0x43be5
 	.byte	0x5
 	.byte	0x3
@@ -171343,7 +171505,7 @@ gMoveNames:
 	.ascii	"sParty_MayLilycoveTreecko\000"
 
 	.byte	0x28
-	.2byte	0x2312
+	.2byte	0x2390
 	.4byte	0x43c1e
 	.byte	0x5
 	.byte	0x3
@@ -171360,7 +171522,7 @@ gMoveNames:
 	.ascii	"sParty_MayLilycoveTorchic\000"
 
 	.byte	0x28
-	.2byte	0x2329
+	.2byte	0x23a7
 	.4byte	0x43c57
 	.byte	0x5
 	.byte	0x3
@@ -171377,7 +171539,7 @@ gMoveNames:
 	.ascii	"sParty_Jonah\000"
 
 	.byte	0x28
-	.2byte	0x2340
+	.2byte	0x23be
 	.4byte	0x43c83
 	.byte	0x5
 	.byte	0x3
@@ -171394,7 +171556,7 @@ gMoveNames:
 	.ascii	"sParty_Henry\000"
 
 	.byte	0x28
-	.2byte	0x2352
+	.2byte	0x23d0
 	.4byte	0x43caf
 	.byte	0x5
 	.byte	0x3
@@ -171411,7 +171573,7 @@ gMoveNames:
 	.ascii	"sParty_Roger\000"
 
 	.byte	0x28
-	.2byte	0x235f
+	.2byte	0x23dd
 	.4byte	0x43cdb
 	.byte	0x5
 	.byte	0x3
@@ -171428,7 +171590,7 @@ gMoveNames:
 	.ascii	"sParty_Alexa\000"
 
 	.byte	0x28
-	.2byte	0x2371
+	.2byte	0x23ef
 	.4byte	0x43d07
 	.byte	0x5
 	.byte	0x3
@@ -171445,7 +171607,7 @@ gMoveNames:
 	.ascii	"sParty_Ruben\000"
 
 	.byte	0x28
-	.2byte	0x237e
+	.2byte	0x23fc
 	.4byte	0x43d33
 	.byte	0x5
 	.byte	0x3
@@ -171462,7 +171624,7 @@ gMoveNames:
 	.ascii	"sParty_Koji1\000"
 
 	.byte	0x28
-	.2byte	0x238b
+	.2byte	0x2409
 	.4byte	0x43d5f
 	.byte	0x5
 	.byte	0x3
@@ -171479,7 +171641,7 @@ gMoveNames:
 	.ascii	"sParty_Wayne\000"
 
 	.byte	0x28
-	.2byte	0x2393
+	.2byte	0x2411
 	.4byte	0x43d8b
 	.byte	0x5
 	.byte	0x3
@@ -171496,7 +171658,7 @@ gMoveNames:
 	.ascii	"sParty_Aidan\000"
 
 	.byte	0x28
-	.2byte	0x23a5
+	.2byte	0x2423
 	.4byte	0x43db7
 	.byte	0x5
 	.byte	0x3
@@ -171513,7 +171675,7 @@ gMoveNames:
 	.ascii	"sParty_Reed\000"
 
 	.byte	0x28
-	.2byte	0x23b2
+	.2byte	0x2430
 	.4byte	0x43de2
 	.byte	0x5
 	.byte	0x3
@@ -171530,7 +171692,7 @@ gMoveNames:
 	.ascii	"sParty_Tisha\000"
 
 	.byte	0x28
-	.2byte	0x23bf
+	.2byte	0x243d
 	.4byte	0x43e0e
 	.byte	0x5
 	.byte	0x3
@@ -171547,7 +171709,7 @@ gMoveNames:
 	.ascii	"sParty_ToriAndTia\000"
 
 	.byte	0x28
-	.2byte	0x23c7
+	.2byte	0x2445
 	.4byte	0x43e3f
 	.byte	0x5
 	.byte	0x3
@@ -171564,7 +171726,7 @@ gMoveNames:
 	.ascii	"sParty_KimAndIris\000"
 
 	.byte	0x28
-	.2byte	0x23d4
+	.2byte	0x2452
 	.4byte	0x43e70
 	.byte	0x5
 	.byte	0x3
@@ -171581,7 +171743,7 @@ gMoveNames:
 	.ascii	"sParty_TyraAndIvy\000"
 
 	.byte	0x28
-	.2byte	0x23e3
+	.2byte	0x2461
 	.4byte	0x43ea1
 	.byte	0x5
 	.byte	0x3
@@ -171598,7 +171760,7 @@ gMoveNames:
 	.ascii	"sParty_MelAndPaul\000"
 
 	.byte	0x28
-	.2byte	0x23f2
+	.2byte	0x2470
 	.4byte	0x43ed2
 	.byte	0x5
 	.byte	0x3
@@ -171615,7 +171777,7 @@ gMoveNames:
 	.ascii	"sParty_JohnAndJay1\000"
 
 	.byte	0x28
-	.2byte	0x2401
+	.2byte	0x247f
 	.4byte	0x43f04
 	.byte	0x5
 	.byte	0x3
@@ -171632,7 +171794,7 @@ gMoveNames:
 	.ascii	"sParty_JohnAndJay2\000"
 
 	.byte	0x28
-	.2byte	0x2410
+	.2byte	0x248e
 	.4byte	0x43f36
 	.byte	0x5
 	.byte	0x3
@@ -171649,7 +171811,7 @@ gMoveNames:
 	.ascii	"sParty_JohnAndJay3\000"
 
 	.byte	0x28
-	.2byte	0x241f
+	.2byte	0x249d
 	.4byte	0x43f68
 	.byte	0x5
 	.byte	0x3
@@ -171666,7 +171828,7 @@ gMoveNames:
 	.ascii	"sParty_JohnAndJay4\000"
 
 	.byte	0x28
-	.2byte	0x242e
+	.2byte	0x24ac
 	.4byte	0x43f9a
 	.byte	0x5
 	.byte	0x3
@@ -171683,7 +171845,7 @@ gMoveNames:
 	.ascii	"sParty_JohnAndJay5\000"
 
 	.byte	0x28
-	.2byte	0x243d
+	.2byte	0x24bb
 	.4byte	0x43fcc
 	.byte	0x5
 	.byte	0x3
@@ -171700,7 +171862,7 @@ gMoveNames:
 	.ascii	"sParty_ReliAndIan\000"
 
 	.byte	0x28
-	.2byte	0x244c
+	.2byte	0x24ca
 	.4byte	0x43ffd
 	.byte	0x5
 	.byte	0x3
@@ -171717,7 +171879,7 @@ gMoveNames:
 	.ascii	"sParty_LilaAndRoy1\000"
 
 	.byte	0x28
-	.2byte	0x2459
+	.2byte	0x24d7
 	.4byte	0x4402f
 	.byte	0x5
 	.byte	0x3
@@ -171734,7 +171896,7 @@ gMoveNames:
 	.ascii	"sParty_LilaAndRoy2\000"
 
 	.byte	0x28
-	.2byte	0x2466
+	.2byte	0x24e4
 	.4byte	0x44061
 	.byte	0x5
 	.byte	0x3
@@ -171751,7 +171913,7 @@ gMoveNames:
 	.ascii	"sParty_LilaAndRoy3\000"
 
 	.byte	0x28
-	.2byte	0x2473
+	.2byte	0x24f1
 	.4byte	0x44093
 	.byte	0x5
 	.byte	0x3
@@ -171768,7 +171930,7 @@ gMoveNames:
 	.ascii	"sParty_LilaAndRoy4\000"
 
 	.byte	0x28
-	.2byte	0x2480
+	.2byte	0x24fe
 	.4byte	0x440c5
 	.byte	0x5
 	.byte	0x3
@@ -171785,7 +171947,7 @@ gMoveNames:
 	.ascii	"sParty_LilaAndRoy5\000"
 
 	.byte	0x28
-	.2byte	0x248d
+	.2byte	0x250b
 	.4byte	0x440f7
 	.byte	0x5
 	.byte	0x3
@@ -171802,7 +171964,7 @@ gMoveNames:
 	.ascii	"sParty_LisaAndRay\000"
 
 	.byte	0x28
-	.2byte	0x249a
+	.2byte	0x2518
 	.4byte	0x44128
 	.byte	0x5
 	.byte	0x3
@@ -171819,7 +171981,7 @@ gMoveNames:
 	.ascii	"sParty_Chris\000"
 
 	.byte	0x28
-	.2byte	0x24a7
+	.2byte	0x2525
 	.4byte	0x44154
 	.byte	0x5
 	.byte	0x3
@@ -171836,7 +171998,7 @@ gMoveNames:
 	.ascii	"sParty_Dawson\000"
 
 	.byte	0x28
-	.2byte	0x24be
+	.2byte	0x253c
 	.4byte	0x44181
 	.byte	0x5
 	.byte	0x3
@@ -171853,7 +172015,7 @@ gMoveNames:
 	.ascii	"sParty_Sarah\000"
 
 	.byte	0x28
-	.2byte	0x24cd
+	.2byte	0x254b
 	.4byte	0x441ad
 	.byte	0x5
 	.byte	0x3
@@ -171870,7 +172032,7 @@ gMoveNames:
 	.ascii	"sParty_Darian\000"
 
 	.byte	0x28
-	.2byte	0x24dc
+	.2byte	0x255a
 	.4byte	0x441da
 	.byte	0x5
 	.byte	0x3
@@ -171887,7 +172049,7 @@ gMoveNames:
 	.ascii	"sParty_Hailey\000"
 
 	.byte	0x28
-	.2byte	0x24e4
+	.2byte	0x2562
 	.4byte	0x44207
 	.byte	0x5
 	.byte	0x3
@@ -171904,7 +172066,7 @@ gMoveNames:
 	.ascii	"sParty_Chandler\000"
 
 	.byte	0x28
-	.2byte	0x24ec
+	.2byte	0x256a
 	.4byte	0x44236
 	.byte	0x5
 	.byte	0x3
@@ -171921,7 +172083,7 @@ gMoveNames:
 	.ascii	"sParty_Kaleb\000"
 
 	.byte	0x28
-	.2byte	0x24f9
+	.2byte	0x2577
 	.4byte	0x44262
 	.byte	0x5
 	.byte	0x3
@@ -171938,7 +172100,7 @@ gMoveNames:
 	.ascii	"sParty_Joseph\000"
 
 	.byte	0x28
-	.2byte	0x2508
+	.2byte	0x2586
 	.4byte	0x4428f
 	.byte	0x5
 	.byte	0x3
@@ -171955,7 +172117,7 @@ gMoveNames:
 	.ascii	"sParty_Alyssa\000"
 
 	.byte	0x28
-	.2byte	0x2515
+	.2byte	0x2593
 	.4byte	0x442bc
 	.byte	0x5
 	.byte	0x3
@@ -171972,7 +172134,7 @@ gMoveNames:
 	.ascii	"sParty_Marcos\000"
 
 	.byte	0x28
-	.2byte	0x251d
+	.2byte	0x259b
 	.4byte	0x442e9
 	.byte	0x5
 	.byte	0x3
@@ -171989,7 +172151,7 @@ gMoveNames:
 	.ascii	"sParty_Rhett\000"
 
 	.byte	0x28
-	.2byte	0x2525
+	.2byte	0x25a3
 	.4byte	0x44315
 	.byte	0x5
 	.byte	0x3
@@ -172006,7 +172168,7 @@ gMoveNames:
 	.ascii	"sParty_Tyron\000"
 
 	.byte	0x28
-	.2byte	0x252d
+	.2byte	0x25ab
 	.4byte	0x44341
 	.byte	0x5
 	.byte	0x3
@@ -172023,7 +172185,7 @@ gMoveNames:
 	.ascii	"sParty_Celina\000"
 
 	.byte	0x28
-	.2byte	0x2535
+	.2byte	0x25b3
 	.4byte	0x4436e
 	.byte	0x5
 	.byte	0x3
@@ -172040,7 +172202,7 @@ gMoveNames:
 	.ascii	"sParty_Bianca\000"
 
 	.byte	0x28
-	.2byte	0x253d
+	.2byte	0x25bb
 	.4byte	0x4439b
 	.byte	0x5
 	.byte	0x3
@@ -172057,7 +172219,7 @@ gMoveNames:
 	.ascii	"sParty_Hayden\000"
 
 	.byte	0x28
-	.2byte	0x2545
+	.2byte	0x25c3
 	.4byte	0x443c8
 	.byte	0x5
 	.byte	0x3
@@ -172074,7 +172236,7 @@ gMoveNames:
 	.ascii	"sParty_Sophie\000"
 
 	.byte	0x28
-	.2byte	0x254d
+	.2byte	0x25cb
 	.4byte	0x443f5
 	.byte	0x5
 	.byte	0x3
@@ -172091,7 +172253,7 @@ gMoveNames:
 	.ascii	"sParty_Coby\000"
 
 	.byte	0x28
-	.2byte	0x255a
+	.2byte	0x25d8
 	.4byte	0x44420
 	.byte	0x5
 	.byte	0x3
@@ -172108,7 +172270,7 @@ gMoveNames:
 	.ascii	"sParty_Lawrence\000"
 
 	.byte	0x28
-	.2byte	0x2567
+	.2byte	0x25e5
 	.4byte	0x4444f
 	.byte	0x5
 	.byte	0x3
@@ -172125,7 +172287,7 @@ gMoveNames:
 	.ascii	"sParty_Wyatt\000"
 
 	.byte	0x28
-	.2byte	0x2574
+	.2byte	0x25f2
 	.4byte	0x4447b
 	.byte	0x5
 	.byte	0x3
@@ -172142,7 +172304,7 @@ gMoveNames:
 	.ascii	"sParty_Angelina\000"
 
 	.byte	0x28
-	.2byte	0x2581
+	.2byte	0x25ff
 	.4byte	0x444aa
 	.byte	0x5
 	.byte	0x3
@@ -172159,7 +172321,7 @@ gMoveNames:
 	.ascii	"sParty_Kai\000"
 
 	.byte	0x28
-	.2byte	0x258e
+	.2byte	0x260c
 	.4byte	0x444d4
 	.byte	0x5
 	.byte	0x3
@@ -172176,7 +172338,7 @@ gMoveNames:
 	.ascii	"sParty_Charlotte\000"
 
 	.byte	0x28
-	.2byte	0x2596
+	.2byte	0x2614
 	.4byte	0x44504
 	.byte	0x5
 	.byte	0x3
@@ -172193,7 +172355,7 @@ gMoveNames:
 	.ascii	"sParty_Deandre\000"
 
 	.byte	0x28
-	.2byte	0x259e
+	.2byte	0x261c
 	.4byte	0x44532
 	.byte	0x5
 	.byte	0x3
@@ -172210,7 +172372,7 @@ gMoveNames:
 	.ascii	"sParty_GruntMagmaHideout1\000"
 
 	.byte	0x28
-	.2byte	0x25b0
+	.2byte	0x262e
 	.4byte	0x4456b
 	.byte	0x5
 	.byte	0x3
@@ -172227,7 +172389,7 @@ gMoveNames:
 	.ascii	"sParty_GruntMagmaHideout2\000"
 
 	.byte	0x28
-	.2byte	0x25b8
+	.2byte	0x2636
 	.4byte	0x445a4
 	.byte	0x5
 	.byte	0x3
@@ -172244,7 +172406,7 @@ gMoveNames:
 	.ascii	"sParty_GruntMagmaHideout3\000"
 
 	.byte	0x28
-	.2byte	0x25c0
+	.2byte	0x263e
 	.4byte	0x445dd
 	.byte	0x5
 	.byte	0x3
@@ -172261,7 +172423,7 @@ gMoveNames:
 	.ascii	"sParty_GruntMagmaHideout4\000"
 
 	.byte	0x28
-	.2byte	0x25c8
+	.2byte	0x2646
 	.4byte	0x44616
 	.byte	0x5
 	.byte	0x3
@@ -172278,7 +172440,7 @@ gMoveNames:
 	.ascii	"sParty_GruntMagmaHideout5\000"
 
 	.byte	0x28
-	.2byte	0x25d5
+	.2byte	0x2653
 	.4byte	0x4464f
 	.byte	0x5
 	.byte	0x3
@@ -172295,7 +172457,7 @@ gMoveNames:
 	.ascii	"sParty_GruntMagmaHideout6\000"
 
 	.byte	0x28
-	.2byte	0x25e2
+	.2byte	0x2660
 	.4byte	0x44688
 	.byte	0x5
 	.byte	0x3
@@ -172312,7 +172474,7 @@ gMoveNames:
 	.ascii	"sParty_GruntMagmaHideout7\000"
 
 	.byte	0x28
-	.2byte	0x25ea
+	.2byte	0x2668
 	.4byte	0x446c1
 	.byte	0x5
 	.byte	0x3
@@ -172329,7 +172491,7 @@ gMoveNames:
 	.ascii	"sParty_GruntMagmaHideout8\000"
 
 	.byte	0x28
-	.2byte	0x25f2
+	.2byte	0x2670
 	.4byte	0x446fa
 	.byte	0x5
 	.byte	0x3
@@ -172346,7 +172508,7 @@ gMoveNames:
 	.ascii	"sParty_GruntMagmaHideout9\000"
 
 	.byte	0x28
-	.2byte	0x25fa
+	.2byte	0x2678
 	.4byte	0x44733
 	.byte	0x5
 	.byte	0x3
@@ -172363,7 +172525,7 @@ gMoveNames:
 	.ascii	"sParty_GruntMagmaHideout10\000"
 
 	.byte	0x28
-	.2byte	0x2602
+	.2byte	0x2680
 	.4byte	0x4476d
 	.byte	0x5
 	.byte	0x3
@@ -172380,7 +172542,7 @@ gMoveNames:
 	.ascii	"sParty_GruntMagmaHideout11\000"
 
 	.byte	0x28
-	.2byte	0x260a
+	.2byte	0x2688
 	.4byte	0x447a7
 	.byte	0x5
 	.byte	0x3
@@ -172397,7 +172559,7 @@ gMoveNames:
 	.ascii	"sParty_GruntMagmaHideout12\000"
 
 	.byte	0x28
-	.2byte	0x2612
+	.2byte	0x2690
 	.4byte	0x447e1
 	.byte	0x5
 	.byte	0x3
@@ -172414,7 +172576,7 @@ gMoveNames:
 	.ascii	"sParty_GruntMagmaHideout13\000"
 
 	.byte	0x28
-	.2byte	0x261a
+	.2byte	0x2698
 	.4byte	0x4481b
 	.byte	0x5
 	.byte	0x3
@@ -172431,7 +172593,7 @@ gMoveNames:
 	.ascii	"sParty_GruntMagmaHideout14\000"
 
 	.byte	0x28
-	.2byte	0x2622
+	.2byte	0x26a0
 	.4byte	0x44855
 	.byte	0x5
 	.byte	0x3
@@ -172448,7 +172610,7 @@ gMoveNames:
 	.ascii	"sParty_GruntMagmaHideout15\000"
 
 	.byte	0x28
-	.2byte	0x262a
+	.2byte	0x26a8
 	.4byte	0x4488f
 	.byte	0x5
 	.byte	0x3
@@ -172465,7 +172627,7 @@ gMoveNames:
 	.ascii	"sParty_GruntMagmaHideout16\000"
 
 	.byte	0x28
-	.2byte	0x2632
+	.2byte	0x26b0
 	.4byte	0x448c9
 	.byte	0x5
 	.byte	0x3
@@ -172482,7 +172644,7 @@ gMoveNames:
 	.ascii	"sParty_TabithaMagmaHideout\000"
 
 	.byte	0x28
-	.2byte	0x263a
+	.2byte	0x26b8
 	.4byte	0x44903
 	.byte	0x5
 	.byte	0x3
@@ -172499,7 +172661,7 @@ gMoveNames:
 	.ascii	"sParty_Darcy\000"
 
 	.byte	0x28
-	.2byte	0x2651
+	.2byte	0x26cf
 	.4byte	0x4492f
 	.byte	0x5
 	.byte	0x3
@@ -172516,7 +172678,7 @@ gMoveNames:
 	.ascii	"sParty_MaxieMossdeep\000"
 
 	.byte	0x28
-	.2byte	0x265e
+	.2byte	0x26dc
 	.4byte	0x44963
 	.byte	0x5
 	.byte	0x3
@@ -172533,7 +172695,7 @@ gMoveNames:
 	.ascii	"sParty_Pete\000"
 
 	.byte	0x28
-	.2byte	0x2670
+	.2byte	0x26ee
 	.4byte	0x4498e
 	.byte	0x5
 	.byte	0x3
@@ -172550,7 +172712,7 @@ gMoveNames:
 	.ascii	"sParty_Isabelle\000"
 
 	.byte	0x28
-	.2byte	0x2678
+	.2byte	0x26f6
 	.4byte	0x449bd
 	.byte	0x5
 	.byte	0x3
@@ -172567,7 +172729,7 @@ gMoveNames:
 	.ascii	"sParty_Andres1\000"
 
 	.byte	0x28
-	.2byte	0x2680
+	.2byte	0x26fe
 	.4byte	0x449eb
 	.byte	0x5
 	.byte	0x3
@@ -172584,7 +172746,7 @@ gMoveNames:
 	.ascii	"sParty_Josue\000"
 
 	.byte	0x28
-	.2byte	0x268d
+	.2byte	0x270b
 	.4byte	0x44a17
 	.byte	0x5
 	.byte	0x3
@@ -172601,7 +172763,7 @@ gMoveNames:
 	.ascii	"sParty_Camron\000"
 
 	.byte	0x28
-	.2byte	0x269a
+	.2byte	0x2718
 	.4byte	0x44a44
 	.byte	0x5
 	.byte	0x3
@@ -172618,7 +172780,7 @@ gMoveNames:
 	.ascii	"sParty_Cory1\000"
 
 	.byte	0x28
-	.2byte	0x26a2
+	.2byte	0x2720
 	.4byte	0x44a70
 	.byte	0x5
 	.byte	0x3
@@ -172635,7 +172797,7 @@ gMoveNames:
 	.ascii	"sParty_Carolina\000"
 
 	.byte	0x28
-	.2byte	0x26b4
+	.2byte	0x2732
 	.4byte	0x44a9f
 	.byte	0x5
 	.byte	0x3
@@ -172652,7 +172814,7 @@ gMoveNames:
 	.ascii	"sParty_Elijah\000"
 
 	.byte	0x28
-	.2byte	0x26c6
+	.2byte	0x2744
 	.4byte	0x44acc
 	.byte	0x5
 	.byte	0x3
@@ -172669,7 +172831,7 @@ gMoveNames:
 	.ascii	"sParty_Celia\000"
 
 	.byte	0x28
-	.2byte	0x26d3
+	.2byte	0x2751
 	.4byte	0x44af8
 	.byte	0x5
 	.byte	0x3
@@ -172686,7 +172848,7 @@ gMoveNames:
 	.ascii	"sParty_Bryan\000"
 
 	.byte	0x28
-	.2byte	0x26e0
+	.2byte	0x275e
 	.4byte	0x44b24
 	.byte	0x5
 	.byte	0x3
@@ -172703,7 +172865,7 @@ gMoveNames:
 	.ascii	"sParty_Branden\000"
 
 	.byte	0x28
-	.2byte	0x26ed
+	.2byte	0x276b
 	.4byte	0x44b52
 	.byte	0x5
 	.byte	0x3
@@ -172720,7 +172882,7 @@ gMoveNames:
 	.ascii	"sParty_Bryant\000"
 
 	.byte	0x28
-	.2byte	0x26fa
+	.2byte	0x2778
 	.4byte	0x44b7f
 	.byte	0x5
 	.byte	0x3
@@ -172737,7 +172899,7 @@ gMoveNames:
 	.ascii	"sParty_Shayla\000"
 
 	.byte	0x28
-	.2byte	0x2707
+	.2byte	0x2785
 	.4byte	0x44bac
 	.byte	0x5
 	.byte	0x3
@@ -172754,7 +172916,7 @@ gMoveNames:
 	.ascii	"sParty_Kyra\000"
 
 	.byte	0x28
-	.2byte	0x2714
+	.2byte	0x2792
 	.4byte	0x44bd7
 	.byte	0x5
 	.byte	0x3
@@ -172771,7 +172933,7 @@ gMoveNames:
 	.ascii	"sParty_Jaiden\000"
 
 	.byte	0x28
-	.2byte	0x2721
+	.2byte	0x279f
 	.4byte	0x44c04
 	.byte	0x5
 	.byte	0x3
@@ -172788,7 +172950,7 @@ gMoveNames:
 	.ascii	"sParty_Alix\000"
 
 	.byte	0x28
-	.2byte	0x272e
+	.2byte	0x27ac
 	.4byte	0x44c2f
 	.byte	0x5
 	.byte	0x3
@@ -172805,7 +172967,7 @@ gMoveNames:
 	.ascii	"sParty_Helene\000"
 
 	.byte	0x28
-	.2byte	0x273b
+	.2byte	0x27b9
 	.4byte	0x44c5c
 	.byte	0x5
 	.byte	0x3
@@ -172822,7 +172984,7 @@ gMoveNames:
 	.ascii	"sParty_Marlene\000"
 
 	.byte	0x28
-	.2byte	0x2748
+	.2byte	0x27c6
 	.4byte	0x44c8a
 	.byte	0x5
 	.byte	0x3
@@ -172839,7 +173001,7 @@ gMoveNames:
 	.ascii	"sParty_Devan\000"
 
 	.byte	0x28
-	.2byte	0x2755
+	.2byte	0x27d3
 	.4byte	0x44cb6
 	.byte	0x5
 	.byte	0x3
@@ -172856,7 +173018,7 @@ gMoveNames:
 	.ascii	"sParty_Johnson\000"
 
 	.byte	0x28
-	.2byte	0x2762
+	.2byte	0x27e0
 	.4byte	0x44ce4
 	.byte	0x5
 	.byte	0x3
@@ -172873,7 +173035,7 @@ gMoveNames:
 	.ascii	"sParty_Melina\000"
 
 	.byte	0x28
-	.2byte	0x276f
+	.2byte	0x27ed
 	.4byte	0x44d11
 	.byte	0x5
 	.byte	0x3
@@ -172890,7 +173052,7 @@ gMoveNames:
 	.ascii	"sParty_Brandi\000"
 
 	.byte	0x28
-	.2byte	0x2777
+	.2byte	0x27f5
 	.4byte	0x44d3e
 	.byte	0x5
 	.byte	0x3
@@ -172907,7 +173069,7 @@ gMoveNames:
 	.ascii	"sParty_Aisha\000"
 
 	.byte	0x28
-	.2byte	0x277f
+	.2byte	0x27fd
 	.4byte	0x44d6a
 	.byte	0x5
 	.byte	0x3
@@ -172924,7 +173086,7 @@ gMoveNames:
 	.ascii	"sParty_Makayla\000"
 
 	.byte	0x28
-	.2byte	0x2787
+	.2byte	0x2805
 	.4byte	0x44d98
 	.byte	0x5
 	.byte	0x3
@@ -172941,7 +173103,7 @@ gMoveNames:
 	.ascii	"sParty_Fabian\000"
 
 	.byte	0x28
-	.2byte	0x2794
+	.2byte	0x2812
 	.4byte	0x44dc5
 	.byte	0x5
 	.byte	0x3
@@ -172958,7 +173120,7 @@ gMoveNames:
 	.ascii	"sParty_Dayton\000"
 
 	.byte	0x28
-	.2byte	0x279c
+	.2byte	0x281a
 	.4byte	0x44df2
 	.byte	0x5
 	.byte	0x3
@@ -172975,7 +173137,7 @@ gMoveNames:
 	.ascii	"sParty_Rachel\000"
 
 	.byte	0x28
-	.2byte	0x27a9
+	.2byte	0x2827
 	.4byte	0x44e1f
 	.byte	0x5
 	.byte	0x3
@@ -172992,7 +173154,7 @@ gMoveNames:
 	.ascii	"sParty_Leonel\000"
 
 	.byte	0x28
-	.2byte	0x27b1
+	.2byte	0x282f
 	.4byte	0x44e4c
 	.byte	0x5
 	.byte	0x3
@@ -173009,7 +173171,7 @@ gMoveNames:
 	.ascii	"sParty_Callie\000"
 
 	.byte	0x28
-	.2byte	0x27ba
+	.2byte	0x2838
 	.4byte	0x44e79
 	.byte	0x5
 	.byte	0x3
@@ -173026,7 +173188,7 @@ gMoveNames:
 	.ascii	"sParty_Cale\000"
 
 	.byte	0x28
-	.2byte	0x27c7
+	.2byte	0x2845
 	.4byte	0x44ea4
 	.byte	0x5
 	.byte	0x3
@@ -173043,7 +173205,7 @@ gMoveNames:
 	.ascii	"sParty_Myles\000"
 
 	.byte	0x28
-	.2byte	0x27d4
+	.2byte	0x2852
 	.4byte	0x44ed0
 	.byte	0x5
 	.byte	0x3
@@ -173060,7 +173222,7 @@ gMoveNames:
 	.ascii	"sParty_Pat\000"
 
 	.byte	0x28
-	.2byte	0x27f5
+	.2byte	0x2873
 	.4byte	0x44efa
 	.byte	0x5
 	.byte	0x3
@@ -173077,7 +173239,7 @@ gMoveNames:
 	.ascii	"sParty_Cristin1\000"
 
 	.byte	0x28
-	.2byte	0x2816
+	.2byte	0x2894
 	.4byte	0x44f29
 	.byte	0x5
 	.byte	0x3
@@ -173094,7 +173256,7 @@ gMoveNames:
 	.ascii	"sParty_MayRustboroTreecko\000"
 
 	.byte	0x28
-	.2byte	0x2823
+	.2byte	0x28a1
 	.4byte	0x44f62
 	.byte	0x5
 	.byte	0x3
@@ -173111,7 +173273,7 @@ gMoveNames:
 	.ascii	"sParty_MayRustboroTorchic\000"
 
 	.byte	0x28
-	.2byte	0x2830
+	.2byte	0x28ae
 	.4byte	0x44f9b
 	.byte	0x5
 	.byte	0x3
@@ -173128,7 +173290,7 @@ gMoveNames:
 	.ascii	"sParty_Roxanne2\000"
 
 	.byte	0x28
-	.2byte	0x283d
+	.2byte	0x28bb
 	.4byte	0x44fca
 	.byte	0x5
 	.byte	0x3
@@ -173145,7 +173307,7 @@ gMoveNames:
 	.ascii	"sParty_Roxanne3\000"
 
 	.byte	0x28
-	.2byte	0x285c
+	.2byte	0x28da
 	.4byte	0x44ff9
 	.byte	0x5
 	.byte	0x3
@@ -173162,7 +173324,7 @@ gMoveNames:
 	.ascii	"sParty_Roxanne4\000"
 
 	.byte	0x28
-	.2byte	0x2882
+	.2byte	0x2900
 	.4byte	0x45028
 	.byte	0x5
 	.byte	0x3
@@ -173179,7 +173341,7 @@ gMoveNames:
 	.ascii	"sParty_Roxanne5\000"
 
 	.byte	0x28
-	.2byte	0x28a8
+	.2byte	0x2926
 	.4byte	0x45057
 	.byte	0x5
 	.byte	0x3
@@ -173196,7 +173358,7 @@ gMoveNames:
 	.ascii	"sParty_Brawly2\000"
 
 	.byte	0x28
-	.2byte	0x28d5
+	.2byte	0x2953
 	.4byte	0x45085
 	.byte	0x5
 	.byte	0x3
@@ -173213,7 +173375,7 @@ gMoveNames:
 	.ascii	"sParty_Brawly3\000"
 
 	.byte	0x28
-	.2byte	0x28f4
+	.2byte	0x2972
 	.4byte	0x450b3
 	.byte	0x5
 	.byte	0x3
@@ -173230,7 +173392,7 @@ gMoveNames:
 	.ascii	"sParty_Brawly4\000"
 
 	.byte	0x28
-	.2byte	0x2913
+	.2byte	0x2991
 	.4byte	0x450e1
 	.byte	0x5
 	.byte	0x3
@@ -173247,7 +173409,7 @@ gMoveNames:
 	.ascii	"sParty_Brawly5\000"
 
 	.byte	0x28
-	.2byte	0x2939
+	.2byte	0x29b7
 	.4byte	0x4510f
 	.byte	0x5
 	.byte	0x3
@@ -173264,7 +173426,7 @@ gMoveNames:
 	.ascii	"sParty_Wattson2\000"
 
 	.byte	0x28
-	.2byte	0x2966
+	.2byte	0x29e4
 	.4byte	0x4513e
 	.byte	0x5
 	.byte	0x3
@@ -173281,7 +173443,7 @@ gMoveNames:
 	.ascii	"sParty_Wattson3\000"
 
 	.byte	0x28
-	.2byte	0x2985
+	.2byte	0x2a03
 	.4byte	0x4516d
 	.byte	0x5
 	.byte	0x3
@@ -173298,7 +173460,7 @@ gMoveNames:
 	.ascii	"sParty_Wattson4\000"
 
 	.byte	0x28
-	.2byte	0x29ab
+	.2byte	0x2a29
 	.4byte	0x4519c
 	.byte	0x5
 	.byte	0x3
@@ -173315,7 +173477,7 @@ gMoveNames:
 	.ascii	"sParty_Wattson5\000"
 
 	.byte	0x28
-	.2byte	0x29d1
+	.2byte	0x2a4f
 	.4byte	0x451cb
 	.byte	0x5
 	.byte	0x3
@@ -173332,7 +173494,7 @@ gMoveNames:
 	.ascii	"sParty_Flannery2\000"
 
 	.byte	0x28
-	.2byte	0x29fe
+	.2byte	0x2a7c
 	.4byte	0x451fb
 	.byte	0x5
 	.byte	0x3
@@ -173349,7 +173511,7 @@ gMoveNames:
 	.ascii	"sParty_Flannery3\000"
 
 	.byte	0x28
-	.2byte	0x2a1d
+	.2byte	0x2a9b
 	.4byte	0x4522b
 	.byte	0x5
 	.byte	0x3
@@ -173366,7 +173528,7 @@ gMoveNames:
 	.ascii	"sParty_Flannery4\000"
 
 	.byte	0x28
-	.2byte	0x2a43
+	.2byte	0x2ac1
 	.4byte	0x4525b
 	.byte	0x5
 	.byte	0x3
@@ -173383,7 +173545,7 @@ gMoveNames:
 	.ascii	"sParty_Flannery5\000"
 
 	.byte	0x28
-	.2byte	0x2a70
+	.2byte	0x2aee
 	.4byte	0x4528b
 	.byte	0x5
 	.byte	0x3
@@ -173400,7 +173562,7 @@ gMoveNames:
 	.ascii	"sParty_Norman2\000"
 
 	.byte	0x28
-	.2byte	0x2a9d
+	.2byte	0x2b1b
 	.4byte	0x452b9
 	.byte	0x5
 	.byte	0x3
@@ -173417,7 +173579,7 @@ gMoveNames:
 	.ascii	"sParty_Norman3\000"
 
 	.byte	0x28
-	.2byte	0x2abc
+	.2byte	0x2b3a
 	.4byte	0x452e7
 	.byte	0x5
 	.byte	0x3
@@ -173434,7 +173596,7 @@ gMoveNames:
 	.ascii	"sParty_Norman4\000"
 
 	.byte	0x28
-	.2byte	0x2ae2
+	.2byte	0x2b60
 	.4byte	0x45315
 	.byte	0x5
 	.byte	0x3
@@ -173451,7 +173613,7 @@ gMoveNames:
 	.ascii	"sParty_Norman5\000"
 
 	.byte	0x28
-	.2byte	0x2b08
+	.2byte	0x2b86
 	.4byte	0x45343
 	.byte	0x5
 	.byte	0x3
@@ -173468,7 +173630,7 @@ gMoveNames:
 	.ascii	"sParty_Winona2\000"
 
 	.byte	0x28
-	.2byte	0x2b35
+	.2byte	0x2bb3
 	.4byte	0x45371
 	.byte	0x5
 	.byte	0x3
@@ -173485,7 +173647,7 @@ gMoveNames:
 	.ascii	"sParty_Winona3\000"
 
 	.byte	0x28
-	.2byte	0x2b5b
+	.2byte	0x2bd9
 	.4byte	0x4539f
 	.byte	0x5
 	.byte	0x3
@@ -173502,7 +173664,7 @@ gMoveNames:
 	.ascii	"sParty_Winona4\000"
 
 	.byte	0x28
-	.2byte	0x2b88
+	.2byte	0x2c06
 	.4byte	0x453cd
 	.byte	0x5
 	.byte	0x3
@@ -173519,7 +173681,7 @@ gMoveNames:
 	.ascii	"sParty_Winona5\000"
 
 	.byte	0x28
-	.2byte	0x2bb5
+	.2byte	0x2c33
 	.4byte	0x453fb
 	.byte	0x5
 	.byte	0x3
@@ -173536,7 +173698,7 @@ gMoveNames:
 	.ascii	"sParty_TateAndLiza2\000"
 
 	.byte	0x28
-	.2byte	0x2be2
+	.2byte	0x2c60
 	.4byte	0x4542e
 	.byte	0x5
 	.byte	0x3
@@ -173553,7 +173715,7 @@ gMoveNames:
 	.ascii	"sParty_TateAndLiza3\000"
 
 	.byte	0x28
-	.2byte	0x2c08
+	.2byte	0x2c86
 	.4byte	0x45461
 	.byte	0x5
 	.byte	0x3
@@ -173570,7 +173732,7 @@ gMoveNames:
 	.ascii	"sParty_TateAndLiza4\000"
 
 	.byte	0x28
-	.2byte	0x2c35
+	.2byte	0x2cb3
 	.4byte	0x45494
 	.byte	0x5
 	.byte	0x3
@@ -173587,7 +173749,7 @@ gMoveNames:
 	.ascii	"sParty_TateAndLiza5\000"
 
 	.byte	0x28
-	.2byte	0x2c62
+	.2byte	0x2ce0
 	.4byte	0x454c7
 	.byte	0x5
 	.byte	0x3
@@ -173604,7 +173766,7 @@ gMoveNames:
 	.ascii	"sParty_Juan2\000"
 
 	.byte	0x28
-	.2byte	0x2c8f
+	.2byte	0x2d0d
 	.4byte	0x454f3
 	.byte	0x5
 	.byte	0x3
@@ -173621,7 +173783,7 @@ gMoveNames:
 	.ascii	"sParty_Juan3\000"
 
 	.byte	0x28
-	.2byte	0x2cb5
+	.2byte	0x2d33
 	.4byte	0x4551f
 	.byte	0x5
 	.byte	0x3
@@ -173638,7 +173800,7 @@ gMoveNames:
 	.ascii	"sParty_Juan4\000"
 
 	.byte	0x28
-	.2byte	0x2cdb
+	.2byte	0x2d59
 	.4byte	0x4554b
 	.byte	0x5
 	.byte	0x3
@@ -173655,7 +173817,7 @@ gMoveNames:
 	.ascii	"sParty_Juan5\000"
 
 	.byte	0x28
-	.2byte	0x2d08
+	.2byte	0x2d86
 	.4byte	0x45577
 	.byte	0x5
 	.byte	0x3
@@ -173672,7 +173834,7 @@ gMoveNames:
 	.ascii	"sParty_Angelo\000"
 
 	.byte	0x28
-	.2byte	0x2d35
+	.2byte	0x2db3
 	.4byte	0x455a4
 	.byte	0x5
 	.byte	0x3
@@ -173689,7 +173851,7 @@ gMoveNames:
 	.ascii	"sParty_Darius\000"
 
 	.byte	0x28
-	.2byte	0x2d46
+	.2byte	0x2dc4
 	.4byte	0x455d1
 	.byte	0x5
 	.byte	0x3
@@ -173706,7 +173868,7 @@ gMoveNames:
 	.ascii	"sParty_Steven\000"
 
 	.byte	0x28
-	.2byte	0x2d4e
+	.2byte	0x2dcc
 	.4byte	0x455fe
 	.byte	0x5
 	.byte	0x3
@@ -173723,7 +173885,7 @@ gMoveNames:
 	.ascii	"sParty_Anabel\000"
 
 	.byte	0x28
-	.2byte	0x2d7b
+	.2byte	0x2df9
 	.4byte	0x4562b
 	.byte	0x5
 	.byte	0x3
@@ -173740,7 +173902,7 @@ gMoveNames:
 	.ascii	"sParty_Tucker\000"
 
 	.byte	0x28
-	.2byte	0x2d83
+	.2byte	0x2e01
 	.4byte	0x45658
 	.byte	0x5
 	.byte	0x3
@@ -173757,7 +173919,7 @@ gMoveNames:
 	.ascii	"sParty_Spenser\000"
 
 	.byte	0x28
-	.2byte	0x2d8b
+	.2byte	0x2e09
 	.4byte	0x45686
 	.byte	0x5
 	.byte	0x3
@@ -173774,7 +173936,7 @@ gMoveNames:
 	.ascii	"sParty_Greta\000"
 
 	.byte	0x28
-	.2byte	0x2d93
+	.2byte	0x2e11
 	.4byte	0x456b2
 	.byte	0x5
 	.byte	0x3
@@ -173791,7 +173953,7 @@ gMoveNames:
 	.ascii	"sParty_Noland\000"
 
 	.byte	0x28
-	.2byte	0x2d9b
+	.2byte	0x2e19
 	.4byte	0x456df
 	.byte	0x5
 	.byte	0x3
@@ -173808,7 +173970,7 @@ gMoveNames:
 	.ascii	"sParty_Lucy\000"
 
 	.byte	0x28
-	.2byte	0x2da3
+	.2byte	0x2e21
 	.4byte	0x4570a
 	.byte	0x5
 	.byte	0x3
@@ -173825,7 +173987,7 @@ gMoveNames:
 	.ascii	"sParty_Brandon\000"
 
 	.byte	0x28
-	.2byte	0x2dab
+	.2byte	0x2e29
 	.4byte	0x45738
 	.byte	0x5
 	.byte	0x3
@@ -173842,7 +174004,7 @@ gMoveNames:
 	.ascii	"sParty_Andres2\000"
 
 	.byte	0x28
-	.2byte	0x2db3
+	.2byte	0x2e31
 	.4byte	0x45766
 	.byte	0x5
 	.byte	0x3
@@ -173859,7 +174021,7 @@ gMoveNames:
 	.ascii	"sParty_Andres3\000"
 
 	.byte	0x28
-	.2byte	0x2dc0
+	.2byte	0x2e3e
 	.4byte	0x45794
 	.byte	0x5
 	.byte	0x3
@@ -173876,7 +174038,7 @@ gMoveNames:
 	.ascii	"sParty_Andres4\000"
 
 	.byte	0x28
-	.2byte	0x2dd2
+	.2byte	0x2e50
 	.4byte	0x457c2
 	.byte	0x5
 	.byte	0x3
@@ -173893,7 +174055,7 @@ gMoveNames:
 	.ascii	"sParty_Andres5\000"
 
 	.byte	0x28
-	.2byte	0x2de4
+	.2byte	0x2e62
 	.4byte	0x457f0
 	.byte	0x5
 	.byte	0x3
@@ -173910,7 +174072,7 @@ gMoveNames:
 	.ascii	"sParty_Cory2\000"
 
 	.byte	0x28
-	.2byte	0x2df6
+	.2byte	0x2e74
 	.4byte	0x4581c
 	.byte	0x5
 	.byte	0x3
@@ -173927,7 +174089,7 @@ gMoveNames:
 	.ascii	"sParty_Cory3\000"
 
 	.byte	0x28
-	.2byte	0x2e08
+	.2byte	0x2e86
 	.4byte	0x45848
 	.byte	0x5
 	.byte	0x3
@@ -173944,7 +174106,7 @@ gMoveNames:
 	.ascii	"sParty_Cory4\000"
 
 	.byte	0x28
-	.2byte	0x2e1a
+	.2byte	0x2e98
 	.4byte	0x45874
 	.byte	0x5
 	.byte	0x3
@@ -173961,7 +174123,7 @@ gMoveNames:
 	.ascii	"sParty_Cory5\000"
 
 	.byte	0x28
-	.2byte	0x2e2c
+	.2byte	0x2eaa
 	.4byte	0x458a0
 	.byte	0x5
 	.byte	0x3
@@ -173978,7 +174140,7 @@ gMoveNames:
 	.ascii	"sParty_Pablo2\000"
 
 	.byte	0x28
-	.2byte	0x2e3e
+	.2byte	0x2ebc
 	.4byte	0x458cd
 	.byte	0x5
 	.byte	0x3
@@ -173995,7 +174157,7 @@ gMoveNames:
 	.ascii	"sParty_Pablo3\000"
 
 	.byte	0x28
-	.2byte	0x2e4b
+	.2byte	0x2ec9
 	.4byte	0x458fa
 	.byte	0x5
 	.byte	0x3
@@ -174012,7 +174174,7 @@ gMoveNames:
 	.ascii	"sParty_Pablo4\000"
 
 	.byte	0x28
-	.2byte	0x2e5d
+	.2byte	0x2edb
 	.4byte	0x45927
 	.byte	0x5
 	.byte	0x3
@@ -174029,7 +174191,7 @@ gMoveNames:
 	.ascii	"sParty_Pablo5\000"
 
 	.byte	0x28
-	.2byte	0x2e6f
+	.2byte	0x2eed
 	.4byte	0x45954
 	.byte	0x5
 	.byte	0x3
@@ -174046,7 +174208,7 @@ gMoveNames:
 	.ascii	"sParty_Koji2\000"
 
 	.byte	0x28
-	.2byte	0x2e81
+	.2byte	0x2eff
 	.4byte	0x45980
 	.byte	0x5
 	.byte	0x3
@@ -174063,7 +174225,7 @@ gMoveNames:
 	.ascii	"sParty_Koji3\000"
 
 	.byte	0x28
-	.2byte	0x2e8e
+	.2byte	0x2f0c
 	.4byte	0x459ac
 	.byte	0x5
 	.byte	0x3
@@ -174080,7 +174242,7 @@ gMoveNames:
 	.ascii	"sParty_Koji4\000"
 
 	.byte	0x28
-	.2byte	0x2ea0
+	.2byte	0x2f1e
 	.4byte	0x459d8
 	.byte	0x5
 	.byte	0x3
@@ -174097,7 +174259,7 @@ gMoveNames:
 	.ascii	"sParty_Koji5\000"
 
 	.byte	0x28
-	.2byte	0x2eb2
+	.2byte	0x2f30
 	.4byte	0x45a04
 	.byte	0x5
 	.byte	0x3
@@ -174114,7 +174276,7 @@ gMoveNames:
 	.ascii	"sParty_Cristin2\000"
 
 	.byte	0x28
-	.2byte	0x2ec4
+	.2byte	0x2f42
 	.4byte	0x45a33
 	.byte	0x5
 	.byte	0x3
@@ -174131,7 +174293,7 @@ gMoveNames:
 	.ascii	"sParty_Cristin3\000"
 
 	.byte	0x28
-	.2byte	0x2ed1
+	.2byte	0x2f4f
 	.4byte	0x45a62
 	.byte	0x5
 	.byte	0x3
@@ -174148,7 +174310,7 @@ gMoveNames:
 	.ascii	"sParty_Cristin4\000"
 
 	.byte	0x28
-	.2byte	0x2ee3
+	.2byte	0x2f61
 	.4byte	0x45a91
 	.byte	0x5
 	.byte	0x3
@@ -174165,7 +174327,7 @@ gMoveNames:
 	.ascii	"sParty_Cristin5\000"
 
 	.byte	0x28
-	.2byte	0x2ef5
+	.2byte	0x2f73
 	.4byte	0x45ac0
 	.byte	0x5
 	.byte	0x3
@@ -174182,7 +174344,7 @@ gMoveNames:
 	.ascii	"sParty_Fernando2\000"
 
 	.byte	0x28
-	.2byte	0x2f07
+	.2byte	0x2f85
 	.4byte	0x45af0
 	.byte	0x5
 	.byte	0x3
@@ -174199,7 +174361,7 @@ gMoveNames:
 	.ascii	"sParty_Fernando3\000"
 
 	.byte	0x28
-	.2byte	0x2f19
+	.2byte	0x2f97
 	.4byte	0x45b20
 	.byte	0x5
 	.byte	0x3
@@ -174216,7 +174378,7 @@ gMoveNames:
 	.ascii	"sParty_Fernando4\000"
 
 	.byte	0x28
-	.2byte	0x2f2b
+	.2byte	0x2fa9
 	.4byte	0x45b50
 	.byte	0x5
 	.byte	0x3
@@ -174233,7 +174395,7 @@ gMoveNames:
 	.ascii	"sParty_Fernando5\000"
 
 	.byte	0x28
-	.2byte	0x2f3d
+	.2byte	0x2fbb
 	.4byte	0x45b80
 	.byte	0x5
 	.byte	0x3
@@ -174250,7 +174412,7 @@ gMoveNames:
 	.ascii	"sParty_Sawyer2\000"
 
 	.byte	0x28
-	.2byte	0x2f4f
+	.2byte	0x2fcd
 	.4byte	0x45bae
 	.byte	0x5
 	.byte	0x3
@@ -174267,7 +174429,7 @@ gMoveNames:
 	.ascii	"sParty_Sawyer3\000"
 
 	.byte	0x28
-	.2byte	0x2f5c
+	.2byte	0x2fda
 	.4byte	0x45bdc
 	.byte	0x5
 	.byte	0x3
@@ -174284,7 +174446,7 @@ gMoveNames:
 	.ascii	"sParty_Sawyer4\000"
 
 	.byte	0x28
-	.2byte	0x2f6e
+	.2byte	0x2fec
 	.4byte	0x45c0a
 	.byte	0x5
 	.byte	0x3
@@ -174301,7 +174463,7 @@ gMoveNames:
 	.ascii	"sParty_Sawyer5\000"
 
 	.byte	0x28
-	.2byte	0x2f80
+	.2byte	0x2ffe
 	.4byte	0x45c38
 	.byte	0x5
 	.byte	0x3
@@ -174318,7 +174480,7 @@ gMoveNames:
 	.ascii	"sParty_Gabrielle2\000"
 
 	.byte	0x28
-	.2byte	0x2f92
+	.2byte	0x3010
 	.4byte	0x45c69
 	.byte	0x5
 	.byte	0x3
@@ -174335,7 +174497,7 @@ gMoveNames:
 	.ascii	"sParty_Gabrielle3\000"
 
 	.byte	0x28
-	.2byte	0x2fb3
+	.2byte	0x3031
 	.4byte	0x45c9a
 	.byte	0x5
 	.byte	0x3
@@ -174352,7 +174514,7 @@ gMoveNames:
 	.ascii	"sParty_Gabrielle4\000"
 
 	.byte	0x28
-	.2byte	0x2fd4
+	.2byte	0x3052
 	.4byte	0x45ccb
 	.byte	0x5
 	.byte	0x3
@@ -174369,7 +174531,7 @@ gMoveNames:
 	.ascii	"sParty_Gabrielle5\000"
 
 	.byte	0x28
-	.2byte	0x2ff5
+	.2byte	0x3073
 	.4byte	0x45cfc
 	.byte	0x5
 	.byte	0x3
@@ -174386,7 +174548,7 @@ gMoveNames:
 	.ascii	"sParty_Thalia2\000"
 
 	.byte	0x28
-	.2byte	0x3016
+	.2byte	0x3094
 	.4byte	0x45d2a
 	.byte	0x5
 	.byte	0x3
@@ -174403,7 +174565,7 @@ gMoveNames:
 	.ascii	"sParty_Thalia3\000"
 
 	.byte	0x28
-	.2byte	0x3023
+	.2byte	0x30a1
 	.4byte	0x45d58
 	.byte	0x5
 	.byte	0x3
@@ -174420,7 +174582,7 @@ gMoveNames:
 	.ascii	"sParty_Thalia4\000"
 
 	.byte	0x28
-	.2byte	0x3035
+	.2byte	0x30b3
 	.4byte	0x45d86
 	.byte	0x5
 	.byte	0x3
@@ -174437,7 +174599,7 @@ gMoveNames:
 	.ascii	"sParty_Thalia5\000"
 
 	.byte	0x28
-	.2byte	0x3047
+	.2byte	0x30c5
 	.4byte	0x45db4
 	.byte	0x5
 	.byte	0x3
@@ -174454,7 +174616,7 @@ gMoveNames:
 	.ascii	"sParty_Mariela\000"
 
 	.byte	0x28
-	.2byte	0x3059
+	.2byte	0x30d7
 	.4byte	0x45de2
 	.byte	0x5
 	.byte	0x3
@@ -174471,7 +174633,7 @@ gMoveNames:
 	.ascii	"sParty_Alvaro\000"
 
 	.byte	0x28
-	.2byte	0x3061
+	.2byte	0x30df
 	.4byte	0x45e0f
 	.byte	0x5
 	.byte	0x3
@@ -174488,7 +174650,7 @@ gMoveNames:
 	.ascii	"sParty_Everett\000"
 
 	.byte	0x28
-	.2byte	0x306e
+	.2byte	0x30ec
 	.4byte	0x45e3d
 	.byte	0x5
 	.byte	0x3
@@ -174505,7 +174667,7 @@ gMoveNames:
 	.ascii	"sParty_Red\000"
 
 	.byte	0x28
-	.2byte	0x3076
+	.2byte	0x30f4
 	.4byte	0x45e67
 	.byte	0x5
 	.byte	0x3
@@ -174522,7 +174684,7 @@ gMoveNames:
 	.ascii	"sParty_Leaf\000"
 
 	.byte	0x28
-	.2byte	0x307e
+	.2byte	0x30fc
 	.4byte	0x45e92
 	.byte	0x5
 	.byte	0x3
@@ -174539,7 +174701,7 @@ gMoveNames:
 	.ascii	"sParty_BrendanLinkPlaceholder\000"
 
 	.byte	0x28
-	.2byte	0x3086
+	.2byte	0x3104
 	.4byte	0x45ecf
 	.byte	0x5
 	.byte	0x3
@@ -174556,7 +174718,7 @@ gMoveNames:
 	.ascii	"sParty_MayLinkPlaceholder\000"
 
 	.byte	0x28
-	.2byte	0x308e
+	.2byte	0x310c
 	.4byte	0x45f08
 	.byte	0x5
 	.byte	0x3

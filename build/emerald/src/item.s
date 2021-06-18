@@ -16104,7 +16104,7 @@ gItems:
 	.byte	0xff
 	.space	3
 	.short	0x2
-	.short	0x4b0
+	.short	0x78
 	.space	2
 	.word	sUltraBallDesc
 	.space	2
@@ -16129,7 +16129,7 @@ gItems:
 	.byte	0xff
 	.space	3
 	.short	0x3
-	.short	0x258
+	.short	0x3c
 	.space	2
 	.word	sGreatBallDesc
 	.space	2
@@ -16153,7 +16153,7 @@ gItems:
 	.byte	0xff
 	.space	4
 	.short	0x4
-	.short	0xc8
+	.short	0x14
 	.space	2
 	.word	sPokeBallDesc
 	.space	2
@@ -16202,7 +16202,7 @@ gItems:
 	.byte	0xff
 	.space	5
 	.short	0x6
-	.short	0x3e8
+	.short	0x64
 	.space	2
 	.word	sNetBallDesc
 	.space	2
@@ -16226,7 +16226,7 @@ gItems:
 	.byte	0xff
 	.space	4
 	.short	0x7
-	.short	0x3e8
+	.short	0x64
 	.space	2
 	.word	sDiveBallDesc
 	.space	2
@@ -16250,7 +16250,7 @@ gItems:
 	.byte	0xff
 	.space	4
 	.short	0x8
-	.short	0x3e8
+	.short	0x64
 	.space	2
 	.word	sNestBallDesc
 	.space	2
@@ -16276,7 +16276,7 @@ gItems:
 	.byte	0xff
 	.space	2
 	.short	0x9
-	.short	0x3e8
+	.short	0x64
 	.space	2
 	.word	sRepeatBallDesc
 	.space	2
@@ -16301,7 +16301,7 @@ gItems:
 	.byte	0xff
 	.space	3
 	.short	0xa
-	.short	0x3e8
+	.short	0x64
 	.space	2
 	.word	sTimerBallDesc
 	.space	2
@@ -16327,7 +16327,7 @@ gItems:
 	.byte	0xff
 	.space	2
 	.short	0xb
-	.short	0x3e8
+	.short	0x64
 	.space	2
 	.word	sLuxuryBallDesc
 	.space	2
@@ -16354,7 +16354,7 @@ gItems:
 	.byte	0xff
 	.space	1
 	.short	0xc
-	.short	0xc8
+	.short	0x14
 	.space	2
 	.word	sPremierBallDesc
 	.space	2
@@ -17591,7 +17591,7 @@ gItems:
 	.byte	0xff
 	.space	3
 	.short	0x44
-	.short	0x12c0
+	.short	0xa
 	.space	2
 	.word	sRareCandyDesc
 	.space	2

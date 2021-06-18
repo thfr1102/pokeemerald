@@ -30548,75 +30548,82 @@ static const struct TrainerMonNoItemCustomMoves sParty_Walter5[] = {
 static const struct TrainerMonItemCustomMoves sParty_Sidney[] = {
     {
     .iv = 250,
-    .lvl = 46,
+    .lvl = 48,
     .species = 287,
-    .heldItem = 0,
-    .moves = {46, 38, 28, 242}
+    .heldItem = 141,
+    .moves = {207, 38, 583, 242}
     },
     {
     .iv = 250,
     .lvl = 48,
     .species = 300,
-    .heldItem = 0,
-    .moves = {259, 104, 207, 326}
+    .heldItem = 141,
+    .moves = {348, 542, 207, 326}
     },
     {
     .iv = 250,
-    .lvl = 46,
+    .lvl = 48,
     .species = 345,
-    .heldItem = 0,
-    .moves = {73, 185, 302, 178}
+    .heldItem = 141,
+    .moves = {596, 399, 302, 178}
     },
     {
     .iv = 250,
     .lvl = 48,
     .species = 327,
-    .heldItem = 0,
-    .moves = {57, 14, 70, 263}
+    .heldItem = 141,
+    .moves = {282, 14, 152, 242}
+    },
+ {
+    .iv = 250,
+    .lvl = 48,
+    .species = 229,
+    .heldItem = 141,
+    .moves = {257, 242, 228, 417}
     },
     {
     .iv = 255,
     .lvl = 49,
     .species = 376,
-    .heldItem = 142,
-    .moves = {332, 157, 14, 163}
+    .heldItem = 141,
+    .moves = {224, 400, 14, 427}
     }
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Phoebe[] = {
     {
     .iv = 250,
-    .lvl = 48,
+    .lvl = 50,
     .species = 362,
-    .heldItem = 0,
-    .moves = {325, 109, 174, 182}
+    .heldItem = 200,
+    .moves = {325, 109, 261, 182}
     },
     {
     .iv = 250,
-    .lvl = 49,
-    .species = 378,
-    .heldItem = 0,
-    .moves = {247, 288, 261, 185}
+    .lvl = 50,
+    .species = 94,
+    .heldItem = 141,
+    .moves = {247, 188, 261, 412}
     },
     {
     .iv = 250,
     .lvl = 50,
     .species = 322,
-    .heldItem = 0,
-    .moves = {247, 104, 101, 185}
+    .heldItem = 141,
+    .moves = {421, 104, 105, 280}
     },
     {
     .iv = 250,
-    .lvl = 49,
+    .lvl = 50,
     .species = 378,
-    .heldItem = 0,
-    .moves = {247, 94, 85, 263}
+    .heldItem = 141,
+    .moves = {421, 261, 85, 425}
     },
     {
     .iv = 255,
     .lvl = 51,
     .species = 362,
-    .heldItem = 142,
+    .heldItem = 141,
     .moves = {247, 58, 157, 89}
     }
 };
@@ -30624,100 +30631,128 @@ static const struct TrainerMonItemCustomMoves sParty_Phoebe[] = {
 static const struct TrainerMonItemCustomMoves sParty_Glacia[] = {
     {
     .iv = 250,
-    .lvl = 50,
-    .species = 342,
-    .heldItem = 0,
-    .moves = {227, 34, 258, 301}
-    },
-    {
-    .iv = 250,
-    .lvl = 50,
+    .lvl = 52,
     .species = 347,
-    .heldItem = 0,
-    .moves = {113, 242, 196, 58}
+    .heldItem = 141,
+    .moves = {311, 59, 191, 153}
     },
     {
     .iv = 250,
     .lvl = 52,
-    .species = 342,
-    .heldItem = 0,
-    .moves = {213, 38, 258, 59}
+    .species = 87,
+    .heldItem = 141,
+    .moves = {59, 529, 57, 324}
     },
     {
     .iv = 250,
     .lvl = 52,
-    .species = 347,
-    .heldItem = 0,
-    .moves = {247, 153, 258, 58}
+    .species = 131,
+    .heldItem = 141,
+    .moves = {56, 420, 85, 59}
+    },
+    {
+    .iv = 250,
+    .lvl = 52,
+    .species = 402,
+    .heldItem = 141,
+    .moves = {59, 153, 85, 68}
     },
     {
     .iv = 255,
     .lvl = 53,
     .species = 343,
-    .heldItem = 142,
-    .moves = {57, 34, 58, 329}
+    .heldItem = 200,
+    .moves = {57, 59, 89, 329}
     }
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Drake[] = {
     {
     .iv = 250,
-    .lvl = 52,
-    .species = 396,
-    .heldItem = 0,
-    .moves = {317, 337, 182, 38}
+    .lvl = 54,
+    .species = 248,
+    .heldItem = 141,
+    .moves = {349, 246, 89, 242}
     },
     {
     .iv = 250,
     .lvl = 54,
     .species = 359,
-    .heldItem = 0,
-    .moves = {38, 225, 349, 332}
+    .heldItem = 200,
+    .moves = {355, 406, 143, 538}
+    },
+ {
+    .iv = 250,
+    .lvl = 54,
+    .species = 149,
+    .heldItem = 141,
+    .moves = {349, 89, 245, 157}
     },
     {
     .iv = 250,
-    .lvl = 53,
+    .lvl = 54,
     .species = 230,
-    .heldItem = 0,
-    .moves = {108, 349, 57, 34}
+    .heldItem = 141,
+    .moves = {56, 434, 58, 190}
     },
     {
     .iv = 250,
-    .lvl = 53,
+    .lvl = 54,
     .species = 334,
-    .heldItem = 0,
-    .moves = {53, 242, 225, 89}
+    .heldItem = 141,
+    .moves = {53, 242, 337, 89}
     },
     {
     .iv = 255,
     .lvl = 55,
     .species = 397,
-    .heldItem = 142,
-    .moves = {53, 337, 157, 242}
+    .heldItem = 141,
+    .moves = {53, 434, 314, 89}
     }
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Roxanne1[] = {
     {
     .iv = 100,
-    .lvl = 12,
-    .species = 74,
-    .heldItem = 0,
-    .moves = {33, 111, 88, 317}
+    .lvl = 14,
+    .species = 320,
+    .heldItem = 139,
+    .moves = {120, 213, 69, 86}
     },
     {
     .iv = 100,
-    .lvl = 12,
-    .species = 74,
-    .heldItem = 0,
-    .moves = {33, 111, 88, 317}
+    .lvl = 14,
+    .species = 388,
+    .heldItem = 139,
+    .moves = {188, 202, 105, 246}
     },
     {
-    .iv = 200,
-    .lvl = 15,
-    .species = 320,
+    .iv = 100,
+    .lvl = 14,
+    .species = 390,
+    .heldItem = 141,
+    .moves = {332, 280, 404, 157}
+    },
+ {
+    .iv = 100,
+    .lvl = 14,
+    .species = 381,
     .heldItem = 139,
-    .moves = {335, 106, 33, 317}
+    .moves = {88, 290, 281, 352}
+    },
+ {
+    .iv = 100,
+    .lvl = 14,
+    .species = 213,
+    .heldItem = 139,
+    .moves = {92, 174, 205, 157}
+    },
+ {
+    .iv = 100,
+    .lvl = 15,
+    .species = 348,
+    .heldItem = 141,
+    .moves = {95, 236, 93, 157}
     }
 };
 
@@ -30725,154 +30760,224 @@ static const struct TrainerMonItemCustomMoves sParty_Brawly1[] = {
     {
     .iv = 100,
     .lvl = 16,
-    .species = 66,
-    .heldItem = 0,
-    .moves = {2, 67, 69, 339}
+    .species = 237,
+    .heldItem = 141,
+    .moves = {252, 183, 157, 290}
+    },
+ {
+    .iv = 100,
+    .lvl = 16,
+    .species = 106,
+    .heldItem = 139,
+    .moves = {214, 27, 157, 290}
+    },
+ {
+    .iv = 100,
+    .lvl = 16,
+    .species = 107,
+    .heldItem = 134,
+    .moves = {325, 183, 157, 263}
+    },
+ {
+    .iv = 100,
+    .lvl = 16,
+    .species = 356,
+    .heldItem = 141,
+    .moves = {280, 247, 157, 252}
     },
     {
     .iv = 100,
     .lvl = 16,
-    .species = 356,
-    .heldItem = 0,
-    .moves = {264, 113, 115, 339}
+    .species = 62,
+    .heldItem = 141,
+    .moves = {95, 57, 8, 280}
     },
     {
-    .iv = 200,
-    .lvl = 19,
-    .species = 335,
-    .heldItem = 142,
-    .moves = {292, 233, 179, 339}
+    .iv = 100,
+    .lvl = 17,
+    .species = 336,
+    .heldItem = 141,
+    .moves = {395, 325, 157, 252}
     }
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Wattson1[] = {
     {
     .iv = 200,
-    .lvl = 20,
-    .species = 100,
-    .heldItem = 0,
-    .moves = {205, 209, 120, 351}
+    .lvl = 23,
+    .species = 135,
+    .heldItem = 141,
+    .moves = {86, 412, 85, 44}
+    },
+ {
+    .iv = 200,
+    .lvl = 23,
+    .species = 171,
+    .heldItem = 200,
+    .moves = {86, 58, 57, 85}
+    },
+ {
+    .iv = 200,
+    .lvl = 23,
+    .species = 181,
+    .heldItem = 200,
+    .moves = {86, 7, 85, 412}
     },
     {
     .iv = 200,
-    .lvl = 20,
-    .species = 337,
-    .heldItem = 0,
-    .moves = {351, 43, 98, 336}
+    .lvl = 23,
+    .species = 125,
+    .heldItem = 141,
+    .moves = {94, 85, 7, 8}
     },
     {
-    .iv = 220,
-    .lvl = 22,
+    .iv = 200,
+    .lvl = 23,
     .species = 82,
-    .heldItem = 0,
-    .moves = {48, 351, 86, 49}
+    .heldItem = 141,
+    .moves = {86, 85, 430, 49}
     },
     {
-    .iv = 250,
+    .iv = 200,
     .lvl = 24,
     .species = 338,
-    .heldItem = 142,
-    .moves = {98, 86, 351, 336}
+    .heldItem = 141,
+    .moves = {85, 53, 242, 86}
     }
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Flannery1[] = {
     {
     .iv = 200,
-    .lvl = 24,
-    .species = 339,
-    .heldItem = 0,
-    .moves = {315, 36, 222, 241}
+    .lvl = 28,
+    .species = 38,
+    .heldItem = 141,
+    .moves = {528, 315, 76, 95}
+    },
+ {
+    .iv = 200,
+    .lvl = 28,
+    .species = 6,
+    .heldItem = 141,
+    .moves = {257, 89, 76, 337}
+    },
+ {
+    .iv = 200,
+    .lvl = 28,
+    .species = 282,
+    .heldItem = 141,
+    .moves = {299, 327, 9, 76}
     },
     {
     .iv = 200,
-    .lvl = 24,
-    .species = 218,
-    .heldItem = 0,
-    .moves = {315, 123, 113, 241}
+    .lvl = 28,
+    .species = 59,
+    .heldItem = 200,
+    .moves = {528, 257, 76, 245}
     },
     {
-    .iv = 250,
-    .lvl = 26,
+    .iv = 200,
+    .lvl = 28,
     .species = 340,
-    .heldItem = 0,
-    .moves = {315, 33, 241, 213}
+    .heldItem = 141,
+    .moves = {284, 89, 76, 213}
     },
     {
-    .iv = 250,
+    .iv = 200,
     .lvl = 29,
     .species = 321,
     .heldItem = 180,
-    .moves = {315, 241, 34, 213}
+    .moves = {284, 34, 76, 315}
     }
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Norman1[] = {
     {
     .iv = 200,
-    .lvl = 27,
+    .lvl = 30,
     .species = 308,
-    .heldItem = 0,
+    .heldItem = 141,
     .moves = {298, 60, 263, 227}
     },
-    {
+ {
     .iv = 200,
-    .lvl = 27,
-    .species = 365,
-    .heldItem = 0,
-    .moves = {163, 263, 227, 185}
+    .lvl = 30,
+    .species = 289,
+    .heldItem = 141,
+    .moves = {187, 245, 421, 583}
+    },
+ {
+    .iv = 200,
+    .lvl = 30,
+    .species = 305,
+    .heldItem = 141,
+    .moves = {413, 211, 263, 355}
     },
     {
     .iv = 200,
-    .lvl = 29,
-    .species = 289,
-    .heldItem = 0,
-    .moves = {163, 187, 263, 29}
+    .lvl = 30,
+    .species = 128,
+    .heldItem = 141,
+    .moves = {34, 428, 231, 89}
+    },
+    {
+    .iv = 200,
+    .lvl = 30,
+    .species = 143,
+    .heldItem = 200,
+    .moves = {187, 34, 242, 630}
     },
     {
     .iv = 250,
     .lvl = 31,
     .species = 366,
-    .heldItem = 142,
-    .moves = {68, 281, 263, 185}
+    .heldItem = 141,
+    .moves = {63, 421, 263, 276}
     }
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Winona1[] = {
     {
-    .iv = 210,
-    .lvl = 29,
-    .species = 358,
-    .heldItem = 0,
-    .moves = {195, 119, 219, 332}
-    },
-    {
-    .iv = 210,
-    .lvl = 29,
-    .species = 369,
-    .heldItem = 0,
-    .moves = {241, 332, 76, 235}
-    },
-    {
-    .iv = 210,
-    .lvl = 30,
-    .species = 310,
-    .heldItem = 0,
-    .moves = {55, 48, 182, 332}
-    },
-    {
-    .iv = 220,
-    .lvl = 31,
+    .iv = 200,
+    .lvl = 32,
     .species = 227,
-    .heldItem = 0,
-    .moves = {28, 31, 211, 332}
+    .heldItem = 141,
+    .moves = {191, 211, 143, 18}
     },
     {
-    .iv = 255,
+    .iv = 200,
+    .lvl = 32,
+    .species = 169,
+    .heldItem = 141,
+    .moves = {143, 305, 109, 202}
+    },
+    {
+    .iv = 200,
+    .lvl = 32,
+    .species = 310,
+    .heldItem = 141,
+    .moves = {57, 542, 355, 58}
+    },
+    {
+    .iv = 200,
+    .lvl = 32,
+    .species = 369,
+    .heldItem = 200,
+    .moves = {349, 348, 73, 19}
+    },
+ {
+    .iv = 200,
+    .lvl = 32,
+    .species = 334,
+    .heldItem = 141,
+    .moves = {89, 337, 53, 202}
+    },
+    {
+    .iv = 200,
     .lvl = 33,
     .species = 359,
-    .heldItem = 139,
-    .moves = {89, 225, 349, 332}
+    .heldItem = 141,
+    .moves = {89, 337, 349, 143}
     }
 };
 
@@ -30881,22 +30986,36 @@ static const struct TrainerMonItemCustomMoves sParty_TateAndLiza1[] = {
     .iv = 250,
     .lvl = 41,
     .species = 319,
-    .heldItem = 0,
+    .heldItem = 141,
     .moves = {89, 246, 94, 113}
     },
     {
     .iv = 250,
     .lvl = 41,
     .species = 178,
-    .heldItem = 0,
-    .moves = {94, 241, 109, 347}
+    .heldItem = 141,
+    .moves = {94, 403, 109, 347}
+    },
+ {
+    .iv = 250,
+    .lvl = 41,
+    .species = 394,
+    .heldItem = 141,
+    .moves = {347, 605, 94, 247}
+    },
+    {
+    .iv = 250,
+    .lvl = 41,
+    .species = 357,
+    .heldItem = 141,
+    .moves = {252, 136, 428, 9}
     },
     {
     .iv = 250,
     .lvl = 42,
     .species = 348,
     .heldItem = 142,
-    .moves = {113, 94, 95, 347}
+    .moves = {157, 94, 95, 347}
     },
     {
     .iv = 250,
@@ -30909,39 +31028,46 @@ static const struct TrainerMonItemCustomMoves sParty_TateAndLiza1[] = {
 
 static const struct TrainerMonItemCustomMoves sParty_Juan1[] = {
     {
-    .iv = 200,
-    .lvl = 41,
-    .species = 325,
-    .heldItem = 0,
-    .moves = {352, 213, 186, 175}
+    .iv = 250,
+    .lvl = 45,
+    .species = 171,
+    .heldItem = 141,
+    .moves = {56, 87, 58, 412}
+    },
+ {
+    .iv = 250,
+    .lvl = 45,
+    .species = 131,
+    .heldItem = 141,
+    .moves = {56, 87, 58, 246}
     },
     {
-    .iv = 200,
-    .lvl = 41,
+    .iv = 250,
+    .lvl = 45,
     .species = 324,
-    .heldItem = 0,
-    .moves = {240, 352, 133, 89}
+    .heldItem = 141,
+    .moves = {349, 89, 401, 562}
     },
     {
-    .iv = 200,
-    .lvl = 43,
-    .species = 342,
-    .heldItem = 0,
-    .moves = {227, 34, 62, 352}
+    .iv = 250,
+    .lvl = 45,
+    .species = 134,
+    .heldItem = 200,
+    .moves = {47, 58, 56, 412}
     },
     {
-    .iv = 200,
-    .lvl = 43,
-    .species = 327,
-    .heldItem = 0,
-    .moves = {352, 152, 269, 43}
+    .iv = 250,
+    .lvl = 45,
+    .species = 297,
+    .heldItem = 200,
+    .moves = {56, 73, 58, 412}
     },
     {
     .iv = 250,
     .lvl = 46,
     .species = 230,
-    .heldItem = 134,
-    .moves = {352, 104, 58, 156}
+    .heldItem = 141,
+    .moves = {56, 58, 434, 324}
     }
 };
 
@@ -31749,43 +31875,43 @@ static const struct TrainerMonItemCustomMoves sParty_Wallace[] = {
     .iv = 255,
     .lvl = 57,
     .species = 314,
-    .heldItem = 0,
-    .moves = {240, 323, 38, 59}
+    .heldItem = 200,
+    .moves = {304, 323, 120, 58}
     },
     {
     .iv = 255,
-    .lvl = 55,
+    .lvl = 57,
     .species = 73,
-    .heldItem = 0,
+    .heldItem = 200,
     .moves = {92, 56, 188, 58}
     },
     {
     .iv = 255,
-    .lvl = 56,
+    .lvl = 57,
     .species = 297,
-    .heldItem = 0,
-    .moves = {202, 57, 73, 104}
+    .heldItem = 200,
+    .moves = {412, 56, 73, 58}
     },
     {
     .iv = 255,
-    .lvl = 56,
-    .species = 324,
-    .heldItem = 0,
-    .moves = {89, 57, 133, 63}
+    .lvl = 57,
+    .species = 400,
+    .heldItem = 141,
+    .moves = {309, 89, 428, 153}
     },
     {
     .iv = 255,
-    .lvl = 56,
+    .lvl = 57,
     .species = 130,
-    .heldItem = 0,
-    .moves = {349, 89, 63, 57}
+    .heldItem = 141,
+    .moves = {349, 89, 127, 340}
     },
     {
     .iv = 255,
     .lvl = 58,
     .species = 329,
-    .heldItem = 142,
-    .moves = {105, 57, 58, 92}
+    .heldItem = 200,
+    .moves = {105, 503, 58, 92}
     }
 };
 

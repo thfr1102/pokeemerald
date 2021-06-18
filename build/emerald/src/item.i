@@ -8345,7 +8345,7 @@ const struct Item gItems[] =
     {
         .name = _("ULTRA BALL"),
         .itemId = 2,
-        .price = 1200,
+        .price = 120,
         .description = sUltraBallDesc,
         .pocket = 2,
         .type = 2 - 1,
@@ -8358,7 +8358,7 @@ const struct Item gItems[] =
     {
         .name = _("GREAT BALL"),
         .itemId = 3,
-        .price = 600,
+        .price = 60,
         .description = sGreatBallDesc,
         .pocket = 2,
         .type = 3 - 1,
@@ -8371,7 +8371,7 @@ const struct Item gItems[] =
     {
         .name = _("POKé BALL"),
         .itemId = 4,
-        .price = 200,
+        .price = 20,
         .description = sPokeBallDesc,
         .pocket = 2,
         .type = 4 - 1,
@@ -8397,7 +8397,7 @@ const struct Item gItems[] =
     {
         .name = _("NET BALL"),
         .itemId = 6,
-        .price = 1000,
+        .price = 100,
         .description = sNetBallDesc,
         .pocket = 2,
         .type = 6 - 1,
@@ -8410,7 +8410,7 @@ const struct Item gItems[] =
     {
         .name = _("DIVE BALL"),
         .itemId = 7,
-        .price = 1000,
+        .price = 100,
         .description = sDiveBallDesc,
         .pocket = 2,
         .type = 7 - 1,
@@ -8423,7 +8423,7 @@ const struct Item gItems[] =
     {
         .name = _("NEST BALL"),
         .itemId = 8,
-        .price = 1000,
+        .price = 100,
         .description = sNestBallDesc,
         .pocket = 2,
         .type = 8 - 1,
@@ -8436,7 +8436,7 @@ const struct Item gItems[] =
     {
         .name = _("REPEAT BALL"),
         .itemId = 9,
-        .price = 1000,
+        .price = 100,
         .description = sRepeatBallDesc,
         .pocket = 2,
         .type = 9 - 1,
@@ -8449,7 +8449,7 @@ const struct Item gItems[] =
     {
         .name = _("TIMER BALL"),
         .itemId = 10,
-        .price = 1000,
+        .price = 100,
         .description = sTimerBallDesc,
         .pocket = 2,
         .type = 10 - 1,
@@ -8462,7 +8462,7 @@ const struct Item gItems[] =
     {
         .name = _("LUXURY BALL"),
         .itemId = 11,
-        .price = 1000,
+        .price = 100,
         .description = sLuxuryBallDesc,
         .pocket = 2,
         .type = 11 - 1,
@@ -8475,7 +8475,7 @@ const struct Item gItems[] =
     {
         .name = _("PREMIER BALL"),
         .itemId = 12,
-        .price = 200,
+        .price = 20,
         .description = sPremierBallDesc,
         .pocket = 2,
         .type = 12 - 1,
@@ -9176,7 +9176,7 @@ const struct Item gItems[] =
     {
         .name = _("RARE CANDY"),
         .itemId = 68,
-        .price = 4800,
+        .price = 10,
         .description = sRareCandyDesc,
         .pocket = 1,
         .type = 1,
