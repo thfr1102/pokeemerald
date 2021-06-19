@@ -26831,6 +26831,8 @@ sElectrodeLevelUpLearnset:
 	.short	0x1a
 	.short	0x71
 	.short	0x1d
+	.short	0x55
+	.short	0x20
 	.short	0x189
 	.short	0x24
 	.short	0x1b3
@@ -26843,33 +26845,37 @@ sElectrodeLevelUpLearnset:
 	.short	0x3a
 	.short	0xffff
 	.space	2
-	.size	 sElectrodeLevelUpLearnset,84
+	.size	 sElectrodeLevelUpLearnset,88
 	.align	2, 0
 	.type	 sExeggcuteLevelUpLearnset,object
 sExeggcuteLevelUpLearnset:
-	.short	0x8c
+	.short	0x48
 	.short	0x1
 	.short	0xfd
 	.short	0x1
 	.short	0x5f
 	.short	0x1
-	.short	0x73
+	.short	0x5d
 	.short	0x7
 	.short	0x49
 	.short	0xb
+	.short	0x3c
+	.short	0xd
 	.short	0x14b
 	.short	0x11
-	.short	0x4e
+	.short	0xca
 	.short	0x13
+	.short	0x4e
+	.short	0x14
 	.short	0x4d
 	.short	0x15
 	.short	0x4f
-	.short	0x17
-	.short	0x5d
-	.short	0x1b
+	.short	0x16
+	.short	0x5e
+	.short	0x1f
 	.short	0x184
 	.short	0x21
-	.short	0x16b
+	.short	0x79
 	.short	0x25
 	.short	0x4c
 	.short	0x2b
@@ -26879,19 +26885,19 @@ sExeggcuteLevelUpLearnset:
 	.short	0x32
 	.short	0xffff
 	.space	2
-	.size	 sExeggcuteLevelUpLearnset,64
+	.size	 sExeggcuteLevelUpLearnset,72
 	.align	2, 0
 	.type	 sExeggutorLevelUpLearnset,object
 sExeggutorLevelUpLearnset:
-	.short	0x17
+	.short	0xf6
 	.short	0x1
 	.short	0x192
 	.short	0x1
-	.short	0x8c
+	.short	0x4f
 	.short	0x1
 	.short	0x5f
 	.short	0x1
-	.short	0x5d
+	.short	0x5e
 	.short	0x1
 	.short	0x1d9
 	.short	0x11
@@ -26907,16 +26913,16 @@ sExeggutorLevelUpLearnset:
 	.align	2, 0
 	.type	 sCuboneLevelUpLearnset,object
 sCuboneLevelUpLearnset:
-	.short	0x2d
-	.short	0x1
-	.short	0x27
-	.short	0x3
 	.short	0x7d
-	.short	0x7
+	.short	0x1
+	.short	0x58
+	.short	0x3
+	.short	0x122
+	.short	0x9
 	.short	0x1d
-	.short	0xb
-	.short	0x2b
 	.short	0xd
+	.short	0x5b
+	.short	0xf
 	.short	0x74
 	.short	0x11
 	.short	0x9b
@@ -26969,14 +26975,14 @@ sMarowakLevelUpLearnset:
 	.short	0x17
 	.short	0xce
 	.short	0x1b
-	.short	0x25
-	.short	0x21
-	.short	0x176
+	.short	0xc6
+	.short	0x20
+	.short	0x22
 	.short	0x25
 	.short	0x295
 	.short	0x2b
-	.short	0x11b
-	.short	0x31
+	.short	0x9d
+	.short	0x2e
 	.short	0x26
 	.short	0x35
 	.short	0x202
@@ -27023,10 +27029,12 @@ sHitmonleeLevelUpLearnset:
 	.short	0x21
 	.short	0xc1
 	.short	0x25
-	.short	0x1d5
+	.short	0x59
 	.short	0x29
 	.short	0x12b
 	.short	0x2d
+	.short	0x9d
+	.short	0x2e
 	.short	0xcb
 	.short	0x31
 	.short	0x19
@@ -27037,7 +27045,7 @@ sHitmonleeLevelUpLearnset:
 	.short	0x3d
 	.short	0xffff
 	.space	2
-	.size	 sHitmonleeLevelUpLearnset,96
+	.size	 sHitmonleeLevelUpLearnset,100
 	.align	2, 0
 	.type	 sHitmonchanLevelUpLearnset,object
 sHitmonchanLevelUpLearnset:
@@ -27069,29 +27077,35 @@ sHitmonchanLevelUpLearnset:
 	.short	0x15
 	.short	0x19a
 	.short	0x1a
+	.short	0x59
+	.short	0x1e
 	.short	0x1f5
 	.short	0x1f
+	.short	0x147
+	.short	0x20
 	.short	0x9
 	.short	0x24
 	.short	0x8
 	.short	0x24
 	.short	0x7
 	.short	0x24
-	.short	0x147
-	.short	0x29
+	.short	0x145
+	.short	0x26
+	.short	0x9d
+	.short	0x2c
 	.short	0x5
 	.short	0x2e
+	.short	0x172
+	.short	0x30
 	.short	0xc5
 	.short	0x32
 	.short	0x108
 	.short	0x38
 	.short	0x44
 	.short	0x3d
-	.short	0x172
-	.short	0x42
 	.short	0xffff
 	.space	2
-	.size	 sHitmonchanLevelUpLearnset,100
+	.size	 sHitmonchanLevelUpLearnset,112
 	.align	2, 0
 	.type	 sLickitungLevelUpLearnset,object
 sLickitungLevelUpLearnset:
@@ -27099,41 +27113,43 @@ sLickitungLevelUpLearnset:
 	.short	0x1
 	.short	0x30
 	.short	0x5
-	.short	0x6f
+	.short	0x17
 	.short	0x9
 	.short	0x11a
 	.short	0xd
 	.short	0x23
 	.short	0x11
-	.short	0x17
-	.short	0x15
 	.short	0x32
 	.short	0x19
 	.short	0x15
 	.short	0x1d
 	.short	0xcd
 	.short	0x21
+	.short	0xf7
+	.short	0x22
 	.short	0x1f2
 	.short	0x25
+	.short	0x22
+	.short	0x28
 	.short	0x17e
 	.short	0x29
 	.short	0x11f
 	.short	0x2d
-	.short	0x67
-	.short	0x31
+	.short	0x59
+	.short	0x2e
 	.short	0x1b6
 	.short	0x35
 	.short	0x17a
 	.short	0x39
 	.short	0xffff
 	.space	2
-	.size	 sLickitungLevelUpLearnset,64
+	.size	 sLickitungLevelUpLearnset,68
 	.align	2, 0
 	.type	 sKoffingLevelUpLearnset,object
 sKoffingLevelUpLearnset:
-	.short	0x8b
+	.short	0x3c
 	.short	0x1
-	.short	0x21
+	.short	0x122
 	.short	0x1
 	.short	0x7b
 	.short	0x4
@@ -27143,7 +27159,7 @@ sKoffingLevelUpLearnset:
 	.short	0xc
 	.short	0x1f3
 	.short	0xf
-	.short	0x7c
+	.short	0xbc
 	.short	0x12
 	.short	0x78
 	.short	0x17
@@ -27151,8 +27167,8 @@ sKoffingLevelUpLearnset:
 	.short	0x1a
 	.short	0x168
 	.short	0x1d
-	.short	0xbc
-	.short	0x22
+	.short	0xf7
+	.short	0x21
 	.short	0x99
 	.short	0x25
 	.short	0xc2
@@ -27199,37 +27215,35 @@ sWeezingLevelUpLearnset:
 	.short	0x28
 	.short	0xc2
 	.short	0x2e
+	.short	0x5c
+	.short	0x32
 	.short	0x232
 	.short	0x33
 	.short	0x106
 	.short	0x39
 	.short	0xffff
 	.space	2
-	.size	 sWeezingLevelUpLearnset,76
+	.size	 sWeezingLevelUpLearnset,80
 	.align	2, 0
 	.type	 sRhyhornLevelUpLearnset,object
 sRhyhornLevelUpLearnset:
 	.short	0x1e
 	.short	0x1
-	.short	0x27
+	.short	0xde
 	.short	0x1
-	.short	0x1f
-	.short	0x5
+	.short	0x58
+	.short	0xa
 	.short	0xb8
-	.short	0x9
+	.short	0xc
 	.short	0x1df
 	.short	0xd
 	.short	0x17
 	.short	0x11
-	.short	0x20b
-	.short	0x15
-	.short	0x1f2
-	.short	0x19
 	.short	0x15e
-	.short	0x1d
+	.short	0x18
 	.short	0x211
-	.short	0x21
-	.short	0x24
+	.short	0x1d
+	.short	0x22
 	.short	0x25
 	.short	0x1bc
 	.short	0x29
@@ -27241,7 +27255,7 @@ sRhyhornLevelUpLearnset:
 	.short	0x35
 	.short	0xffff
 	.space	2
-	.size	 sRhyhornLevelUpLearnset,64
+	.size	 sRhyhornLevelUpLearnset,56
 	.align	2, 0
 	.type	 sRhydonLevelUpLearnset,object
 sRhydonLevelUpLearnset:
@@ -27293,11 +27307,11 @@ sChanseyLevelUpLearnset:
 	.short	0x1
 	.short	0x6f
 	.short	0x1
-	.short	0x1
+	.short	0x11b
 	.short	0x1
 	.short	0x2d
 	.short	0x1
-	.short	0x27
+	.short	0x130
 	.short	0x5
 	.short	0x11f
 	.short	0x9
@@ -27317,6 +27331,8 @@ sChanseyLevelUpLearnset:
 	.short	0x23
 	.short	0x1f9
 	.short	0x27
+	.short	0x45
+	.short	0x29
 	.short	0x79
 	.short	0x2c
 	.short	0x71
@@ -27327,7 +27343,7 @@ sChanseyLevelUpLearnset:
 	.short	0x41
 	.short	0xffff
 	.space	2
-	.size	 sChanseyLevelUpLearnset,76
+	.size	 sChanseyLevelUpLearnset,80
 	.align	2, 0
 	.type	 sTangelaLevelUpLearnset,object
 sTangelaLevelUpLearnset:
@@ -27335,12 +27351,12 @@ sTangelaLevelUpLearnset:
 	.short	0x1
 	.short	0x84
 	.short	0x1
-	.short	0x4f
+	.short	0x47
+	.short	0x1
+	.short	0x122
 	.short	0x4
 	.short	0x16
 	.short	0x7
-	.short	0x47
-	.short	0xa
 	.short	0x4d
 	.short	0xe
 	.short	0x14
@@ -27351,6 +27367,8 @@ sTangelaLevelUpLearnset:
 	.short	0x17
 	.short	0x11a
 	.short	0x1b
+	.short	0x22
+	.short	0x1c
 	.short	0x4e
 	.short	0x1e
 	.short	0x16b
@@ -27359,6 +27377,8 @@ sTangelaLevelUpLearnset:
 	.short	0x24
 	.short	0xf6
 	.short	0x26
+	.short	0x4f
+	.short	0x28
 	.short	0x15
 	.short	0x29
 	.short	0x141
@@ -27371,7 +27391,7 @@ sTangelaLevelUpLearnset:
 	.short	0x32
 	.short	0xffff
 	.space	2
-	.size	 sTangelaLevelUpLearnset,80
+	.size	 sTangelaLevelUpLearnset,88
 	.align	2, 0
 	.type	 sKangaskhanLevelUpLearnset,object
 sKangaskhanLevelUpLearnset:
@@ -27385,13 +27405,13 @@ sKangaskhanLevelUpLearnset:
 	.short	0xa
 	.short	0x2c
 	.short	0xd
-	.short	0x1ca
+	.short	0x9d
 	.short	0x13
 	.short	0x63
 	.short	0x16
 	.short	0x5
 	.short	0x19
-	.short	0x1f2
+	.short	0x114
 	.short	0x1f
 	.short	0x92
 	.short	0x22
@@ -27399,6 +27419,8 @@ sKangaskhanLevelUpLearnset:
 	.short	0x25
 	.short	0xcb
 	.short	0x2b
+	.short	0x1a5
+	.short	0x2c
 	.short	0xc8
 	.short	0x2e
 	.short	0x185
@@ -27407,7 +27429,7 @@ sKangaskhanLevelUpLearnset:
 	.short	0x32
 	.short	0xffff
 	.space	2
-	.size	 sKangaskhanLevelUpLearnset,64
+	.size	 sKangaskhanLevelUpLearnset,68
 	.align	2, 0
 	.type	 sHorseaLevelUpLearnset,object
 sHorseaLevelUpLearnset:
@@ -27415,10 +27437,12 @@ sHorseaLevelUpLearnset:
 	.short	0x1
 	.short	0x6c
 	.short	0x5
-	.short	0x2b
+	.short	0x81
 	.short	0x9
 	.short	0x37
 	.short	0xd
+	.short	0x3c
+	.short	0xf
 	.short	0xef
 	.short	0x11
 	.short	0x3d
@@ -27437,7 +27461,7 @@ sHorseaLevelUpLearnset:
 	.short	0x34
 	.short	0xffff
 	.space	2
-	.size	 sHorseaLevelUpLearnset,52
+	.size	 sHorseaLevelUpLearnset,56
 	.align	2, 0
 	.type	 sSeadraLevelUpLearnset,object
 sSeadraLevelUpLearnset:
@@ -27481,11 +27505,11 @@ sSeadraLevelUpLearnset:
 sGoldeenLevelUpLearnset:
 	.short	0x40
 	.short	0x1
-	.short	0x27
+	.short	0x3c
 	.short	0x1
-	.short	0x15a
+	.short	0x3d
 	.short	0x1
-	.short	0x30
+	.short	0x72
 	.short	0x5
 	.short	0x1e
 	.short	0x8
@@ -27493,7 +27517,7 @@ sGoldeenLevelUpLearnset:
 	.short	0xd
 	.short	0x160
 	.short	0x10
-	.short	0x188
+	.short	0x1c5
 	.short	0x15
 	.short	0x1f
 	.short	0x18
@@ -27533,31 +27557,35 @@ sSeakingLevelUpLearnset:
 	.short	0xd
 	.short	0x160
 	.short	0x10
-	.short	0x188
+	.short	0x1c5
 	.short	0x15
 	.short	0x1f
 	.short	0x18
+	.short	0x22c
+	.short	0x1b
 	.short	0x61
+	.short	0x1d
+	.short	0x211
 	.short	0x1d
 	.short	0x7f
 	.short	0x20
+	.short	0xe0
+	.short	0x26
 	.short	0x20
 	.short	0x28
 	.short	0x1e7
 	.short	0x2e
-	.short	0xe0
-	.short	0x36
 	.short	0xffff
 	.space	2
-	.size	 sSeakingLevelUpLearnset,72
+	.size	 sSeakingLevelUpLearnset,80
 	.align	2, 0
 	.type	 sStaryuLevelUpLearnset,object
 sStaryuLevelUpLearnset:
-	.short	0x21
+	.short	0x81
 	.short	0x1
-	.short	0x6a
+	.short	0x5d
 	.short	0x1
-	.short	0x37
+	.short	0x3d
 	.short	0x4
 	.short	0xe5
 	.short	0x7
@@ -27565,10 +27593,6 @@ sStaryuLevelUpLearnset:
 	.short	0xa
 	.short	0x95
 	.short	0xd
-	.short	0x81
-	.short	0x10
-	.short	0x3d
-	.short	0x12
 	.short	0x125
 	.short	0x16
 	.short	0x168
@@ -27593,7 +27617,7 @@ sStaryuLevelUpLearnset:
 	.short	0x35
 	.short	0xffff
 	.space	2
-	.size	 sStaryuLevelUpLearnset,80
+	.size	 sStaryuLevelUpLearnset,72
 	.align	2, 0
 	.type	 sStarmieLevelUpLearnset,object
 sStarmieLevelUpLearnset:
@@ -27601,7 +27625,7 @@ sStarmieLevelUpLearnset:
 	.short	0x1
 	.short	0x27a
 	.short	0x1
-	.short	0x37
+	.short	0x5e
 	.short	0x1
 	.short	0xe5
 	.short	0x1
@@ -27611,9 +27635,11 @@ sStarmieLevelUpLearnset:
 	.short	0x1
 	.short	0x6d
 	.short	0x28
+	.short	0x5e
+	.short	0x32
 	.short	0xffff
 	.space	2
-	.size	 sStarmieLevelUpLearnset,32
+	.size	 sStarmieLevelUpLearnset,36
 	.align	2, 0
 	.type	 sMrmimeLevelUpLearnset,object
 sMrmimeLevelUpLearnset:
@@ -27631,7 +27657,7 @@ sMrmimeLevelUpLearnset:
 	.short	0x1
 	.short	0x70
 	.short	0x1
-	.short	0x1
+	.short	0x45
 	.short	0x1
 	.short	0x5d
 	.short	0x1
@@ -27639,12 +27665,16 @@ sMrmimeLevelUpLearnset:
 	.short	0x4
 	.short	0x60
 	.short	0x8
-	.short	0x3
-	.short	0xb
+	.short	0x53
+	.short	0x9
+	.short	0x15f
+	.short	0xd
 	.short	0x66
 	.short	0xf
 	.short	0x95
 	.short	0xf
+	.short	0xc4
+	.short	0x11
 	.short	0xe3
 	.short	0x12
 	.short	0x71
@@ -27657,6 +27687,8 @@ sMrmimeLevelUpLearnset:
 	.short	0x1d
 	.short	0x116
 	.short	0x20
+	.short	0x144
+	.short	0x22
 	.short	0x10f
 	.short	0x24
 	.short	0x5e
@@ -27669,7 +27701,7 @@ sMrmimeLevelUpLearnset:
 	.short	0x32
 	.short	0xffff
 	.space	2
-	.size	 sMrmimeLevelUpLearnset,104
+	.size	 sMrmimeLevelUpLearnset,116
 	.align	2, 0
 	.type	 sScytherLevelUpLearnset,object
 sScytherLevelUpLearnset:
@@ -27677,7 +27709,7 @@ sScytherLevelUpLearnset:
 	.short	0x1
 	.short	0x62
 	.short	0x1
-	.short	0x2b
+	.short	0x11
 	.short	0x1
 	.short	0x74
 	.short	0x5
@@ -27687,20 +27719,22 @@ sScytherLevelUpLearnset:
 	.short	0xd
 	.short	0x61
 	.short	0x11
-	.short	0x11
-	.short	0x15
 	.short	0xd2
-	.short	0x19
+	.short	0x14
 	.short	0xa3
-	.short	0x1d
+	.short	0x15
+	.short	0x14c
+	.short	0x18
 	.short	0xd
 	.short	0x21
 	.short	0x68
-	.short	0x25
+	.short	0x22
 	.short	0x194
-	.short	0x29
+	.short	0x24
 	.short	0x190
 	.short	0x2d
+	.short	0xd3
+	.short	0x2e
 	.short	0x1ca
 	.short	0x31
 	.short	0x193
@@ -27711,7 +27745,7 @@ sScytherLevelUpLearnset:
 	.short	0x3d
 	.short	0xffff
 	.space	2
-	.size	 sScytherLevelUpLearnset,76
+	.size	 sScytherLevelUpLearnset,80
 	.align	2, 0
 	.type	 sJynxLevelUpLearnset,object
 sJynxLevelUpLearnset:
@@ -27745,19 +27779,23 @@ sJynxLevelUpLearnset:
 	.short	0x1c
 	.short	0x166
 	.short	0x21
+	.short	0x5e
+	.short	0x25
 	.short	0x1a3
 	.short	0x27
 	.short	0x22
 	.short	0x2c
 	.short	0x17a
 	.short	0x31
+	.short	0x3a
+	.short	0x34
 	.short	0xc3
 	.short	0x37
 	.short	0x3b
 	.short	0x3c
 	.short	0xffff
 	.space	2
-	.size	 sJynxLevelUpLearnset,84
+	.size	 sJynxLevelUpLearnset,92
 	.align	2, 0
 	.type	 sElectabuzzLevelUpLearnset,object
 sElectabuzzLevelUpLearnset:
@@ -27788,23 +27826,25 @@ sElectabuzzLevelUpLearnset:
 	.short	0x67
 	.short	0x2a
 	.short	0x55
-	.short	0x31
+	.short	0x2f
+	.short	0xee
+	.short	0x32
 	.short	0x57
 	.short	0x37
 	.short	0xffff
 	.space	2
-	.size	 sElectabuzzLevelUpLearnset,64
+	.size	 sElectabuzzLevelUpLearnset,68
 	.align	2, 0
 	.type	 sMagmarLevelUpLearnset,object
 sMagmarLevelUpLearnset:
+	.short	0xee
+	.short	0x1
+	.short	0x9
+	.short	0x1
 	.short	0x7b
 	.short	0x1
-	.short	0x2b
+	.short	0x7
 	.short	0x1
-	.short	0x34
-	.short	0x1
-	.short	0x34
-	.short	0x5
 	.short	0x6c
 	.short	0x8
 	.short	0xb9
@@ -27819,21 +27859,23 @@ sMagmarLevelUpLearnset:
 	.short	0x1a
 	.short	0x7
 	.short	0x1d
+	.short	0x118
+	.short	0x21
 	.short	0x1b4
 	.short	0x24
 	.short	0xf1
-	.short	0x2a
+	.short	0x28
 	.short	0x35
-	.short	0x31
+	.short	0x29
 	.short	0x7e
 	.short	0x37
 	.short	0xffff
 	.space	2
-	.size	 sMagmarLevelUpLearnset,64
+	.size	 sMagmarLevelUpLearnset,68
 	.align	2, 0
 	.type	 sPinsirLevelUpLearnset,object
 sPinsirLevelUpLearnset:
-	.short	0xb
+	.short	0x8d
 	.short	0x1
 	.short	0x74
 	.short	0x1
@@ -27859,19 +27901,21 @@ sPinsirLevelUpLearnset:
 	.short	0x24
 	.short	0xe
 	.short	0x28
-	.short	0x25
+	.short	0x9d
 	.short	0x2b
 	.short	0x114
 	.short	0x2f
+	.short	0x59
+	.short	0x31
 	.short	0xc
 	.short	0x32
 	.short	0xffff
 	.space	2
-	.size	 sPinsirLevelUpLearnset,68
+	.size	 sPinsirLevelUpLearnset,72
 	.align	2, 0
 	.type	 sTaurosLevelUpLearnset,object
 sTaurosLevelUpLearnset:
-	.short	0x21
+	.short	0x62
 	.short	0x1
 	.short	0x27
 	.short	0x3
@@ -27889,21 +27933,25 @@ sTaurosLevelUpLearnset:
 	.short	0x18
 	.short	0x20e
 	.short	0x1d
+	.short	0xe7
+	.short	0x22
 	.short	0x24
 	.short	0x23
 	.short	0x1ac
 	.short	0x29
+	.short	0x276
+	.short	0x2b
 	.short	0xcf
 	.short	0x30
 	.short	0x25
-	.short	0x37
+	.short	0x32
 	.short	0x26
-	.short	0x3f
+	.short	0x35
 	.short	0x1a0
 	.short	0x47
 	.short	0xffff
 	.space	2
-	.size	 sTaurosLevelUpLearnset,64
+	.size	 sTaurosLevelUpLearnset,72
 	.align	2, 0
 	.type	 sMagikarpLevelUpLearnset,object
 sMagikarpLevelUpLearnset:
@@ -27911,11 +27959,13 @@ sMagikarpLevelUpLearnset:
 	.short	0x1
 	.short	0x21
 	.short	0xf
+	.short	0x154
+	.short	0x12
 	.short	0xaf
 	.short	0x1e
 	.short	0xffff
 	.space	2
-	.size	 sMagikarpLevelUpLearnset,16
+	.size	 sMagikarpLevelUpLearnset,20
 	.align	2, 0
 	.type	 sGyaradosLevelUpLearnset,object
 sGyaradosLevelUpLearnset:
@@ -27923,6 +27973,8 @@ sGyaradosLevelUpLearnset:
 	.short	0x1
 	.short	0x25
 	.short	0x1
+	.short	0x2c
+	.short	0x14
 	.short	0x2b
 	.short	0x15
 	.short	0xef
@@ -27934,30 +27986,32 @@ sGyaradosLevelUpLearnset:
 	.short	0xb8
 	.short	0x21
 	.short	0x52
-	.short	0x24
+	.short	0x22
 	.short	0xf2
-	.short	0x27
-	.short	0x38
-	.short	0x2a
+	.short	0x23
+	.short	0x7f
+	.short	0x24
 	.short	0x15d
 	.short	0x2d
 	.short	0x21e
 	.short	0x30
+	.short	0x38
+	.short	0x32
 	.short	0xf0
 	.short	0x33
 	.short	0x3f
 	.short	0x36
 	.short	0xffff
 	.space	2
-	.size	 sGyaradosLevelUpLearnset,60
+	.size	 sGyaradosLevelUpLearnset,68
 	.align	2, 0
 	.type	 sLaprasLevelUpLearnset,object
 sLaprasLevelUpLearnset:
 	.short	0x2f
 	.short	0x1
-	.short	0x2d
+	.short	0xf6
 	.short	0x1
-	.short	0x37
+	.short	0x211
 	.short	0x1
 	.short	0x36
 	.short	0x4
@@ -27965,14 +28019,16 @@ sLaprasLevelUpLearnset:
 	.short	0x7
 	.short	0x1a4
 	.short	0xa
+	.short	0x22
+	.short	0xd
 	.short	0x160
 	.short	0xe
-	.short	0x22
-	.short	0x12
 	.short	0xf0
 	.short	0x16
 	.short	0xc3
 	.short	0x1b
+	.short	0x144
+	.short	0x1f
 	.short	0x3a
 	.short	0x20
 	.short	0x16a
@@ -27985,7 +28041,7 @@ sLaprasLevelUpLearnset:
 	.short	0x32
 	.short	0xffff
 	.space	2
-	.size	 sLaprasLevelUpLearnset,64
+	.size	 sLaprasLevelUpLearnset,68
 	.align	2, 0
 	.type	 sDittoLevelUpLearnset,object
 sDittoLevelUpLearnset:
@@ -28007,7 +28063,7 @@ sEeveeLevelUpLearnset:
 	.short	0x1
 	.short	0x27
 	.short	0x1
-	.short	0x1c
+	.short	0x122
 	.short	0x5
 	.short	0x260
 	.short	0x9
@@ -28037,11 +28093,11 @@ sEeveeLevelUpLearnset:
 	.align	2, 0
 	.type	 sVaporeonLevelUpLearnset,object
 sVaporeonLevelUpLearnset:
-	.short	0x37
+	.short	0x14a
 	.short	0x1
 	.short	0x10e
 	.short	0x1
-	.short	0x21
+	.short	0x26
 	.short	0x1
 	.short	0x27
 	.short	0x1
@@ -28077,9 +28133,9 @@ sJolteonLevelUpLearnset:
 	.short	0x1
 	.short	0x10e
 	.short	0x1
-	.short	0x21
+	.short	0x144
 	.short	0x1
-	.short	0x27
+	.short	0x62
 	.short	0x1
 	.short	0x1c
 	.short	0x5
@@ -28103,13 +28159,15 @@ sJolteonLevelUpLearnset:
 	.short	0x29
 	.short	0x57
 	.short	0x2d
+	.short	0x2c
+	.short	0x34
 	.short	0xffff
 	.space	2
-	.size	 sJolteonLevelUpLearnset,64
+	.size	 sJolteonLevelUpLearnset,68
 	.align	2, 0
 	.type	 sFlareonLevelUpLearnset,object
 sFlareonLevelUpLearnset:
-	.short	0x34
+	.short	0x101
 	.short	0x1
 	.short	0x10e
 	.short	0x1
@@ -28139,9 +28197,11 @@ sFlareonLevelUpLearnset:
 	.short	0x29
 	.short	0x18a
 	.short	0x2d
+	.short	0x114
+	.short	0x34
 	.short	0xffff
 	.space	2
-	.size	 sFlareonLevelUpLearnset,64
+	.size	 sFlareonLevelUpLearnset,68
 	.align	2, 0
 	.type	 sPorygon2LevelUpLearnset,object
 sPorygon2LevelUpLearnset:
@@ -28161,6 +28221,8 @@ sPorygon2LevelUpLearnset:
 	.short	0x12
 	.short	0x189
 	.short	0x17
+	.short	0x5e
+	.short	0x18
 	.short	0x144
 	.short	0x1d
 	.short	0x116
@@ -28177,29 +28239,33 @@ sPorygon2LevelUpLearnset:
 	.short	0x3e
 	.short	0xffff
 	.space	2
-	.size	 sPorygon2LevelUpLearnset,64
+	.size	 sPorygon2LevelUpLearnset,68
 	.align	2, 0
 	.type	 sOmanyteLevelUpLearnset,object
 sOmanyteLevelUpLearnset:
-	.short	0x84
+	.short	0x3d
 	.short	0x1
-	.short	0x6e
+	.short	0x13d
 	.short	0x1
 	.short	0x2c
 	.short	0x7
-	.short	0x37
-	.short	0xa
+	.short	0x3e
+	.short	0xf
+	.short	0x155
+	.short	0xf
 	.short	0xcd
 	.short	0x10
 	.short	0x2b
 	.short	0x13
-	.short	0x155
-	.short	0x19
+	.short	0x9d
+	.short	0x1a
 	.short	0x16a
 	.short	0x1c
 	.short	0xb6
 	.short	0x22
 	.short	0xf6
+	.short	0x25
+	.short	0x3a
 	.short	0x25
 	.short	0x141
 	.short	0x2b
@@ -28211,7 +28277,7 @@ sOmanyteLevelUpLearnset:
 	.short	0x37
 	.short	0xffff
 	.space	2
-	.size	 sOmanyteLevelUpLearnset,60
+	.size	 sOmanyteLevelUpLearnset,68
 	.align	2, 0
 	.type	 sOmastarLevelUpLearnset,object
 sOmastarLevelUpLearnset:
@@ -28255,24 +28321,24 @@ sOmastarLevelUpLearnset:
 	.align	2, 0
 	.type	 sKabutoLevelUpLearnset,object
 sKabutoLevelUpLearnset:
-	.short	0xa
+	.short	0x13d
 	.short	0x1
-	.short	0x6a
+	.short	0x160
 	.short	0x1
-	.short	0x47
-	.short	0x6
-	.short	0x2b
-	.short	0xb
+	.short	0x48
+	.short	0xd
 	.short	0x155
 	.short	0x10
-	.short	0x1c
-	.short	0x15
+	.short	0x9d
+	.short	0x19
 	.short	0xcb
 	.short	0x1a
 	.short	0x1c5
 	.short	0x1f
-	.short	0x48
-	.short	0x24
+	.short	0x22c
+	.short	0x1f
+	.short	0x194
+	.short	0x25
 	.short	0x13f
 	.short	0x29
 	.short	0xf6
@@ -28313,10 +28379,10 @@ sKabutopsLevelUpLearnset:
 	.short	0x1f
 	.short	0x48
 	.short	0x24
+	.short	0xf6
+	.short	0x2b
 	.short	0x13f
 	.short	0x2d
-	.short	0xf6
-	.short	0x36
 	.short	0x17a
 	.short	0x3f
 	.short	0x190
@@ -28343,7 +28409,7 @@ sAerodactylLevelUpLearnset:
 	.short	0x1
 	.short	0xb8
 	.short	0x1
-	.short	0x2e
+	.short	0x13d
 	.short	0x9
 	.short	0x61
 	.short	0x11
@@ -28353,6 +28419,8 @@ sAerodactylLevelUpLearnset:
 	.short	0x21
 	.short	0x24
 	.short	0x29
+	.short	0x59
+	.short	0x2b
 	.short	0x1fb
 	.short	0x31
 	.short	0x1ba
@@ -28365,22 +28433,26 @@ sAerodactylLevelUpLearnset:
 	.short	0x51
 	.short	0xffff
 	.space	2
-	.size	 sAerodactylLevelUpLearnset,76
+	.size	 sAerodactylLevelUpLearnset,80
 	.align	2, 0
 	.type	 sSnorlaxLevelUpLearnset,object
 sSnorlaxLevelUpLearnset:
 	.short	0x21
 	.short	0x1
-	.short	0x6f
+	.short	0x107
 	.short	0x4
 	.short	0x85
 	.short	0x9
+	.short	0x12f
+	.short	0xa
 	.short	0x7a
 	.short	0xc
 	.short	0x1f2
 	.short	0x11
 	.short	0x119
 	.short	0x14
+	.short	0x107
+	.short	0x18
 	.short	0x22
 	.short	0x19
 	.short	0x9c
@@ -28405,7 +28477,7 @@ sSnorlaxLevelUpLearnset:
 	.short	0x39
 	.short	0xffff
 	.space	2
-	.size	 sSnorlaxLevelUpLearnset,72
+	.size	 sSnorlaxLevelUpLearnset,80
 	.align	2, 0
 	.type	 sArticunoLevelUpLearnset,object
 sArticunoLevelUpLearnset:
@@ -28413,8 +28485,12 @@ sArticunoLevelUpLearnset:
 	.short	0x1
 	.short	0xb5
 	.short	0x1
+	.short	0x146
+	.short	0x1
 	.short	0x36
 	.short	0x8
+	.short	0xd3
+	.short	0xd
 	.short	0x1a4
 	.short	0xf
 	.short	0xaa
@@ -28443,7 +28519,7 @@ sArticunoLevelUpLearnset:
 	.short	0x63
 	.short	0xffff
 	.space	2
-	.size	 sArticunoLevelUpLearnset,68
+	.size	 sArticunoLevelUpLearnset,76
 	.align	2, 0
 	.type	 sZapdosLevelUpLearnset,object
 sZapdosLevelUpLearnset:
@@ -28453,6 +28529,8 @@ sZapdosLevelUpLearnset:
 	.short	0x1
 	.short	0x56
 	.short	0x8
+	.short	0xd3
+	.short	0xd
 	.short	0xc5
 	.short	0xf
 	.short	0x16d
@@ -28481,7 +28559,7 @@ sZapdosLevelUpLearnset:
 	.short	0x63
 	.short	0xffff
 	.space	2
-	.size	 sZapdosLevelUpLearnset,68
+	.size	 sZapdosLevelUpLearnset,72
 	.align	2, 0
 	.type	 sMoltresLevelUpLearnset,object
 sMoltresLevelUpLearnset:
@@ -28491,6 +28569,8 @@ sMoltresLevelUpLearnset:
 	.short	0x1
 	.short	0x53
 	.short	0x8
+	.short	0xd3
+	.short	0xd
 	.short	0x61
 	.short	0xf
 	.short	0xcb
@@ -28519,13 +28599,13 @@ sMoltresLevelUpLearnset:
 	.short	0x63
 	.short	0xffff
 	.space	2
-	.size	 sMoltresLevelUpLearnset,68
+	.size	 sMoltresLevelUpLearnset,72
 	.align	2, 0
 	.type	 sDratiniLevelUpLearnset,object
 sDratiniLevelUpLearnset:
 	.short	0x23
 	.short	0x1
-	.short	0x2b
+	.short	0x24
 	.short	0x1
 	.short	0x56
 	.short	0x5
@@ -28557,9 +28637,9 @@ sDratiniLevelUpLearnset:
 	.align	2, 0
 	.type	 sDragonairLevelUpLearnset,object
 sDragonairLevelUpLearnset:
-	.short	0x23
+	.short	0xf5
 	.short	0x1
-	.short	0x2b
+	.short	0x13
 	.short	0x1
 	.short	0x56
 	.short	0x1
@@ -28595,9 +28675,9 @@ sDragonairLevelUpLearnset:
 	.align	2, 0
 	.type	 sDragoniteLevelUpLearnset,object
 sDragoniteLevelUpLearnset:
-	.short	0x11
+	.short	0xf5
 	.short	0x1
-	.short	0x21e
+	.short	0x13
 	.short	0x1
 	.short	0x7
 	.short	0x1
@@ -30469,7 +30549,7 @@ sEspeonLevelUpLearnset:
 	.short	0x14
 	.short	0xf8
 	.short	0x19
-	.short	0xf4
+	.short	0x144
 	.short	0x1d
 	.short	0xea
 	.short	0x21
@@ -30477,7 +30557,7 @@ sEspeonLevelUpLearnset:
 	.short	0x25
 	.short	0x183
 	.short	0x29
-	.short	0x180
+	.short	0x11d
 	.short	0x2d
 	.short	0xffff
 	.space	2
@@ -30491,7 +30571,7 @@ sUmbreonLevelUpLearnset:
 	.short	0x1
 	.short	0x21
 	.short	0x1
-	.short	0x27
+	.short	0x111
 	.short	0x1
 	.short	0x1c
 	.short	0x5
@@ -30507,8 +30587,12 @@ sUmbreonLevelUpLearnset:
 	.short	0x19
 	.short	0x67
 	.short	0x1d
+	.short	0x2c
+	.short	0x1e
 	.short	0xec
 	.short	0x21
+	.short	0x22
+	.short	0x24
 	.short	0xd4
 	.short	0x25
 	.short	0x183
@@ -30517,7 +30601,7 @@ sUmbreonLevelUpLearnset:
 	.short	0x2d
 	.short	0xffff
 	.space	2
-	.size	 sUmbreonLevelUpLearnset,64
+	.size	 sUmbreonLevelUpLearnset,72
 	.align	2, 0
 	.type	 sMurkrowLevelUpLearnset,object
 sMurkrowLevelUpLearnset:
@@ -31074,11 +31158,13 @@ sScizorLevelUpLearnset:
 	.short	0x61
 	.short	0x11
 	.short	0xe8
-	.short	0x15
+	.short	0x1a
 	.short	0xd2
-	.short	0x19
+	.short	0x1c
 	.short	0xa3
 	.short	0x1d
+	.short	0xd3
+	.short	0x20
 	.short	0xd
 	.short	0x21
 	.short	0x14e
@@ -31097,7 +31183,7 @@ sScizorLevelUpLearnset:
 	.short	0x3d
 	.short	0xffff
 	.space	2
-	.size	 sScizorLevelUpLearnset,80
+	.size	 sScizorLevelUpLearnset,84
 	.align	2, 0
 	.type	 sShuckleLevelUpLearnset,object
 sShuckleLevelUpLearnset:
@@ -31800,10 +31886,12 @@ sKingdraLevelUpLearnset:
 	.short	0x15d
 	.short	0x34
 	.short	0x38
+	.short	0x37
+	.short	0x1b2
 	.short	0x3c
 	.short	0xffff
 	.space	2
-	.size	 sKingdraLevelUpLearnset,72
+	.size	 sKingdraLevelUpLearnset,76
 	.align	2, 0
 	.type	 sPhanpyLevelUpLearnset,object
 sPhanpyLevelUpLearnset:
@@ -32049,19 +32137,21 @@ sHitmontopLevelUpLearnset:
 sSmoochumLevelUpLearnset:
 	.short	0x1
 	.short	0x1
+	.short	0x5d
+	.short	0x1
 	.short	0x7a
 	.short	0x5
 	.short	0xba
 	.short	0x8
 	.short	0xb5
 	.short	0xb
-	.short	0x5d
-	.short	0xf
-	.short	0x2f
+	.short	0x3c
 	.short	0x12
+	.short	0x2f
+	.short	0x14
 	.short	0x213
 	.short	0x15
-	.short	0xd4
+	.short	0x3e
 	.short	0x19
 	.short	0x139
 	.short	0x1c
@@ -32079,7 +32169,7 @@ sSmoochumLevelUpLearnset:
 	.short	0x30
 	.short	0xffff
 	.space	2
-	.size	 sSmoochumLevelUpLearnset,64
+	.size	 sSmoochumLevelUpLearnset,68
 	.align	2, 0
 	.type	 sElekidLevelUpLearnset,object
 sElekidLevelUpLearnset:
@@ -32119,9 +32209,9 @@ sElekidLevelUpLearnset:
 sMagbyLevelUpLearnset:
 	.short	0x7b
 	.short	0x1
-	.short	0x2b
-	.short	0x1
 	.short	0x34
+	.short	0x1
+	.short	0x2
 	.short	0x5
 	.short	0x6c
 	.short	0x8
@@ -32131,12 +32221,12 @@ sMagbyLevelUpLearnset:
 	.short	0xf
 	.short	0x1f3
 	.short	0x13
+	.short	0x7
+	.short	0x14
 	.short	0x1e1
 	.short	0x16
 	.short	0x6d
 	.short	0x1a
-	.short	0x7
-	.short	0x1d
 	.short	0x1b4
 	.short	0x21
 	.short	0xf1
@@ -32187,11 +32277,13 @@ sBlisseyLevelUpLearnset:
 	.short	0x1
 	.short	0x6f
 	.short	0x1
+	.short	0x44
 	.short	0x1
+	.short	0x116
 	.short	0x1
-	.short	0x2d
-	.short	0x1
-	.short	0x27
+	.short	0x56
+	.short	0x3
+	.short	0x2f
 	.short	0x5
 	.short	0x11f
 	.short	0x9
@@ -32205,14 +32297,14 @@ sBlisseyLevelUpLearnset:
 	.short	0x17
 	.short	0x24
 	.short	0x1b
-	.short	0x2f
-	.short	0x1f
+	.short	0x79
+	.short	0x1c
 	.short	0x176
 	.short	0x22
 	.short	0x1f9
 	.short	0x27
-	.short	0x79
-	.short	0x2c
+	.short	0x45
+	.short	0x2f
 	.short	0x71
 	.short	0x32
 	.short	0x169
@@ -32221,7 +32313,7 @@ sBlisseyLevelUpLearnset:
 	.short	0x41
 	.short	0xffff
 	.space	2
-	.size	 sBlisseyLevelUpLearnset,76
+	.size	 sBlisseyLevelUpLearnset,80
 	.align	2, 0
 	.type	 sRaikouLevelUpLearnset,object
 sRaikouLevelUpLearnset:
@@ -38317,17 +38409,17 @@ gEvolutionTable:
 	.space	32
 	.space	80
 	.short	0x4
-	.short	0x20
+	.short	0x1e
 	.short	0x75
 	.space	2
 	.space	32
-	.short	0x7
-	.short	0x61
+	.short	0x4
+	.short	0x37
 	.short	0xe6
 	.space	2
 	.space	32
 	.short	0x4
-	.short	0x21
+	.short	0x14
 	.short	0x77
 	.space	2
 	.space	32
@@ -38578,15 +38670,15 @@ gEvolutionTable:
 	.space	32
 	.space	160
 	.short	0xa
-	.short	0x14
+	.short	0xf
 	.short	0x6b
 	.space	2
 	.short	0x8
-	.short	0x14
+	.short	0xf
 	.short	0x6a
 	.space	2
 	.short	0x9
-	.short	0x14
+	.short	0xf
 	.short	0xed
 	.space	2
 	.space	16
@@ -122582,7 +122674,7 @@ GetFormIdFromFormSpeciesId:
 	.4byte	0x1cbfc
 	.4byte	0xf66b
 	.byte	0xb
-	.byte	0x14
+	.byte	0x15
 	.byte	0x0
 	.byte	0x4
 	.ascii	"sElectrodeLevelUpLearnset\000"
@@ -122599,13 +122691,13 @@ GetFormIdFromFormSpeciesId:
 	.4byte	0x1cc35
 	.4byte	0xf66b
 	.byte	0xb
-	.byte	0xf
+	.byte	0x11
 	.byte	0x0
 	.byte	0x4
 	.ascii	"sExeggcuteLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x7d0
+	.2byte	0x7d1
 	.4byte	0x1cc5d
 	.byte	0x5
 	.byte	0x3
@@ -122622,7 +122714,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sExeggutorLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x7e3
+	.2byte	0x7e6
 	.4byte	0x1cc96
 	.byte	0x5
 	.byte	0x3
@@ -122639,7 +122731,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sCuboneLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x7f1
+	.2byte	0x7f4
 	.4byte	0x1cccc
 	.byte	0x5
 	.byte	0x3
@@ -122656,7 +122748,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sMarowakLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x805
+	.2byte	0x808
 	.4byte	0x1cd03
 	.byte	0x5
 	.byte	0x3
@@ -122667,13 +122759,13 @@ GetFormIdFromFormSpeciesId:
 	.4byte	0x1cd14
 	.4byte	0xf66b
 	.byte	0xb
-	.byte	0x17
+	.byte	0x18
 	.byte	0x0
 	.byte	0x4
 	.ascii	"sHitmonleeLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x81c
+	.2byte	0x81f
 	.4byte	0x1cd3c
 	.byte	0x5
 	.byte	0x3
@@ -122684,13 +122776,13 @@ GetFormIdFromFormSpeciesId:
 	.4byte	0x1cd4d
 	.4byte	0xf66b
 	.byte	0xb
-	.byte	0x18
+	.byte	0x1b
 	.byte	0x0
 	.byte	0x4
 	.ascii	"sHitmonchanLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x838
+	.2byte	0x83c
 	.4byte	0x1cd76
 	.byte	0x5
 	.byte	0x3
@@ -122701,13 +122793,13 @@ GetFormIdFromFormSpeciesId:
 	.4byte	0x1cd87
 	.4byte	0xf66b
 	.byte	0xb
-	.byte	0xf
+	.byte	0x10
 	.byte	0x0
 	.byte	0x4
 	.ascii	"sLickitungLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x855
+	.2byte	0x85c
 	.4byte	0x1cdaf
 	.byte	0x5
 	.byte	0x3
@@ -122724,7 +122816,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sKoffingLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x868
+	.2byte	0x870
 	.4byte	0x1cde6
 	.byte	0x5
 	.byte	0x3
@@ -122735,13 +122827,13 @@ GetFormIdFromFormSpeciesId:
 	.4byte	0x1cdf7
 	.4byte	0xf66b
 	.byte	0xb
-	.byte	0x12
+	.byte	0x13
 	.byte	0x0
 	.byte	0x4
 	.ascii	"sWeezingLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x87b
+	.2byte	0x883
 	.4byte	0x1ce1d
 	.byte	0x5
 	.byte	0x3
@@ -122752,13 +122844,13 @@ GetFormIdFromFormSpeciesId:
 	.4byte	0x1ce2e
 	.4byte	0xf66b
 	.byte	0xb
-	.byte	0xf
+	.byte	0xd
 	.byte	0x0
 	.byte	0x4
 	.ascii	"sRhyhornLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x892
+	.2byte	0x89b
 	.4byte	0x1ce54
 	.byte	0x5
 	.byte	0x3
@@ -122775,7 +122867,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sRhydonLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x8a5
+	.2byte	0x8ac
 	.4byte	0x1ce8a
 	.byte	0x5
 	.byte	0x3
@@ -122786,13 +122878,13 @@ GetFormIdFromFormSpeciesId:
 	.4byte	0x1ce9b
 	.4byte	0xf66b
 	.byte	0xb
-	.byte	0x12
+	.byte	0x13
 	.byte	0x0
 	.byte	0x4
 	.ascii	"sChanseyLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x8bd
+	.2byte	0x8c4
 	.4byte	0x1cec1
 	.byte	0x5
 	.byte	0x3
@@ -122803,13 +122895,13 @@ GetFormIdFromFormSpeciesId:
 	.4byte	0x1ced2
 	.4byte	0xf66b
 	.byte	0xb
-	.byte	0x13
+	.byte	0x15
 	.byte	0x0
 	.byte	0x4
 	.ascii	"sTangelaLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x8d3
+	.2byte	0x8db
 	.4byte	0x1cef8
 	.byte	0x5
 	.byte	0x3
@@ -122820,13 +122912,13 @@ GetFormIdFromFormSpeciesId:
 	.4byte	0x1cf09
 	.4byte	0xf66b
 	.byte	0xb
-	.byte	0xf
+	.byte	0x10
 	.byte	0x0
 	.byte	0x4
 	.ascii	"sKangaskhanLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x8ea
+	.2byte	0x8f4
 	.4byte	0x1cf32
 	.byte	0x5
 	.byte	0x3
@@ -122837,13 +122929,13 @@ GetFormIdFromFormSpeciesId:
 	.4byte	0x1cf43
 	.4byte	0xf66b
 	.byte	0xb
-	.byte	0xc
+	.byte	0xd
 	.byte	0x0
 	.byte	0x4
 	.ascii	"sHorseaLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x8fd
+	.2byte	0x908
 	.4byte	0x1cf68
 	.byte	0x5
 	.byte	0x3
@@ -122860,7 +122952,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sSeadraLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x90d
+	.2byte	0x919
 	.4byte	0x1cf9e
 	.byte	0x5
 	.byte	0x3
@@ -122877,7 +122969,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sGoldeenLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x921
+	.2byte	0x92d
 	.4byte	0x1cfd5
 	.byte	0x5
 	.byte	0x3
@@ -122888,13 +122980,13 @@ GetFormIdFromFormSpeciesId:
 	.4byte	0x1cfe6
 	.4byte	0xf66b
 	.byte	0xb
-	.byte	0x11
+	.byte	0x13
 	.byte	0x0
 	.byte	0x4
 	.ascii	"sSeakingLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x933
+	.2byte	0x93f
 	.4byte	0x1d00c
 	.byte	0x5
 	.byte	0x3
@@ -122905,13 +122997,13 @@ GetFormIdFromFormSpeciesId:
 	.4byte	0x1d01d
 	.4byte	0xf66b
 	.byte	0xb
-	.byte	0x13
+	.byte	0x11
 	.byte	0x0
 	.byte	0x4
 	.ascii	"sStaryuLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x948
+	.2byte	0x956
 	.4byte	0x1d042
 	.byte	0x5
 	.byte	0x3
@@ -122922,13 +123014,13 @@ GetFormIdFromFormSpeciesId:
 	.4byte	0x1d053
 	.4byte	0xf66b
 	.byte	0xb
-	.byte	0x7
+	.byte	0x8
 	.byte	0x0
 	.byte	0x4
 	.ascii	"sStarmieLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x95f
+	.2byte	0x96b
 	.4byte	0x1d079
 	.byte	0x5
 	.byte	0x3
@@ -122939,13 +123031,13 @@ GetFormIdFromFormSpeciesId:
 	.4byte	0x1d08a
 	.4byte	0xf66b
 	.byte	0xb
-	.byte	0x19
+	.byte	0x1c
 	.byte	0x0
 	.byte	0x4
 	.ascii	"sMrmimeLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x96a
+	.2byte	0x977
 	.4byte	0x1d0af
 	.byte	0x5
 	.byte	0x3
@@ -122956,13 +123048,13 @@ GetFormIdFromFormSpeciesId:
 	.4byte	0x1d0c0
 	.4byte	0xf66b
 	.byte	0xb
-	.byte	0x12
+	.byte	0x13
 	.byte	0x0
 	.byte	0x4
 	.ascii	"sScytherLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x987
+	.2byte	0x997
 	.4byte	0x1d0e6
 	.byte	0x5
 	.byte	0x3
@@ -122973,13 +123065,13 @@ GetFormIdFromFormSpeciesId:
 	.4byte	0x1d0f7
 	.4byte	0xf66b
 	.byte	0xb
-	.byte	0x14
+	.byte	0x16
 	.byte	0x0
 	.byte	0x4
 	.ascii	"sJynxLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x99d
+	.2byte	0x9ae
 	.4byte	0x1d11a
 	.byte	0x5
 	.byte	0x3
@@ -122990,13 +123082,13 @@ GetFormIdFromFormSpeciesId:
 	.4byte	0x1d12b
 	.4byte	0xf66b
 	.byte	0xb
-	.byte	0xf
+	.byte	0x10
 	.byte	0x0
 	.byte	0x4
 	.ascii	"sElectabuzzLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x9b5
+	.2byte	0x9c8
 	.4byte	0x1d154
 	.byte	0x5
 	.byte	0x3
@@ -123007,13 +123099,13 @@ GetFormIdFromFormSpeciesId:
 	.4byte	0x1d165
 	.4byte	0xf66b
 	.byte	0xb
-	.byte	0xf
+	.byte	0x10
 	.byte	0x0
 	.byte	0x4
 	.ascii	"sMagmarLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x9c8
+	.2byte	0x9dc
 	.4byte	0x1d18a
 	.byte	0x5
 	.byte	0x3
@@ -123024,13 +123116,13 @@ GetFormIdFromFormSpeciesId:
 	.4byte	0x1d19b
 	.4byte	0xf66b
 	.byte	0xb
-	.byte	0x10
+	.byte	0x11
 	.byte	0x0
 	.byte	0x4
 	.ascii	"sPinsirLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x9db
+	.2byte	0x9f0
 	.4byte	0x1d1c0
 	.byte	0x5
 	.byte	0x3
@@ -123041,13 +123133,13 @@ GetFormIdFromFormSpeciesId:
 	.4byte	0x1d1d1
 	.4byte	0xf66b
 	.byte	0xb
-	.byte	0xf
+	.byte	0x11
 	.byte	0x0
 	.byte	0x4
 	.ascii	"sTaurosLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x9ef
+	.2byte	0xa05
 	.4byte	0x1d1f6
 	.byte	0x5
 	.byte	0x3
@@ -123058,13 +123150,13 @@ GetFormIdFromFormSpeciesId:
 	.4byte	0x1d207
 	.4byte	0xf66b
 	.byte	0xb
-	.byte	0x3
+	.byte	0x4
 	.byte	0x0
 	.byte	0x4
 	.ascii	"sMagikarpLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xa02
+	.2byte	0xa1a
 	.4byte	0x1d22e
 	.byte	0x5
 	.byte	0x3
@@ -123075,13 +123167,13 @@ GetFormIdFromFormSpeciesId:
 	.4byte	0x1d23f
 	.4byte	0xf66b
 	.byte	0xb
-	.byte	0xe
+	.byte	0x10
 	.byte	0x0
 	.byte	0x4
 	.ascii	"sGyaradosLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xa09
+	.2byte	0xa22
 	.4byte	0x1d266
 	.byte	0x5
 	.byte	0x3
@@ -123092,13 +123184,13 @@ GetFormIdFromFormSpeciesId:
 	.4byte	0x1d277
 	.4byte	0xf66b
 	.byte	0xb
-	.byte	0xf
+	.byte	0x10
 	.byte	0x0
 	.byte	0x4
 	.ascii	"sLaprasLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xa1c
+	.2byte	0xa37
 	.4byte	0x1d29c
 	.byte	0x5
 	.byte	0x3
@@ -123115,7 +123207,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sDittoLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xa2f
+	.2byte	0xa4b
 	.4byte	0x1d2d1
 	.byte	0x5
 	.byte	0x3
@@ -123132,7 +123224,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sEeveeLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xa34
+	.2byte	0xa50
 	.4byte	0x1d306
 	.byte	0x5
 	.byte	0x3
@@ -123149,7 +123241,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sVaporeonLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xa49
+	.2byte	0xa65
 	.4byte	0x1d33e
 	.byte	0x5
 	.byte	0x3
@@ -123160,13 +123252,13 @@ GetFormIdFromFormSpeciesId:
 	.4byte	0x1d34f
 	.4byte	0xf66b
 	.byte	0xb
-	.byte	0xf
+	.byte	0x10
 	.byte	0x0
 	.byte	0x4
 	.ascii	"sJolteonLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xa5d
+	.2byte	0xa79
 	.4byte	0x1d375
 	.byte	0x5
 	.byte	0x3
@@ -123177,13 +123269,13 @@ GetFormIdFromFormSpeciesId:
 	.4byte	0x1d386
 	.4byte	0xf66b
 	.byte	0xb
-	.byte	0xf
+	.byte	0x10
 	.byte	0x0
 	.byte	0x4
 	.ascii	"sFlareonLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xa71
+	.2byte	0xa8e
 	.4byte	0x1d3ac
 	.byte	0x5
 	.byte	0x3
@@ -123194,13 +123286,13 @@ GetFormIdFromFormSpeciesId:
 	.4byte	0x1d3bd
 	.4byte	0xf66b
 	.byte	0xb
-	.byte	0xf
+	.byte	0x10
 	.byte	0x0
 	.byte	0x4
 	.ascii	"sPorygon2LevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xa85
+	.2byte	0xaa3
 	.4byte	0x1d3e4
 	.byte	0x5
 	.byte	0x3
@@ -123211,13 +123303,13 @@ GetFormIdFromFormSpeciesId:
 	.4byte	0x1d3f5
 	.4byte	0xf66b
 	.byte	0xb
-	.byte	0xe
+	.byte	0x10
 	.byte	0x0
 	.byte	0x4
 	.ascii	"sOmanyteLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xa98
+	.2byte	0xab7
 	.4byte	0x1d41b
 	.byte	0x5
 	.byte	0x3
@@ -123234,7 +123326,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sOmastarLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xaaa
+	.2byte	0xacb
 	.4byte	0x1d452
 	.byte	0x5
 	.byte	0x3
@@ -123251,7 +123343,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sKabutoLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xac0
+	.2byte	0xae1
 	.4byte	0x1d488
 	.byte	0x5
 	.byte	0x3
@@ -123268,7 +123360,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sKabutopsLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xad0
+	.2byte	0xaf1
 	.4byte	0x1d4c0
 	.byte	0x5
 	.byte	0x3
@@ -123279,13 +123371,13 @@ GetFormIdFromFormSpeciesId:
 	.4byte	0x1d4d1
 	.4byte	0xf66b
 	.byte	0xb
-	.byte	0x12
+	.byte	0x13
 	.byte	0x0
 	.byte	0x4
 	.ascii	"sAerodactylLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xae7
+	.2byte	0xb08
 	.4byte	0x1d4fa
 	.byte	0x5
 	.byte	0x3
@@ -123296,13 +123388,13 @@ GetFormIdFromFormSpeciesId:
 	.4byte	0x1d50b
 	.4byte	0xf66b
 	.byte	0xb
-	.byte	0x11
+	.byte	0x13
 	.byte	0x0
 	.byte	0x4
 	.ascii	"sSnorlaxLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xafd
+	.2byte	0xb1f
 	.4byte	0x1d531
 	.byte	0x5
 	.byte	0x3
@@ -123313,13 +123405,13 @@ GetFormIdFromFormSpeciesId:
 	.4byte	0x1d542
 	.4byte	0xf66b
 	.byte	0xb
-	.byte	0x10
+	.byte	0x12
 	.byte	0x0
 	.byte	0x4
 	.ascii	"sArticunoLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xb12
+	.2byte	0xb36
 	.4byte	0x1d569
 	.byte	0x5
 	.byte	0x3
@@ -123330,13 +123422,13 @@ GetFormIdFromFormSpeciesId:
 	.4byte	0x1d57a
 	.4byte	0xf66b
 	.byte	0xb
-	.byte	0x10
+	.byte	0x11
 	.byte	0x0
 	.byte	0x4
 	.ascii	"sZapdosLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xb26
+	.2byte	0xb4c
 	.4byte	0x1d59f
 	.byte	0x5
 	.byte	0x3
@@ -123347,13 +123439,13 @@ GetFormIdFromFormSpeciesId:
 	.4byte	0x1d5b0
 	.4byte	0xf66b
 	.byte	0xb
-	.byte	0x10
+	.byte	0x11
 	.byte	0x0
 	.byte	0x4
 	.ascii	"sMoltresLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xb3a
+	.2byte	0xb61
 	.4byte	0x1d5d6
 	.byte	0x5
 	.byte	0x3
@@ -123370,7 +123462,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sDratiniLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xb4e
+	.2byte	0xb76
 	.4byte	0x1d60d
 	.byte	0x5
 	.byte	0x3
@@ -123387,7 +123479,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sDragonairLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xb60
+	.2byte	0xb88
 	.4byte	0x1d646
 	.byte	0x5
 	.byte	0x3
@@ -123404,7 +123496,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sDragoniteLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xb74
+	.2byte	0xb9c
 	.4byte	0x1d67f
 	.byte	0x5
 	.byte	0x3
@@ -123421,7 +123513,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sMewtwoLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xb8f
+	.2byte	0xbb7
 	.4byte	0x1d6b5
 	.byte	0x5
 	.byte	0x3
@@ -123438,7 +123530,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sMewLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xba6
+	.2byte	0xbce
 	.4byte	0x1d6e8
 	.byte	0x5
 	.byte	0x3
@@ -123455,7 +123547,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sChikoritaLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xbb6
+	.2byte	0xbde
 	.4byte	0x1d721
 	.byte	0x5
 	.byte	0x3
@@ -123472,7 +123564,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sBayleefLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xbc8
+	.2byte	0xbf0
 	.4byte	0x1d758
 	.byte	0x5
 	.byte	0x3
@@ -123489,7 +123581,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sMeganiumLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xbdc
+	.2byte	0xc04
 	.4byte	0x1d790
 	.byte	0x5
 	.byte	0x3
@@ -123506,7 +123598,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sCyndaquilLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xbf4
+	.2byte	0xc1c
 	.4byte	0x1d7c9
 	.byte	0x5
 	.byte	0x3
@@ -123523,7 +123615,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sQuilavaLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xc08
+	.2byte	0xc30
 	.4byte	0x1d800
 	.byte	0x5
 	.byte	0x3
@@ -123540,7 +123632,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sTyphlosionLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xc1d
+	.2byte	0xc45
 	.4byte	0x1d83a
 	.byte	0x5
 	.byte	0x3
@@ -123557,7 +123649,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sTotodileLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xc36
+	.2byte	0xc5e
 	.4byte	0x1d872
 	.byte	0x5
 	.byte	0x3
@@ -123574,7 +123666,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sCroconawLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xc4a
+	.2byte	0xc72
 	.4byte	0x1d8aa
 	.byte	0x5
 	.byte	0x3
@@ -123591,7 +123683,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sFeraligatrLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xc5f
+	.2byte	0xc87
 	.4byte	0x1d8e4
 	.byte	0x5
 	.byte	0x3
@@ -123608,7 +123700,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sSentretLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xc76
+	.2byte	0xc9e
 	.4byte	0x1d91b
 	.byte	0x5
 	.byte	0x3
@@ -123625,7 +123717,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sFurretLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xc88
+	.2byte	0xcb0
 	.4byte	0x1d951
 	.byte	0x5
 	.byte	0x3
@@ -123642,7 +123734,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sHoothootLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xc9f
+	.2byte	0xcc7
 	.4byte	0x1d989
 	.byte	0x5
 	.byte	0x3
@@ -123659,7 +123751,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sNoctowlLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xcb5
+	.2byte	0xcdd
 	.4byte	0x1d9c0
 	.byte	0x5
 	.byte	0x3
@@ -123676,7 +123768,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sLedybaLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xcce
+	.2byte	0xcf6
 	.4byte	0x1d9f6
 	.byte	0x5
 	.byte	0x3
@@ -123693,7 +123785,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sLedianLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xce0
+	.2byte	0xd08
 	.4byte	0x1da2c
 	.byte	0x5
 	.byte	0x3
@@ -123710,7 +123802,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sSpinarakLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xcf4
+	.2byte	0xd1c
 	.4byte	0x1da64
 	.byte	0x5
 	.byte	0x3
@@ -123727,7 +123819,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sAriadosLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xd0a
+	.2byte	0xd32
 	.4byte	0x1da9b
 	.byte	0x5
 	.byte	0x3
@@ -123744,7 +123836,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sCrobatLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xd27
+	.2byte	0xd4f
 	.4byte	0x1dad1
 	.byte	0x5
 	.byte	0x3
@@ -123761,7 +123853,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sChinchouLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xd40
+	.2byte	0xd68
 	.4byte	0x1db09
 	.byte	0x5
 	.byte	0x3
@@ -123778,7 +123870,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sLanturnLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xd54
+	.2byte	0xd7c
 	.4byte	0x1db40
 	.byte	0x5
 	.byte	0x3
@@ -123795,7 +123887,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sPichuLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xd72
+	.2byte	0xd9a
 	.4byte	0x1db75
 	.byte	0x5
 	.byte	0x3
@@ -123812,7 +123904,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sCleffaLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xd7c
+	.2byte	0xda4
 	.4byte	0x1dbab
 	.byte	0x5
 	.byte	0x3
@@ -123829,7 +123921,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sIgglybuffLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xd87
+	.2byte	0xdaf
 	.4byte	0x1dbe4
 	.byte	0x5
 	.byte	0x3
@@ -123846,7 +123938,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sTogepiLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xd91
+	.2byte	0xdb9
 	.4byte	0x1dc1a
 	.byte	0x5
 	.byte	0x3
@@ -123863,7 +123955,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sTogeticLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xda4
+	.2byte	0xdcc
 	.4byte	0x1dc51
 	.byte	0x5
 	.byte	0x3
@@ -123880,7 +123972,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sNatuLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xdbb
+	.2byte	0xde3
 	.4byte	0x1dc85
 	.byte	0x5
 	.byte	0x3
@@ -123897,7 +123989,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sXatuLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xdcf
+	.2byte	0xdf7
 	.4byte	0x1dcb9
 	.byte	0x5
 	.byte	0x3
@@ -123914,7 +124006,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sMareepLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xde8
+	.2byte	0xe10
 	.4byte	0x1dcef
 	.byte	0x5
 	.byte	0x3
@@ -123931,7 +124023,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sFlaaffyLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xdfb
+	.2byte	0xe23
 	.4byte	0x1dd26
 	.byte	0x5
 	.byte	0x3
@@ -123948,7 +124040,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sAmpharosLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xe10
+	.2byte	0xe38
 	.4byte	0x1dd5e
 	.byte	0x5
 	.byte	0x3
@@ -123965,7 +124057,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sBellossomLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xe2d
+	.2byte	0xe55
 	.4byte	0x1dd97
 	.byte	0x5
 	.byte	0x3
@@ -123982,7 +124074,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sMarillLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xe3e
+	.2byte	0xe66
 	.4byte	0x1ddcd
 	.byte	0x5
 	.byte	0x3
@@ -123999,7 +124091,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sAzumarillLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xe52
+	.2byte	0xe7a
 	.4byte	0x1de06
 	.byte	0x5
 	.byte	0x3
@@ -124016,7 +124108,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sSudowoodoLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xe68
+	.2byte	0xe90
 	.4byte	0x1de3f
 	.byte	0x5
 	.byte	0x3
@@ -124033,7 +124125,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sPolitoedLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xe82
+	.2byte	0xeaa
 	.4byte	0x1de77
 	.byte	0x5
 	.byte	0x3
@@ -124050,7 +124142,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sHoppipLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xe8e
+	.2byte	0xeb6
 	.4byte	0x1dead
 	.byte	0x5
 	.byte	0x3
@@ -124067,7 +124159,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sSkiploomLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xea6
+	.2byte	0xece
 	.4byte	0x1dee5
 	.byte	0x5
 	.byte	0x3
@@ -124084,7 +124176,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sJumpluffLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xec0
+	.2byte	0xee8
 	.4byte	0x1df1d
 	.byte	0x5
 	.byte	0x3
@@ -124101,7 +124193,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sAipomLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xeda
+	.2byte	0xf02
 	.4byte	0x1df52
 	.byte	0x5
 	.byte	0x3
@@ -124118,7 +124210,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sSunkernLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xeec
+	.2byte	0xf14
 	.4byte	0x1df89
 	.byte	0x5
 	.byte	0x3
@@ -124135,7 +124227,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sSunfloraLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xf00
+	.2byte	0xf28
 	.4byte	0x1dfc1
 	.byte	0x5
 	.byte	0x3
@@ -124152,7 +124244,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sYanmaLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xf17
+	.2byte	0xf3f
 	.4byte	0x1dff6
 	.byte	0x5
 	.byte	0x3
@@ -124169,7 +124261,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sWooperLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xf2b
+	.2byte	0xf53
 	.4byte	0x1e02c
 	.byte	0x5
 	.byte	0x3
@@ -124186,7 +124278,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sQuagsireLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xf3c
+	.2byte	0xf64
 	.4byte	0x1e064
 	.byte	0x5
 	.byte	0x3
@@ -124203,7 +124295,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sEspeonLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xf4e
+	.2byte	0xf76
 	.4byte	0x1e09a
 	.byte	0x5
 	.byte	0x3
@@ -124214,13 +124306,13 @@ GetFormIdFromFormSpeciesId:
 	.4byte	0x1e0ab
 	.4byte	0xf66b
 	.byte	0xb
-	.byte	0xf
+	.byte	0x11
 	.byte	0x0
 	.byte	0x4
 	.ascii	"sUmbreonLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xf62
+	.2byte	0xf8a
 	.4byte	0x1e0d1
 	.byte	0x5
 	.byte	0x3
@@ -124237,7 +124329,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sMurkrowLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xf76
+	.2byte	0xfa0
 	.4byte	0x1e108
 	.byte	0x5
 	.byte	0x3
@@ -124254,7 +124346,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sSlowkingLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xf89
+	.2byte	0xfb3
 	.4byte	0x1e140
 	.byte	0x5
 	.byte	0x3
@@ -124271,7 +124363,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sMisdreavusLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xfa0
+	.2byte	0xfca
 	.4byte	0x1e17a
 	.byte	0x5
 	.byte	0x3
@@ -124288,7 +124380,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sUnownLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xfb2
+	.2byte	0xfdc
 	.4byte	0x1e1af
 	.byte	0x5
 	.byte	0x3
@@ -124305,7 +124397,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sWobbuffetLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xfb7
+	.2byte	0xfe1
 	.4byte	0x1e1e8
 	.byte	0x5
 	.byte	0x3
@@ -124322,7 +124414,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sGirafarigLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xfbf
+	.2byte	0xfe9
 	.4byte	0x1e221
 	.byte	0x5
 	.byte	0x3
@@ -124339,7 +124431,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sPinecoLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xfd4
+	.2byte	0xffe
 	.4byte	0x1e257
 	.byte	0x5
 	.byte	0x3
@@ -124356,7 +124448,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sForretressLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0xfe6
+	.2byte	0x1010
 	.4byte	0x1e291
 	.byte	0x5
 	.byte	0x3
@@ -124373,7 +124465,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sDunsparceLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1005
+	.2byte	0x102f
 	.4byte	0x1e2ca
 	.byte	0x5
 	.byte	0x3
@@ -124390,7 +124482,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sGligarLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x101f
+	.2byte	0x1049
 	.4byte	0x1e300
 	.byte	0x5
 	.byte	0x3
@@ -124407,7 +124499,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sSteelixLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1032
+	.2byte	0x105c
 	.4byte	0x1e337
 	.byte	0x5
 	.byte	0x3
@@ -124424,7 +124516,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sSnubbullLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x104f
+	.2byte	0x1079
 	.4byte	0x1e36f
 	.byte	0x5
 	.byte	0x3
@@ -124441,7 +124533,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sGranbullLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1062
+	.2byte	0x108c
 	.4byte	0x1e3a7
 	.byte	0x5
 	.byte	0x3
@@ -124458,7 +124550,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sQwilfishLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1077
+	.2byte	0x10a1
 	.4byte	0x1e3df
 	.byte	0x5
 	.byte	0x3
@@ -124469,13 +124561,13 @@ GetFormIdFromFormSpeciesId:
 	.4byte	0x1e3f0
 	.4byte	0xf66b
 	.byte	0xb
-	.byte	0x13
+	.byte	0x14
 	.byte	0x0
 	.byte	0x4
 	.ascii	"sScizorLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1092
+	.2byte	0x10bc
 	.4byte	0x1e415
 	.byte	0x5
 	.byte	0x3
@@ -124492,7 +124584,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sShuckleLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x10a9
+	.2byte	0x10d4
 	.4byte	0x1e44c
 	.byte	0x5
 	.byte	0x3
@@ -124509,7 +124601,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sHeracrossLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x10c1
+	.2byte	0x10ec
 	.4byte	0x1e485
 	.byte	0x5
 	.byte	0x3
@@ -124526,7 +124618,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sSneaselLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x10d7
+	.2byte	0x1102
 	.4byte	0x1e4bc
 	.byte	0x5
 	.byte	0x3
@@ -124543,7 +124635,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sTeddiursaLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x10eb
+	.2byte	0x1116
 	.4byte	0x1e4f5
 	.byte	0x5
 	.byte	0x3
@@ -124560,7 +124652,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sUrsaringLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x10ff
+	.2byte	0x112a
 	.4byte	0x1e52d
 	.byte	0x5
 	.byte	0x3
@@ -124577,7 +124669,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sSlugmaLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1113
+	.2byte	0x113e
 	.4byte	0x1e563
 	.byte	0x5
 	.byte	0x3
@@ -124594,7 +124686,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sMagcargoLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1127
+	.2byte	0x1152
 	.4byte	0x1e59b
 	.byte	0x5
 	.byte	0x3
@@ -124611,7 +124703,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sSwinubLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1140
+	.2byte	0x116b
 	.4byte	0x1e5d1
 	.byte	0x5
 	.byte	0x3
@@ -124628,7 +124720,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sPiloswineLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1153
+	.2byte	0x117e
 	.4byte	0x1e60a
 	.byte	0x5
 	.byte	0x3
@@ -124645,7 +124737,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sCorsolaLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x116b
+	.2byte	0x1196
 	.4byte	0x1e641
 	.byte	0x5
 	.byte	0x3
@@ -124662,7 +124754,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sRemoraidLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1181
+	.2byte	0x11ac
 	.4byte	0x1e679
 	.byte	0x5
 	.byte	0x3
@@ -124679,7 +124771,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sOctilleryLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1192
+	.2byte	0x11bd
 	.4byte	0x1e6b2
 	.byte	0x5
 	.byte	0x3
@@ -124696,7 +124788,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sDelibirdLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x11aa
+	.2byte	0x11d5
 	.4byte	0x1e6ea
 	.byte	0x5
 	.byte	0x3
@@ -124713,7 +124805,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sMantineLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x11b0
+	.2byte	0x11db
 	.4byte	0x1e721
 	.byte	0x5
 	.byte	0x3
@@ -124730,7 +124822,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sSkarmoryLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x11c9
+	.2byte	0x11f4
 	.4byte	0x1e759
 	.byte	0x5
 	.byte	0x3
@@ -124747,7 +124839,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sHoundourLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x11dd
+	.2byte	0x1208
 	.4byte	0x1e791
 	.byte	0x5
 	.byte	0x3
@@ -124764,7 +124856,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sHoundoomLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x11f1
+	.2byte	0x121c
 	.4byte	0x1e7c9
 	.byte	0x5
 	.byte	0x3
@@ -124775,13 +124867,13 @@ GetFormIdFromFormSpeciesId:
 	.4byte	0x1e7da
 	.4byte	0xf66b
 	.byte	0xb
-	.byte	0x11
+	.byte	0x12
 	.byte	0x0
 	.byte	0x4
 	.ascii	"sKingdraLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x120a
+	.2byte	0x1235
 	.4byte	0x1e800
 	.byte	0x5
 	.byte	0x3
@@ -124798,7 +124890,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sPhanpyLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x121f
+	.2byte	0x124b
 	.4byte	0x1e836
 	.byte	0x5
 	.byte	0x3
@@ -124815,7 +124907,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sDonphanLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1230
+	.2byte	0x125c
 	.4byte	0x1e86d
 	.byte	0x5
 	.byte	0x3
@@ -124832,7 +124924,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sPorygonLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1245
+	.2byte	0x1271
 	.4byte	0x1e8a4
 	.byte	0x5
 	.byte	0x3
@@ -124849,7 +124941,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sStantlerLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x125b
+	.2byte	0x1287
 	.4byte	0x1e8dc
 	.byte	0x5
 	.byte	0x3
@@ -124866,7 +124958,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sSmeargleLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x126f
+	.2byte	0x129b
 	.4byte	0x1e914
 	.byte	0x5
 	.byte	0x3
@@ -124883,7 +124975,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sTyrogueLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x127d
+	.2byte	0x12a9
 	.4byte	0x1e94b
 	.byte	0x5
 	.byte	0x3
@@ -124900,7 +124992,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sHitmontopLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1285
+	.2byte	0x12b1
 	.4byte	0x1e984
 	.byte	0x5
 	.byte	0x3
@@ -124911,13 +125003,13 @@ GetFormIdFromFormSpeciesId:
 	.4byte	0x1e995
 	.4byte	0xf66b
 	.byte	0xb
-	.byte	0xf
+	.byte	0x10
 	.byte	0x0
 	.byte	0x4
 	.ascii	"sSmoochumLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x12a0
+	.2byte	0x12cc
 	.4byte	0x1e9bc
 	.byte	0x5
 	.byte	0x3
@@ -124934,7 +125026,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sElekidLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x12b3
+	.2byte	0x12e0
 	.4byte	0x1e9f2
 	.byte	0x5
 	.byte	0x3
@@ -124951,7 +125043,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sMagbyLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x12c5
+	.2byte	0x12f2
 	.4byte	0x1ea27
 	.byte	0x5
 	.byte	0x3
@@ -124968,7 +125060,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sMiltankLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x12d7
+	.2byte	0x1304
 	.4byte	0x1ea5e
 	.byte	0x5
 	.byte	0x3
@@ -124979,13 +125071,13 @@ GetFormIdFromFormSpeciesId:
 	.4byte	0x1ea6f
 	.4byte	0xf66b
 	.byte	0xb
-	.byte	0x12
+	.byte	0x13
 	.byte	0x0
 	.byte	0x4
 	.ascii	"sBlisseyLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x12e8
+	.2byte	0x1315
 	.4byte	0x1ea95
 	.byte	0x5
 	.byte	0x3
@@ -125002,7 +125094,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sRaikouLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x12fe
+	.2byte	0x132c
 	.4byte	0x1eacb
 	.byte	0x5
 	.byte	0x3
@@ -125019,7 +125111,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sEnteiLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1312
+	.2byte	0x1340
 	.4byte	0x1eb00
 	.byte	0x5
 	.byte	0x3
@@ -125036,7 +125128,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sSuicuneLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1328
+	.2byte	0x1356
 	.4byte	0x1eb37
 	.byte	0x5
 	.byte	0x3
@@ -125053,7 +125145,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sLarvitarLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x133d
+	.2byte	0x136b
 	.4byte	0x1eb6f
 	.byte	0x5
 	.byte	0x3
@@ -125070,7 +125162,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sPupitarLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x134f
+	.2byte	0x137d
 	.4byte	0x1eba6
 	.byte	0x5
 	.byte	0x3
@@ -125087,7 +125179,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sTyranitarLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1363
+	.2byte	0x1391
 	.4byte	0x1ebdf
 	.byte	0x5
 	.byte	0x3
@@ -125104,7 +125196,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sLugiaLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x137b
+	.2byte	0x13a9
 	.4byte	0x1ec14
 	.byte	0x5
 	.byte	0x3
@@ -125121,7 +125213,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sHoOhLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x138f
+	.2byte	0x13bd
 	.4byte	0x1ec48
 	.byte	0x5
 	.byte	0x3
@@ -125138,7 +125230,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sCelebiLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x13a3
+	.2byte	0x13d1
 	.4byte	0x1ec7e
 	.byte	0x5
 	.byte	0x3
@@ -125155,7 +125247,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sSpecies252LevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x13b5
+	.2byte	0x13e3
 	.4byte	0x1ecb8
 	.byte	0x5
 	.byte	0x3
@@ -125172,7 +125264,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sSpecies253LevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x13ba
+	.2byte	0x13e8
 	.4byte	0x1ecf2
 	.byte	0x5
 	.byte	0x3
@@ -125189,7 +125281,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sSpecies254LevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x13bf
+	.2byte	0x13ed
 	.4byte	0x1ed2c
 	.byte	0x5
 	.byte	0x3
@@ -125206,7 +125298,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sSpecies255LevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x13c4
+	.2byte	0x13f2
 	.4byte	0x1ed66
 	.byte	0x5
 	.byte	0x3
@@ -125223,7 +125315,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sSpecies256LevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x13c9
+	.2byte	0x13f7
 	.4byte	0x1eda0
 	.byte	0x5
 	.byte	0x3
@@ -125240,7 +125332,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sSpecies257LevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x13ce
+	.2byte	0x13fc
 	.4byte	0x1edda
 	.byte	0x5
 	.byte	0x3
@@ -125257,7 +125349,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sSpecies258LevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x13d3
+	.2byte	0x1401
 	.4byte	0x1ee14
 	.byte	0x5
 	.byte	0x3
@@ -125274,7 +125366,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sSpecies259LevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x13d8
+	.2byte	0x1406
 	.4byte	0x1ee4e
 	.byte	0x5
 	.byte	0x3
@@ -125291,7 +125383,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sSpecies260LevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x13dd
+	.2byte	0x140b
 	.4byte	0x1ee88
 	.byte	0x5
 	.byte	0x3
@@ -125308,7 +125400,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sSpecies261LevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x13e2
+	.2byte	0x1410
 	.4byte	0x1eec2
 	.byte	0x5
 	.byte	0x3
@@ -125325,7 +125417,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sSpecies262LevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x13e7
+	.2byte	0x1415
 	.4byte	0x1eefc
 	.byte	0x5
 	.byte	0x3
@@ -125342,7 +125434,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sSpecies263LevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x13ec
+	.2byte	0x141a
 	.4byte	0x1ef36
 	.byte	0x5
 	.byte	0x3
@@ -125359,7 +125451,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sSpecies264LevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x13f1
+	.2byte	0x141f
 	.4byte	0x1ef70
 	.byte	0x5
 	.byte	0x3
@@ -125376,7 +125468,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sSpecies265LevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x13f6
+	.2byte	0x1424
 	.4byte	0x1efaa
 	.byte	0x5
 	.byte	0x3
@@ -125393,7 +125485,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sSpecies266LevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x13fb
+	.2byte	0x1429
 	.4byte	0x1efe4
 	.byte	0x5
 	.byte	0x3
@@ -125410,7 +125502,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sSpecies267LevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1400
+	.2byte	0x142e
 	.4byte	0x1f01e
 	.byte	0x5
 	.byte	0x3
@@ -125427,7 +125519,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sSpecies268LevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1405
+	.2byte	0x1433
 	.4byte	0x1f058
 	.byte	0x5
 	.byte	0x3
@@ -125444,7 +125536,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sSpecies269LevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x140a
+	.2byte	0x1438
 	.4byte	0x1f092
 	.byte	0x5
 	.byte	0x3
@@ -125461,7 +125553,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sSpecies270LevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x140f
+	.2byte	0x143d
 	.4byte	0x1f0cc
 	.byte	0x5
 	.byte	0x3
@@ -125478,7 +125570,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sSpecies271LevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1414
+	.2byte	0x1442
 	.4byte	0x1f106
 	.byte	0x5
 	.byte	0x3
@@ -125495,7 +125587,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sSpecies272LevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1419
+	.2byte	0x1447
 	.4byte	0x1f140
 	.byte	0x5
 	.byte	0x3
@@ -125512,7 +125604,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sSpecies273LevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x141e
+	.2byte	0x144c
 	.4byte	0x1f17a
 	.byte	0x5
 	.byte	0x3
@@ -125529,7 +125621,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sSpecies274LevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1423
+	.2byte	0x1451
 	.4byte	0x1f1b4
 	.byte	0x5
 	.byte	0x3
@@ -125546,7 +125638,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sSpecies275LevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1428
+	.2byte	0x1456
 	.4byte	0x1f1ee
 	.byte	0x5
 	.byte	0x3
@@ -125563,7 +125655,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sSpecies276LevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x142d
+	.2byte	0x145b
 	.4byte	0x1f228
 	.byte	0x5
 	.byte	0x3
@@ -125580,7 +125672,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sTreeckoLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1432
+	.2byte	0x1460
 	.4byte	0x1f25f
 	.byte	0x5
 	.byte	0x3
@@ -125597,7 +125689,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sGrovyleLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1444
+	.2byte	0x1472
 	.4byte	0x1f296
 	.byte	0x5
 	.byte	0x3
@@ -125614,7 +125706,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sSceptileLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x145b
+	.2byte	0x1489
 	.4byte	0x1f2ce
 	.byte	0x5
 	.byte	0x3
@@ -125631,7 +125723,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sTorchicLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1475
+	.2byte	0x14a3
 	.4byte	0x1f305
 	.byte	0x5
 	.byte	0x3
@@ -125648,7 +125740,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sCombuskenLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1485
+	.2byte	0x14b3
 	.4byte	0x1f33e
 	.byte	0x5
 	.byte	0x3
@@ -125665,7 +125757,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sBlazikenLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x149a
+	.2byte	0x14c8
 	.4byte	0x1f376
 	.byte	0x5
 	.byte	0x3
@@ -125682,7 +125774,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sMudkipLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x14b3
+	.2byte	0x14e1
 	.4byte	0x1f3ac
 	.byte	0x5
 	.byte	0x3
@@ -125699,7 +125791,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sMarshtompLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x14c4
+	.2byte	0x14f2
 	.4byte	0x1f3e5
 	.byte	0x5
 	.byte	0x3
@@ -125716,7 +125808,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sSwampertLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x14d9
+	.2byte	0x1507
 	.4byte	0x1f41d
 	.byte	0x5
 	.byte	0x3
@@ -125733,7 +125825,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sPoochyenaLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x14ef
+	.2byte	0x151d
 	.4byte	0x1f456
 	.byte	0x5
 	.byte	0x3
@@ -125750,7 +125842,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sMightyenaLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1503
+	.2byte	0x1531
 	.4byte	0x1f48f
 	.byte	0x5
 	.byte	0x3
@@ -125767,7 +125859,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sZigzagoonLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1521
+	.2byte	0x154f
 	.4byte	0x1f4c8
 	.byte	0x5
 	.byte	0x3
@@ -125784,7 +125876,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sLinooneLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1535
+	.2byte	0x1563
 	.4byte	0x1f4ff
 	.byte	0x5
 	.byte	0x3
@@ -125801,7 +125893,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sWurmpleLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x154d
+	.2byte	0x157b
 	.4byte	0x1f536
 	.byte	0x5
 	.byte	0x3
@@ -125818,7 +125910,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sSilcoonLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1555
+	.2byte	0x1583
 	.4byte	0x1f56d
 	.byte	0x5
 	.byte	0x3
@@ -125835,7 +125927,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sBeautiflyLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x155b
+	.2byte	0x1589
 	.4byte	0x1f5a6
 	.byte	0x5
 	.byte	0x3
@@ -125852,7 +125944,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sCascoonLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x156d
+	.2byte	0x159b
 	.4byte	0x1f5dd
 	.byte	0x5
 	.byte	0x3
@@ -125869,7 +125961,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sDustoxLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1573
+	.2byte	0x15a1
 	.4byte	0x1f613
 	.byte	0x5
 	.byte	0x3
@@ -125886,7 +125978,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sLotadLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1585
+	.2byte	0x15b3
 	.4byte	0x1f648
 	.byte	0x5
 	.byte	0x3
@@ -125903,7 +125995,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sLombreLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1596
+	.2byte	0x15c4
 	.4byte	0x1f67e
 	.byte	0x5
 	.byte	0x3
@@ -125920,7 +126012,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sLudicoloLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x15a7
+	.2byte	0x15d5
 	.4byte	0x1f6b6
 	.byte	0x5
 	.byte	0x3
@@ -125937,7 +126029,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sSeedotLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x15af
+	.2byte	0x15dd
 	.4byte	0x1f6ec
 	.byte	0x5
 	.byte	0x3
@@ -125954,7 +126046,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sNuzleafLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x15ba
+	.2byte	0x15e8
 	.4byte	0x1f723
 	.byte	0x5
 	.byte	0x3
@@ -125971,7 +126063,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sShiftryLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x15cb
+	.2byte	0x15f9
 	.4byte	0x1f75a
 	.byte	0x5
 	.byte	0x3
@@ -125988,7 +126080,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sNincadaLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x15d6
+	.2byte	0x1604
 	.4byte	0x1f791
 	.byte	0x5
 	.byte	0x3
@@ -126005,7 +126097,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sNinjaskLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x15e5
+	.2byte	0x1613
 	.4byte	0x1f7c8
 	.byte	0x5
 	.byte	0x3
@@ -126022,7 +126114,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sShedinjaLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x15fd
+	.2byte	0x162b
 	.4byte	0x1f800
 	.byte	0x5
 	.byte	0x3
@@ -126039,7 +126131,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sTaillowLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1610
+	.2byte	0x163e
 	.4byte	0x1f837
 	.byte	0x5
 	.byte	0x3
@@ -126056,7 +126148,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sSwellowLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1621
+	.2byte	0x164f
 	.4byte	0x1f86e
 	.byte	0x5
 	.byte	0x3
@@ -126073,7 +126165,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sShroomishLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1637
+	.2byte	0x1665
 	.4byte	0x1f8a7
 	.byte	0x5
 	.byte	0x3
@@ -126090,7 +126182,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sBreloomLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1648
+	.2byte	0x1676
 	.4byte	0x1f8de
 	.byte	0x5
 	.byte	0x3
@@ -126107,7 +126199,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sSpindaLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x165d
+	.2byte	0x168b
 	.4byte	0x1f914
 	.byte	0x5
 	.byte	0x3
@@ -126124,7 +126216,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sWingullLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x166e
+	.2byte	0x169c
 	.4byte	0x1f94b
 	.byte	0x5
 	.byte	0x3
@@ -126141,7 +126233,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sPelipperLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1680
+	.2byte	0x16ae
 	.4byte	0x1f983
 	.byte	0x5
 	.byte	0x3
@@ -126158,7 +126250,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sSurskitLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x169c
+	.2byte	0x16ca
 	.4byte	0x1f9ba
 	.byte	0x5
 	.byte	0x3
@@ -126175,7 +126267,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sMasquerainLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x16ab
+	.2byte	0x16d9
 	.4byte	0x1f9f4
 	.byte	0x5
 	.byte	0x3
@@ -126192,7 +126284,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sWailmerLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x16c3
+	.2byte	0x16f1
 	.4byte	0x1fa2b
 	.byte	0x5
 	.byte	0x3
@@ -126209,7 +126301,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sWailordLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x16d7
+	.2byte	0x1705
 	.4byte	0x1fa62
 	.byte	0x5
 	.byte	0x3
@@ -126226,7 +126318,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sSkittyLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x16f1
+	.2byte	0x171f
 	.4byte	0x1fa98
 	.byte	0x5
 	.byte	0x3
@@ -126243,7 +126335,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sDelcattyLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1708
+	.2byte	0x1736
 	.4byte	0x1fad0
 	.byte	0x5
 	.byte	0x3
@@ -126260,7 +126352,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sKecleonLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1710
+	.2byte	0x173e
 	.4byte	0x1fb07
 	.byte	0x5
 	.byte	0x3
@@ -126277,7 +126369,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sBaltoyLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1727
+	.2byte	0x1755
 	.4byte	0x1fb3d
 	.byte	0x5
 	.byte	0x3
@@ -126294,7 +126386,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sClaydolLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x173d
+	.2byte	0x176b
 	.4byte	0x1fb74
 	.byte	0x5
 	.byte	0x3
@@ -126311,7 +126403,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sNosepassLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1757
+	.2byte	0x1785
 	.4byte	0x1fbac
 	.byte	0x5
 	.byte	0x3
@@ -126328,7 +126420,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sTorkoalLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x176b
+	.2byte	0x1799
 	.4byte	0x1fbe3
 	.byte	0x5
 	.byte	0x3
@@ -126345,7 +126437,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sSableyeLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1781
+	.2byte	0x17af
 	.4byte	0x1fc1a
 	.byte	0x5
 	.byte	0x3
@@ -126362,7 +126454,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sBarboachLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1799
+	.2byte	0x17c7
 	.4byte	0x1fc52
 	.byte	0x5
 	.byte	0x3
@@ -126379,7 +126471,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sWhiscashLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x17ac
+	.2byte	0x17da
 	.4byte	0x1fc8a
 	.byte	0x5
 	.byte	0x3
@@ -126396,7 +126488,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sLuvdiscLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x17c7
+	.2byte	0x17f5
 	.4byte	0x1fcc1
 	.byte	0x5
 	.byte	0x3
@@ -126413,7 +126505,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sCorphishLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x17dc
+	.2byte	0x180a
 	.4byte	0x1fcf9
 	.byte	0x5
 	.byte	0x3
@@ -126430,7 +126522,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sCrawdauntLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x17ef
+	.2byte	0x181d
 	.4byte	0x1fd32
 	.byte	0x5
 	.byte	0x3
@@ -126447,7 +126539,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sFeebasLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1807
+	.2byte	0x1835
 	.4byte	0x1fd68
 	.byte	0x5
 	.byte	0x3
@@ -126464,7 +126556,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sMiloticLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x180e
+	.2byte	0x183c
 	.4byte	0x1fd9f
 	.byte	0x5
 	.byte	0x3
@@ -126481,7 +126573,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sCarvanhaLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1826
+	.2byte	0x1854
 	.4byte	0x1fdd7
 	.byte	0x5
 	.byte	0x3
@@ -126498,7 +126590,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sSharpedoLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1838
+	.2byte	0x1866
 	.4byte	0x1fe0f
 	.byte	0x5
 	.byte	0x3
@@ -126515,7 +126607,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sTrapinchLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1852
+	.2byte	0x1880
 	.4byte	0x1fe47
 	.byte	0x5
 	.byte	0x3
@@ -126532,7 +126624,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sVibravaLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1867
+	.2byte	0x1895
 	.4byte	0x1fe7e
 	.byte	0x5
 	.byte	0x3
@@ -126549,7 +126641,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sFlygonLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x187e
+	.2byte	0x18ac
 	.4byte	0x1feb4
 	.byte	0x5
 	.byte	0x3
@@ -126566,7 +126658,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sMakuhitaLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1897
+	.2byte	0x18c5
 	.4byte	0x1feec
 	.byte	0x5
 	.byte	0x3
@@ -126583,7 +126675,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sHariyamaLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x18ac
+	.2byte	0x18da
 	.4byte	0x1ff24
 	.byte	0x5
 	.byte	0x3
@@ -126600,7 +126692,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sElectrikeLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x18c4
+	.2byte	0x18f2
 	.4byte	0x1ff5d
 	.byte	0x5
 	.byte	0x3
@@ -126617,7 +126709,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sManectricLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x18d6
+	.2byte	0x1904
 	.4byte	0x1ff96
 	.byte	0x5
 	.byte	0x3
@@ -126634,7 +126726,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sNumelLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x18ed
+	.2byte	0x191b
 	.4byte	0x1ffcb
 	.byte	0x5
 	.byte	0x3
@@ -126651,7 +126743,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sCameruptLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1900
+	.2byte	0x192e
 	.4byte	0x20003
 	.byte	0x5
 	.byte	0x3
@@ -126668,7 +126760,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sSphealLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1919
+	.2byte	0x1947
 	.4byte	0x20039
 	.byte	0x5
 	.byte	0x3
@@ -126685,7 +126777,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sSealeoLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x192c
+	.2byte	0x195a
 	.4byte	0x2006f
 	.byte	0x5
 	.byte	0x3
@@ -126702,7 +126794,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sWalreinLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1941
+	.2byte	0x196f
 	.4byte	0x200a6
 	.byte	0x5
 	.byte	0x3
@@ -126719,7 +126811,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sCacneaLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1958
+	.2byte	0x1986
 	.4byte	0x200dc
 	.byte	0x5
 	.byte	0x3
@@ -126736,7 +126828,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sCacturneLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x196d
+	.2byte	0x199b
 	.4byte	0x20114
 	.byte	0x5
 	.byte	0x3
@@ -126753,7 +126845,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sSnoruntLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1988
+	.2byte	0x19b6
 	.4byte	0x2014b
 	.byte	0x5
 	.byte	0x3
@@ -126770,7 +126862,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sGlalieLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1999
+	.2byte	0x19c7
 	.4byte	0x20181
 	.byte	0x5
 	.byte	0x3
@@ -126787,7 +126879,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sLunatoneLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x19b0
+	.2byte	0x19de
 	.4byte	0x201b9
 	.byte	0x5
 	.byte	0x3
@@ -126804,7 +126896,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sSolrockLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x19c7
+	.2byte	0x19f5
 	.4byte	0x201f0
 	.byte	0x5
 	.byte	0x3
@@ -126821,7 +126913,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sAzurillLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x19dc
+	.2byte	0x1a0a
 	.4byte	0x20227
 	.byte	0x5
 	.byte	0x3
@@ -126838,7 +126930,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sSpoinkLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x19ea
+	.2byte	0x1a18
 	.4byte	0x2025d
 	.byte	0x5
 	.byte	0x3
@@ -126855,7 +126947,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sGrumpigLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x19fd
+	.2byte	0x1a2b
 	.4byte	0x20294
 	.byte	0x5
 	.byte	0x3
@@ -126872,7 +126964,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sPlusleLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1a16
+	.2byte	0x1a44
 	.4byte	0x202ca
 	.byte	0x5
 	.byte	0x3
@@ -126889,7 +126981,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sMinunLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1a2f
+	.2byte	0x1a5d
 	.4byte	0x202ff
 	.byte	0x5
 	.byte	0x3
@@ -126906,7 +126998,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sMawileLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1a48
+	.2byte	0x1a76
 	.4byte	0x20335
 	.byte	0x5
 	.byte	0x3
@@ -126923,7 +127015,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sMedititeLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1a60
+	.2byte	0x1a8e
 	.4byte	0x2036d
 	.byte	0x5
 	.byte	0x3
@@ -126940,7 +127032,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sMedichamLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1a75
+	.2byte	0x1aa3
 	.4byte	0x203a5
 	.byte	0x5
 	.byte	0x3
@@ -126957,7 +127049,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sSwabluLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1a91
+	.2byte	0x1abf
 	.4byte	0x203db
 	.byte	0x5
 	.byte	0x3
@@ -126974,7 +127066,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sAltariaLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1aa6
+	.2byte	0x1ad4
 	.4byte	0x20412
 	.byte	0x5
 	.byte	0x3
@@ -126991,7 +127083,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sWynautLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1ac2
+	.2byte	0x1af0
 	.4byte	0x20448
 	.byte	0x5
 	.byte	0x3
@@ -127008,7 +127100,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sDuskullLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1acd
+	.2byte	0x1afb
 	.4byte	0x2047f
 	.byte	0x5
 	.byte	0x3
@@ -127025,7 +127117,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sDusclopsLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1ae0
+	.2byte	0x1b0e
 	.4byte	0x204b7
 	.byte	0x5
 	.byte	0x3
@@ -127042,7 +127134,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sRoseliaLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1afd
+	.2byte	0x1b2b
 	.4byte	0x204ee
 	.byte	0x5
 	.byte	0x3
@@ -127059,7 +127151,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sSlakothLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1b12
+	.2byte	0x1b40
 	.4byte	0x20525
 	.byte	0x5
 	.byte	0x3
@@ -127076,7 +127168,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sVigorothLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1b21
+	.2byte	0x1b4f
 	.4byte	0x2055d
 	.byte	0x5
 	.byte	0x3
@@ -127093,7 +127185,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sSlakingLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1b33
+	.2byte	0x1b61
 	.4byte	0x20594
 	.byte	0x5
 	.byte	0x3
@@ -127110,7 +127202,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sGulpinLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1b4b
+	.2byte	0x1b79
 	.4byte	0x205ca
 	.byte	0x5
 	.byte	0x3
@@ -127127,7 +127219,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sSwalotLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1b5f
+	.2byte	0x1b8d
 	.4byte	0x20600
 	.byte	0x5
 	.byte	0x3
@@ -127144,7 +127236,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sTropiusLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1b7b
+	.2byte	0x1ba9
 	.4byte	0x20637
 	.byte	0x5
 	.byte	0x3
@@ -127161,7 +127253,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sWhismurLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1b90
+	.2byte	0x1bbe
 	.4byte	0x2066e
 	.byte	0x5
 	.byte	0x3
@@ -127178,7 +127270,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sLoudredLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1ba1
+	.2byte	0x1bcf
 	.4byte	0x206a5
 	.byte	0x5
 	.byte	0x3
@@ -127195,7 +127287,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sExploudLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1bb7
+	.2byte	0x1be5
 	.4byte	0x206dc
 	.byte	0x5
 	.byte	0x3
@@ -127212,7 +127304,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sClamperlLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1bd4
+	.2byte	0x1c02
 	.4byte	0x20714
 	.byte	0x5
 	.byte	0x3
@@ -127229,7 +127321,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sHuntailLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1bdd
+	.2byte	0x1c0b
 	.4byte	0x2074b
 	.byte	0x5
 	.byte	0x3
@@ -127246,7 +127338,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sGorebyssLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1bf0
+	.2byte	0x1c1e
 	.4byte	0x20783
 	.byte	0x5
 	.byte	0x3
@@ -127263,7 +127355,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sAbsolLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1c03
+	.2byte	0x1c31
 	.4byte	0x207b8
 	.byte	0x5
 	.byte	0x3
@@ -127280,7 +127372,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sShuppetLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1c1d
+	.2byte	0x1c4b
 	.4byte	0x207ef
 	.byte	0x5
 	.byte	0x3
@@ -127297,7 +127389,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sBanetteLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1c31
+	.2byte	0x1c5f
 	.4byte	0x20826
 	.byte	0x5
 	.byte	0x3
@@ -127314,7 +127406,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sSeviperLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1c49
+	.2byte	0x1c77
 	.4byte	0x2085d
 	.byte	0x5
 	.byte	0x3
@@ -127331,7 +127423,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sZangooseLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1c61
+	.2byte	0x1c8f
 	.4byte	0x20895
 	.byte	0x5
 	.byte	0x3
@@ -127348,7 +127440,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sRelicanthLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1c75
+	.2byte	0x1ca3
 	.4byte	0x208ce
 	.byte	0x5
 	.byte	0x3
@@ -127365,7 +127457,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sAronLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1c8a
+	.2byte	0x1cb8
 	.4byte	0x20902
 	.byte	0x5
 	.byte	0x3
@@ -127382,7 +127474,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sLaironLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1ca0
+	.2byte	0x1cce
 	.4byte	0x20938
 	.byte	0x5
 	.byte	0x3
@@ -127399,7 +127491,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sAggronLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1cb8
+	.2byte	0x1ce6
 	.4byte	0x2096e
 	.byte	0x5
 	.byte	0x3
@@ -127416,7 +127508,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sCastformLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1cd0
+	.2byte	0x1cfe
 	.4byte	0x209a6
 	.byte	0x5
 	.byte	0x3
@@ -127433,7 +127525,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sVolbeatLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1ce1
+	.2byte	0x1d0f
 	.4byte	0x209dd
 	.byte	0x5
 	.byte	0x3
@@ -127450,7 +127542,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sIllumiseLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1cf5
+	.2byte	0x1d23
 	.4byte	0x20a15
 	.byte	0x5
 	.byte	0x3
@@ -127467,7 +127559,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sLileepLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1d09
+	.2byte	0x1d37
 	.4byte	0x20a4b
 	.byte	0x5
 	.byte	0x3
@@ -127484,7 +127576,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sCradilyLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1d1c
+	.2byte	0x1d4a
 	.4byte	0x20a82
 	.byte	0x5
 	.byte	0x3
@@ -127501,7 +127593,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sAnorithLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1d32
+	.2byte	0x1d60
 	.4byte	0x20ab9
 	.byte	0x5
 	.byte	0x3
@@ -127518,7 +127610,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sArmaldoLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1d45
+	.2byte	0x1d73
 	.4byte	0x20af0
 	.byte	0x5
 	.byte	0x3
@@ -127535,7 +127627,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sRaltsLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1d5a
+	.2byte	0x1d88
 	.4byte	0x20b25
 	.byte	0x5
 	.byte	0x3
@@ -127552,7 +127644,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sKirliaLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1d6f
+	.2byte	0x1d9d
 	.4byte	0x20b5b
 	.byte	0x5
 	.byte	0x3
@@ -127569,7 +127661,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sGardevoirLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1d87
+	.2byte	0x1db5
 	.4byte	0x20b94
 	.byte	0x5
 	.byte	0x3
@@ -127586,7 +127678,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sBagonLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1da4
+	.2byte	0x1dd2
 	.4byte	0x20bc9
 	.byte	0x5
 	.byte	0x3
@@ -127603,7 +127695,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sShelgonLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1db5
+	.2byte	0x1de3
 	.4byte	0x20c00
 	.byte	0x5
 	.byte	0x3
@@ -127620,7 +127712,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sSalamenceLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1dcb
+	.2byte	0x1df9
 	.4byte	0x20c39
 	.byte	0x5
 	.byte	0x3
@@ -127637,7 +127729,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sBeldumLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1de5
+	.2byte	0x1e13
 	.4byte	0x20c6f
 	.byte	0x5
 	.byte	0x3
@@ -127654,7 +127746,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sMetangLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1dea
+	.2byte	0x1e18
 	.4byte	0x20ca5
 	.byte	0x5
 	.byte	0x3
@@ -127671,7 +127763,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sMetagrossLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1dfe
+	.2byte	0x1e2c
 	.4byte	0x20cde
 	.byte	0x5
 	.byte	0x3
@@ -127688,7 +127780,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sRegirockLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1e12
+	.2byte	0x1e40
 	.4byte	0x20d16
 	.byte	0x5
 	.byte	0x3
@@ -127705,7 +127797,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sRegiceLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1e27
+	.2byte	0x1e55
 	.4byte	0x20d4c
 	.byte	0x5
 	.byte	0x3
@@ -127722,7 +127814,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sRegisteelLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1e3c
+	.2byte	0x1e6a
 	.4byte	0x20d85
 	.byte	0x5
 	.byte	0x3
@@ -127739,7 +127831,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sKyogreLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1e53
+	.2byte	0x1e81
 	.4byte	0x20dbb
 	.byte	0x5
 	.byte	0x3
@@ -127756,7 +127848,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sGroudonLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1e65
+	.2byte	0x1e93
 	.4byte	0x20df2
 	.byte	0x5
 	.byte	0x3
@@ -127773,7 +127865,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sRayquazaLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1e77
+	.2byte	0x1ea5
 	.4byte	0x20e2a
 	.byte	0x5
 	.byte	0x3
@@ -127790,7 +127882,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sLatiasLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1e88
+	.2byte	0x1eb6
 	.4byte	0x20e60
 	.byte	0x5
 	.byte	0x3
@@ -127807,7 +127899,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sLatiosLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1ea0
+	.2byte	0x1ece
 	.4byte	0x20e96
 	.byte	0x5
 	.byte	0x3
@@ -127824,7 +127916,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sJirachiLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1eb8
+	.2byte	0x1ee6
 	.4byte	0x20ecd
 	.byte	0x5
 	.byte	0x3
@@ -127841,7 +127933,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sDeoxysLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1ecc
+	.2byte	0x1efa
 	.4byte	0x20f03
 	.byte	0x5
 	.byte	0x3
@@ -127858,7 +127950,7 @@ GetFormIdFromFormSpeciesId:
 	.ascii	"sChimechoLevelUpLearnset\000"
 
 	.byte	0x37
-	.2byte	0x1ede
+	.2byte	0x1f0c
 	.4byte	0x20f3b
 	.byte	0x5
 	.byte	0x3
